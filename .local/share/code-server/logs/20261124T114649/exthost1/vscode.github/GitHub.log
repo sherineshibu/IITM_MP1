@@ -1,1 +1,5 @@
 2026-11-24 11:47:08.604 [info] Log level: Info
+2026-11-24 12:36:34.589 [warning] [GitHubSourceControlHistoryItemDetailsProvider][_getCommitAuthor] Failed to get commit author for sherineshibu/IITM_MP1/f0d0b52612a4dc039b88745bf057ba8acb74c55b: TypeError: Cannot read properties of null (reading 'author')
+2026-11-24 12:37:38.482 [warning] [GitHubSourceControlHistoryItemDetailsProvider][_getCommitAuthor] Failed to get commit author for sherineshibu/IITM_MP1/f0d0b52612a4dc039b88745bf057ba8acb74c55b: TypeError: Cannot read properties of null (reading 'author')
+2026-11-24 12:40:00.647 [warning] [GitHubSourceControlHistoryItemDetailsProvider][_getCommitAuthor] Failed to get commit author for sherineshibu/IITM_MP1/f0d0b52612a4dc039b88745bf057ba8acb74c55b: TypeError: Cannot read properties of null (reading 'author')
+2026-11-24 12:40:04.154 [warning] [GitHubSourceControlHistoryItemDetailsProvider][_getCommitAuthor] Failed to get commit author for sherineshibu/IITM_MP1/f0d0b52612a4dc039b88745bf057ba8acb74c55b: TypeError: Cannot read properties of null (reading 'author')

@@ -19,8 +19,8 @@ model? More snippets? Different prompts?)
 
 A: With another day, I would test clearer few-shot examples for ambiguous cases such as zero or unstated experience, add more diverse snippets, and compare this setup with a smaller or faster model. I would also repeat the judge calls to measure consistency
 
-
-
+GIT HUB REPO
+https://github.com/sherineshibu/IITM_MP1
 
 
 

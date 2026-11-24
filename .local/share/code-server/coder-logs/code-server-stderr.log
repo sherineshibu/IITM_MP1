@@ -39,3 +39,4 @@ File not found: /usr/local/lib/code-server-4.126.0/lib/vscode/node_modules/vsda/
 File not found: /usr/local/lib/code-server-4.126.0/lib/vscode/node_modules/vsda/rust/web/vsda.js
 [11:47:36] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
 File not found: /usr/local/lib/code-server-4.126.0/lib/vscode/node_modules/vscode-regexp-languagedetection/dist/index.js
+[12:41:04] [File Watcher (node.js)] Watcher shutdown because watched path got deleted

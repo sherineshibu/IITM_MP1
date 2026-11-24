@@ -12,3 +12,4 @@
 2026-11-24 11:47:02.569 [info] [172.16.12.65][f0dffc81][ExtensionHostConnection] <79> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
 
 2026-11-24 11:47:36.276 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2026-11-24 12:41:04.556 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
