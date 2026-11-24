@@ -55,5 +55,6 @@
     "auto-run-command.rules": [],
     "omnisharp.projectFilesExcludePattern": "**/node_modules/**,**/.git/**,**/bower_components/**,**/startercode/**,**/.local/**",
     "omnisharp.sdkPath": "/opt/.dotnet/sdk/8.0.301",
-    "database-client.telemetry.usesOnlineServices": false
+    "database-client.telemetry.usesOnlineServices": false,
+    "git.autofetch": true
 }

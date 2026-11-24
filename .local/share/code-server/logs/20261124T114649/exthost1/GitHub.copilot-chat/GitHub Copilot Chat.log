@@ -112,3 +112,11 @@
 2026-11-24 12:28:37.643 [info] [CopilotCLIChatSessionContentProvider] listSessions took 28.558986000251025ms
 2026-11-24 12:28:48.752 [info] [CopilotCLIChatSessionContentProvider] listSessions took 29.167752999812365ms
 2026-11-24 12:28:54.212 [info] [CopilotCLIChatSessionContentProvider] listSessions took 29.872935999650508ms
+2026-11-24 12:30:02.235 [info] [CopilotCLIChatSessionContentProvider] listSessions took 33.107643999625ms
+2026-11-24 12:30:40.765 [info] [CopilotCLIChatSessionContentProvider] listSessions took 24.48231599992141ms
+2026-11-24 12:31:27.371 [info] [CopilotCLIChatSessionContentProvider] listSessions took 34.27620799979195ms
+2026-11-24 12:31:46.749 [info] [CopilotCLIChatSessionContentProvider] listSessions took 27.34199000010267ms
+2026-11-24 12:32:07.823 [info] [CopilotCLIChatSessionContentProvider] listSessions took 28.538323000073433ms
+2026-11-24 12:33:31.248 [info] [CopilotCLIChatSessionContentProvider] listSessions took 27.16362900007516ms
+2026-11-24 12:35:13.714 [info] [CopilotCLIChatSessionContentProvider] listSessions took 25.70139400009066ms
+2026-11-24 12:35:35.458 [info] [CopilotCLIChatSessionContentProvider] listSessions took 40.87519699987024ms
