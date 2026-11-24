@@ -1,0 +1,290 @@
+code-server (1.126.0, vocproxy-1-95.us-west-2.vocareum.com, server-distro)
+Jupyter Extension Version: 2025.9.1.
+Python Extension Version: 2026.4.0.
+Python Environment Extension not installed.
+Pylance Extension not installed.
+Platform: linux (x64).
+Home = /voc/work
+Temp Storage folder ~/.local/share/code-server/User/globalStorage/ms-toolsai.jupyter/version-2025.9.1
+Workspace folder /voc/work
+12:32:06.834 [info] Telemetry level is off
+12:32:06.834 [info] Experiments are disabled, only manually opted experiments are active.
+12:32:11.209 [info] Starting Kernel (Python Path: /bin/python, Unknown, 3.10.14) for '~/AI-RAG_MP1_PromptLab/MP1_PromptLab/learner/MP1_Starter_Template.ipynb' (disableUI=true)
+12:32:11.802 [warn] Failed to get activated env vars for /bin/python in 586ms
+12:32:11.826 [info] Process Execution: /bin/python -c "import site;print("USER_BASE_VALUE");print(site.USER_BASE);print("USER_BASE_VALUE");"
+12:32:11.834 [warn] Failed to get activated env vars for /bin/python in 607ms
+12:32:11.874 [info] Process Execution: /bin/python -m pip list
+12:32:11.890 [info] Process Execution: /bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+12:32:11.921 [info] Process Execution: /bin/python -m ipykernel_launcher --f=~/.local/share/jupyter/runtime/kernel-v3cc686724e2f8e2e4cbb3dacd8d610f8366703830.json
+    > cwd: ~/AI-RAG_MP1_PromptLab/MP1_PromptLab/learner
+12:32:13.245 [info] Kernel successfully started
+12:32:13.268 [info] Process Execution: /bin/python /usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-toolsai.jupyter-2025.9.1/pythonFiles/printJupyterDataDir.py
+12:32:14.261 [error] Widget Error: Failed to access CDN https://unpkg.com/ after 0 attempt(s), TypeError: Failed to fetch
+12:32:16.406 [info] Restart requested ~/AI-RAG_MP1_PromptLab/MP1_PromptLab/learner/MP1_Starter_Template.ipynb
+12:32:16.450 [info] Process Execution: /bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+12:32:16.526 [info] Process Execution: /bin/python -m ipykernel_launcher --f=~/.local/share/jupyter/runtime/kernel-v321cb62838314bfb73a12f8f08d622515038308ef.json
+    > cwd: ~/AI-RAG_MP1_PromptLab/MP1_PromptLab/learner
+12:32:17.394 [info] Restarted 6a74dc45-4087-42c8-a8aa-9731e29b1060
+12:32:21.730 [warn] Cell completed with errors [Iu [Error]: list indices must be integers or slices, not type
+	at n.execute (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-toolsai.jupyter-2025.9.1/dist/extension.node.js:302:4958)] {
+  ename: 'TypeError',
+  evalue: 'list indices must be integers or slices, not type',
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mTypeError\x1B[0m                                 Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[5], line 67\x1B[0m\n' +
+      '\x1B[1;32m     52\x1B[0m     cost \x1B[38;5;241m=\x1B[39m (\n' +
+      '\x1B[1;32m     53\x1B[0m         usage\x1B[38;5;241m.\x1B[39mprompt_tokens \x1B[38;5;241m*\x1B[39m rates[\x1B[38;5;124m"\x1B[39m\x1B[38;5;124min\x1B[39m\x1B[38;5;124m"\x1B[39m]\n' +
+      '\x1B[1;32m     54\x1B[0m         \x1B[38;5;241m+\x1B[39m usage\x1B[38;5;241m.\x1B[39mcompletion_tokens \x1B[38;5;241m*\x1B[39m rates[\x1B[38;5;124m"\x1B[39m\x1B[38;5;124mout\x1B[39m\x1B[38;5;124m"\x1B[39m]\n' +
+      '\x1B[1;32m     55\x1B[0m     )\n' +
+      '\x1B[1;32m     57\x1B[0m     \x1B[38;5;28;01mreturn\x1B[39;00m {\n' +
+      '\x1B[1;32m     58\x1B[0m         \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mstrategy\x1B[39m\x1B[38;5;124m"\x1B[39m: strategy_name,\n' +
+      '\x1B[1;32m     59\x1B[0m         \x1B[38;5;124m"\x1B[39m\x1B[38;5;124msnippet_id\x1B[39m\x1B[38;5;124m"\x1B[39m: snippet[\x1B[38;5;124m"\x1B[39m\x1B[38;5;124mid\x1B[39m\x1B[38;5;124m"\x1B[39m],\n' +
+      '\x1B[0;32m   (...)\x1B[0m\n' +
+      '\x1B[1;32m     63\x1B[0m         \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mlatency_s\x1B[39m\x1B[38;5;124m"\x1B[39m: latency,\n' +
+      '\x1B[1;32m     64\x1B[0m     }\n' +
+      '\x1B[0;32m---> 67\x1B[0m \x1B[38;5;28;01masync\x1B[39;00m \x1B[38;5;28;01mdef\x1B[39;00m \x1B[38;5;21mrun_all\x1B[39m() \x1B[38;5;241m-\x1B[39m\x1B[38;5;241m>\x1B[39m \x1B[38;5;28;43mlist\x1B[39;49m\x1B[43m[\x1B[49m\x1B[38;5;28;43mdict\x1B[39;49m\x1B[43m]\x1B[49m:\n' +
+      '\x1B[1;32m     68\x1B[0m \x1B[38;5;250m    \x1B[39m\x1B[38;5;124;03m"""Run all 10 × 4 = 40 calls in parallel. Use asyncio.gather."""\x1B[39;00m\n' +
+      '\x1B[1;32m     69\x1B[0m \x1B[38;5;250m    \x1B[39m\x1B[38;5;124;03m"""Reuse matching cached results or run all 40 calls concurrently."""\x1B[39;00m\n',
+    '\x1B[0;31mTypeError\x1B[0m: list indices must be integers or slices, not type'
+  ]
+}
+12:32:21.738 [warn] Cancel all remaining cells due to cancellation or failure in execution
+12:33:11.110 [info] Starting Kernel (Python Path: /bin/python, Unknown, 3.10.14) for '~/Mini Project/MP1_project_lab.ipynb' (disableUI=true)
+12:33:11.697 [warn] Failed to get activated env vars for /bin/python in 581ms
+12:33:11.728 [info] Process Execution: /bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+12:33:11.756 [info] Process Execution: /bin/python -m ipykernel_launcher --f=~/.local/share/jupyter/runtime/kernel-v32ae78c7fad770004e3b25e3e45a69e02f66cadd4.json
+    > cwd: ~/Mini Project
+12:33:12.944 [info] Kernel successfully started
+12:33:13.929 [error] Widget Error: Failed to access CDN https://unpkg.com/ after 0 attempt(s), TypeError: Failed to fetch
+12:33:43.850 [warn] Cell completed with errors [Iu [Error]: list indices must be integers or slices, not type
+	at n.execute (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-toolsai.jupyter-2025.9.1/dist/extension.node.js:302:4958)] {
+  ename: 'TypeError',
+  evalue: 'list indices must be integers or slices, not type',
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mTypeError\x1B[0m                                 Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[6], line 67\x1B[0m\n' +
+      '\x1B[1;32m     52\x1B[0m     cost \x1B[38;5;241m=\x1B[39m (\n' +
+      '\x1B[1;32m     53\x1B[0m         usage\x1B[38;5;241m.\x1B[39mprompt_tokens \x1B[38;5;241m*\x1B[39m rates[\x1B[38;5;124m"\x1B[39m\x1B[38;5;124min\x1B[39m\x1B[38;5;124m"\x1B[39m]\n' +
+      '\x1B[1;32m     54\x1B[0m         \x1B[38;5;241m+\x1B[39m usage\x1B[38;5;241m.\x1B[39mcompletion_tokens \x1B[38;5;241m*\x1B[39m rates[\x1B[38;5;124m"\x1B[39m\x1B[38;5;124mout\x1B[39m\x1B[38;5;124m"\x1B[39m]\n' +
+      '\x1B[1;32m     55\x1B[0m     )\n' +
+      '\x1B[1;32m     57\x1B[0m     \x1B[38;5;28;01mreturn\x1B[39;00m {\n' +
+      '\x1B[1;32m     58\x1B[0m         \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mstrategy\x1B[39m\x1B[38;5;124m"\x1B[39m: strategy_name,\n' +
+      '\x1B[1;32m     59\x1B[0m         \x1B[38;5;124m"\x1B[39m\x1B[38;5;124msnippet_id\x1B[39m\x1B[38;5;124m"\x1B[39m: snippet[\x1B[38;5;124m"\x1B[39m\x1B[38;5;124mid\x1B[39m\x1B[38;5;124m"\x1B[39m],\n' +
+      '\x1B[0;32m   (...)\x1B[0m\n' +
+      '\x1B[1;32m     63\x1B[0m         \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mlatency_s\x1B[39m\x1B[38;5;124m"\x1B[39m: latency,\n' +
+      '\x1B[1;32m     64\x1B[0m     }\n' +
+      '\x1B[0;32m---> 67\x1B[0m \x1B[38;5;28;01masync\x1B[39;00m \x1B[38;5;28;01mdef\x1B[39;00m \x1B[38;5;21mrun_all\x1B[39m() \x1B[38;5;241m-\x1B[39m\x1B[38;5;241m>\x1B[39m \x1B[38;5;28;43mlist\x1B[39;49m\x1B[43m[\x1B[49m\x1B[38;5;28;43mdict\x1B[39;49m\x1B[43m]\x1B[49m:\n' +
+      '\x1B[1;32m     68\x1B[0m \x1B[38;5;250m    \x1B[39m\x1B[38;5;124;03m"""Run all 10 × 4 = 40 calls in parallel. Use asyncio.gather."""\x1B[39;00m\n' +
+      '\x1B[1;32m     69\x1B[0m     \x1B[38;5;66;03m# TODO: build the task list, gather, return results\x1B[39;00m\n',
+    '\x1B[0;31mTypeError\x1B[0m: list indices must be integers or slices, not type'
+  ]
+}
+12:36:18.642 [warn] Cell completed with errors [Iu [Error]: list indices must be integers or slices, not type
+	at n.execute (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-toolsai.jupyter-2025.9.1/dist/extension.node.js:302:4958)] {
+  ename: 'TypeError',
+  evalue: 'list indices must be integers or slices, not type',
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mTypeError\x1B[0m                                 Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[7], line 67\x1B[0m\n' +
+      '\x1B[1;32m     52\x1B[0m     cost \x1B[38;5;241m=\x1B[39m (\n' +
+      '\x1B[1;32m     53\x1B[0m         usage\x1B[38;5;241m.\x1B[39mprompt_tokens \x1B[38;5;241m*\x1B[39m rates[\x1B[38;5;124m"\x1B[39m\x1B[38;5;124min\x1B[39m\x1B[38;5;124m"\x1B[39m]\n' +
+      '\x1B[1;32m     54\x1B[0m         \x1B[38;5;241m+\x1B[39m usage\x1B[38;5;241m.\x1B[39mcompletion_tokens \x1B[38;5;241m*\x1B[39m rates[\x1B[38;5;124m"\x1B[39m\x1B[38;5;124mout\x1B[39m\x1B[38;5;124m"\x1B[39m]\n' +
+      '\x1B[1;32m     55\x1B[0m     )\n' +
+      '\x1B[1;32m     57\x1B[0m     \x1B[38;5;28;01mreturn\x1B[39;00m {\n' +
+      '\x1B[1;32m     58\x1B[0m         \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mstrategy\x1B[39m\x1B[38;5;124m"\x1B[39m: strategy_name,\n' +
+      '\x1B[1;32m     59\x1B[0m         \x1B[38;5;124m"\x1B[39m\x1B[38;5;124msnippet_id\x1B[39m\x1B[38;5;124m"\x1B[39m: snippet[\x1B[38;5;124m"\x1B[39m\x1B[38;5;124mid\x1B[39m\x1B[38;5;124m"\x1B[39m],\n' +
+      '\x1B[0;32m   (...)\x1B[0m\n' +
+      '\x1B[1;32m     63\x1B[0m         \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mlatency_s\x1B[39m\x1B[38;5;124m"\x1B[39m: latency,\n' +
+      '\x1B[1;32m     64\x1B[0m     }\n' +
+      '\x1B[0;32m---> 67\x1B[0m \x1B[38;5;28;01masync\x1B[39;00m \x1B[38;5;28;01mdef\x1B[39;00m \x1B[38;5;21mrun_all\x1B[39m() \x1B[38;5;241m-\x1B[39m\x1B[38;5;241m>\x1B[39m \x1B[38;5;28;43mlist\x1B[39;49m\x1B[43m[\x1B[49m\x1B[38;5;28;43mdict\x1B[39;49m\x1B[43m]\x1B[49m:\n' +
+      '\x1B[1;32m     68\x1B[0m \x1B[38;5;250m    \x1B[39m\x1B[38;5;124;03m"""Run every strategy on every snippet concurrently."""\x1B[39;00m\n' +
+      '\x1B[1;32m     69\x1B[0m     tasks \x1B[38;5;241m=\x1B[39m [\n' +
+      '\x1B[1;32m     70\x1B[0m         run_one(strategy_name, snippet)\n' +
+      '\x1B[1;32m     71\x1B[0m         \x1B[38;5;28;01mfor\x1B[39;00m strategy_name \x1B[38;5;129;01min\x1B[39;00m STRATEGIES\n' +
+      '\x1B[1;32m     72\x1B[0m         \x1B[38;5;28;01mfor\x1B[39;00m snippet \x1B[38;5;129;01min\x1B[39;00m snippets\n' +
+      '\x1B[1;32m     73\x1B[0m     ]\n',
+    '\x1B[0;31mTypeError\x1B[0m: list indices must be integers or slices, not type'
+  ]
+}
+12:36:53.613 [warn] Cell completed with errors [Iu [Error]: list indices must be integers or slices, not type
+	at n.execute (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-toolsai.jupyter-2025.9.1/dist/extension.node.js:302:4958)] {
+  ename: 'TypeError',
+  evalue: 'list indices must be integers or slices, not type',
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mTypeError\x1B[0m                                 Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[8], line 66\x1B[0m\n' +
+      '\x1B[1;32m     52\x1B[0m     cost \x1B[38;5;241m=\x1B[39m (\n' +
+      '\x1B[1;32m     53\x1B[0m         usage\x1B[38;5;241m.\x1B[39mprompt_tokens \x1B[38;5;241m*\x1B[39m rates[\x1B[38;5;124m"\x1B[39m\x1B[38;5;124min\x1B[39m\x1B[38;5;124m"\x1B[39m]\n' +
+      '\x1B[1;32m     54\x1B[0m         \x1B[38;5;241m+\x1B[39m usage\x1B[38;5;241m.\x1B[39mcompletion_tokens \x1B[38;5;241m*\x1B[39m rates[\x1B[38;5;124m"\x1B[39m\x1B[38;5;124mout\x1B[39m\x1B[38;5;124m"\x1B[39m]\n' +
+      '\x1B[1;32m     55\x1B[0m     )\n' +
+      '\x1B[1;32m     57\x1B[0m     \x1B[38;5;28;01mreturn\x1B[39;00m {\n' +
+      '\x1B[1;32m     58\x1B[0m         \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mstrategy\x1B[39m\x1B[38;5;124m"\x1B[39m: strategy_name,\n' +
+      '\x1B[1;32m     59\x1B[0m         \x1B[38;5;124m"\x1B[39m\x1B[38;5;124msnippet_id\x1B[39m\x1B[38;5;124m"\x1B[39m: snippet[\x1B[38;5;124m"\x1B[39m\x1B[38;5;124mid\x1B[39m\x1B[38;5;124m"\x1B[39m],\n' +
+      '\x1B[0;32m   (...)\x1B[0m\n' +
+      '\x1B[1;32m     63\x1B[0m         \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mlatency_s\x1B[39m\x1B[38;5;124m"\x1B[39m: latency,\n' +
+      '\x1B[1;32m     64\x1B[0m     }\n' +
+      '\x1B[0;32m---> 66\x1B[0m \x1B[38;5;28;01masync\x1B[39;00m \x1B[38;5;28;01mdef\x1B[39;00m \x1B[38;5;21mrun_all\x1B[39m() \x1B[38;5;241m-\x1B[39m\x1B[38;5;241m>\x1B[39m \x1B[38;5;28;43mlist\x1B[39;49m\x1B[43m[\x1B[49m\x1B[38;5;28;43mdict\x1B[39;49m\x1B[43m]\x1B[49m:\n' +
+      '\x1B[1;32m     67\x1B[0m \x1B[38;5;250m    \x1B[39m\x1B[38;5;124;03m"""Run every strategy on every snippet concurrently."""\x1B[39;00m\n' +
+      '\x1B[1;32m     68\x1B[0m     tasks \x1B[38;5;241m=\x1B[39m [\n' +
+      '\x1B[1;32m     69\x1B[0m         run_one(strategy_name, snippet)\n' +
+      '\x1B[1;32m     70\x1B[0m         \x1B[38;5;28;01mfor\x1B[39;00m strategy_name \x1B[38;5;129;01min\x1B[39;00m STRATEGIES\n' +
+      '\x1B[1;32m     71\x1B[0m         \x1B[38;5;28;01mfor\x1B[39;00m snippet \x1B[38;5;129;01min\x1B[39;00m snippets\n' +
+      '\x1B[1;32m     72\x1B[0m     ]\n',
+    '\x1B[0;31mTypeError\x1B[0m: list indices must be integers or slices, not type'
+  ]
+}
+12:37:09.916 [info] Restart requested ~/AI-RAG_MP1_PromptLab/MP1_PromptLab/learner/MP1_Starter_Template.ipynb
+12:37:10.545 [warn] Failed to get activated env vars for /bin/python in 599ms
+12:37:10.566 [info] Process Execution: /bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+12:37:10.590 [info] Process Execution: /bin/python -m ipykernel_launcher --f=~/.local/share/jupyter/runtime/kernel-v3c0395aa3d9a0484713b70ad8eccb2a98331498ec.json
+    > cwd: ~/AI-RAG_MP1_PromptLab/MP1_PromptLab/learner
+12:37:11.562 [info] Restarted 6a74dc45-4087-42c8-a8aa-9731e29b1060
+12:37:16.654 [warn] Cell completed with errors [Iu [Error]: list indices must be integers or slices, not type
+	at n.execute (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-toolsai.jupyter-2025.9.1/dist/extension.node.js:302:4958)] {
+  ename: 'TypeError',
+  evalue: 'list indices must be integers or slices, not type',
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mTypeError\x1B[0m                                 Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[5], line 66\x1B[0m\n' +
+      '\x1B[1;32m     52\x1B[0m     cost \x1B[38;5;241m=\x1B[39m (\n' +
+      '\x1B[1;32m     53\x1B[0m         usage\x1B[38;5;241m.\x1B[39mprompt_tokens \x1B[38;5;241m*\x1B[39m rates[\x1B[38;5;124m"\x1B[39m\x1B[38;5;124min\x1B[39m\x1B[38;5;124m"\x1B[39m]\n' +
+      '\x1B[1;32m     54\x1B[0m         \x1B[38;5;241m+\x1B[39m usage\x1B[38;5;241m.\x1B[39mcompletion_tokens \x1B[38;5;241m*\x1B[39m rates[\x1B[38;5;124m"\x1B[39m\x1B[38;5;124mout\x1B[39m\x1B[38;5;124m"\x1B[39m]\n' +
+      '\x1B[1;32m     55\x1B[0m     )\n' +
+      '\x1B[1;32m     57\x1B[0m     \x1B[38;5;28;01mreturn\x1B[39;00m {\n' +
+      '\x1B[1;32m     58\x1B[0m         \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mstrategy\x1B[39m\x1B[38;5;124m"\x1B[39m: strategy_name,\n' +
+      '\x1B[1;32m     59\x1B[0m         \x1B[38;5;124m"\x1B[39m\x1B[38;5;124msnippet_id\x1B[39m\x1B[38;5;124m"\x1B[39m: snippet[\x1B[38;5;124m"\x1B[39m\x1B[38;5;124mid\x1B[39m\x1B[38;5;124m"\x1B[39m],\n' +
+      '\x1B[0;32m   (...)\x1B[0m\n' +
+      '\x1B[1;32m     63\x1B[0m         \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mlatency_s\x1B[39m\x1B[38;5;124m"\x1B[39m: latency,\n' +
+      '\x1B[1;32m     64\x1B[0m     }\n' +
+      '\x1B[0;32m---> 66\x1B[0m \x1B[38;5;28;01masync\x1B[39;00m \x1B[38;5;28;01mdef\x1B[39;00m \x1B[38;5;21mrun_all\x1B[39m() \x1B[38;5;241m-\x1B[39m\x1B[38;5;241m>\x1B[39m \x1B[38;5;28;43mlist\x1B[39;49m\x1B[43m[\x1B[49m\x1B[38;5;28;43mdict\x1B[39;49m\x1B[43m]\x1B[49m:\n' +
+      '\x1B[1;32m     67\x1B[0m \x1B[38;5;250m    \x1B[39m\x1B[38;5;124;03m"""Run every strategy on every snippet concurrently."""\x1B[39;00m\n' +
+      '\x1B[1;32m     68\x1B[0m     tasks \x1B[38;5;241m=\x1B[39m [\n' +
+      '\x1B[1;32m     69\x1B[0m         run_one(strategy_name, snippet)\n' +
+      '\x1B[1;32m     70\x1B[0m         \x1B[38;5;28;01mfor\x1B[39;00m strategy_name \x1B[38;5;129;01min\x1B[39;00m STRATEGIES\n' +
+      '\x1B[1;32m     71\x1B[0m         \x1B[38;5;28;01mfor\x1B[39;00m snippet \x1B[38;5;129;01min\x1B[39;00m snippets\n' +
+      '\x1B[1;32m     72\x1B[0m     ]\n',
+    '\x1B[0;31mTypeError\x1B[0m: list indices must be integers or slices, not type'
+  ]
+}
+12:37:16.660 [warn] Cancel all remaining cells due to cancellation or failure in execution
+12:39:08.408 [info] Restart requested ~/AI-RAG_MP1_PromptLab/MP1_PromptLab/learner/MP1_Starter_Template.ipynb
+12:39:09.052 [warn] Failed to get activated env vars for /bin/python in 621ms
+12:39:09.076 [info] Process Execution: /bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+12:39:09.097 [info] Process Execution: /bin/python -m ipykernel_launcher --f=~/.local/share/jupyter/runtime/kernel-v37cd1c443b650b97ae54b002f66d0f5d323bf06af.json
+    > cwd: ~/AI-RAG_MP1_PromptLab/MP1_PromptLab/learner
+12:39:10.042 [info] Restarted 6a74dc45-4087-42c8-a8aa-9731e29b1060
+12:39:13.647 [warn] Cell completed with errors [Iu [Error]: list indices must be integers or slices, not type
+	at n.execute (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-toolsai.jupyter-2025.9.1/dist/extension.node.js:302:4958)] {
+  ename: 'TypeError',
+  evalue: 'list indices must be integers or slices, not type',
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mTypeError\x1B[0m                                 Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[5], line 66\x1B[0m\n' +
+      '\x1B[1;32m     52\x1B[0m     cost \x1B[38;5;241m=\x1B[39m (\n' +
+      '\x1B[1;32m     53\x1B[0m         usage\x1B[38;5;241m.\x1B[39mprompt_tokens \x1B[38;5;241m*\x1B[39m rates[\x1B[38;5;124m"\x1B[39m\x1B[38;5;124min\x1B[39m\x1B[38;5;124m"\x1B[39m]\n' +
+      '\x1B[1;32m     54\x1B[0m         \x1B[38;5;241m+\x1B[39m usage\x1B[38;5;241m.\x1B[39mcompletion_tokens \x1B[38;5;241m*\x1B[39m rates[\x1B[38;5;124m"\x1B[39m\x1B[38;5;124mout\x1B[39m\x1B[38;5;124m"\x1B[39m]\n' +
+      '\x1B[1;32m     55\x1B[0m     )\n' +
+      '\x1B[1;32m     57\x1B[0m     \x1B[38;5;28;01mreturn\x1B[39;00m {\n' +
+      '\x1B[1;32m     58\x1B[0m         \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mstrategy\x1B[39m\x1B[38;5;124m"\x1B[39m: strategy_name,\n' +
+      '\x1B[1;32m     59\x1B[0m         \x1B[38;5;124m"\x1B[39m\x1B[38;5;124msnippet_id\x1B[39m\x1B[38;5;124m"\x1B[39m: snippet[\x1B[38;5;124m"\x1B[39m\x1B[38;5;124mid\x1B[39m\x1B[38;5;124m"\x1B[39m],\n' +
+      '\x1B[0;32m   (...)\x1B[0m\n' +
+      '\x1B[1;32m     63\x1B[0m         \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mlatency_s\x1B[39m\x1B[38;5;124m"\x1B[39m: latency,\n' +
+      '\x1B[1;32m     64\x1B[0m     }\n' +
+      '\x1B[0;32m---> 66\x1B[0m \x1B[38;5;28;01masync\x1B[39;00m \x1B[38;5;28;01mdef\x1B[39;00m \x1B[38;5;21mrun_all\x1B[39m() \x1B[38;5;241m-\x1B[39m\x1B[38;5;241m>\x1B[39m \x1B[38;5;28;43mlist\x1B[39;49m\x1B[43m[\x1B[49m\x1B[38;5;28;43mdict\x1B[39;49m\x1B[43m]\x1B[49m:\n' +
+      '\x1B[1;32m     67\x1B[0m \x1B[38;5;250m    \x1B[39m\x1B[38;5;124;03m"""Run all 10 × 4 = 40 calls in parallel. Use asyncio.gather."""\x1B[39;00m\n' +
+      '\x1B[1;32m     68\x1B[0m     \x1B[38;5;66;03m# TODO: build the task list, gather, return results\x1B[39;00m\n',
+    '\x1B[0;31mTypeError\x1B[0m: list indices must be integers or slices, not type'
+  ]
+}
+12:39:13.653 [warn] Cancel all remaining cells due to cancellation or failure in execution
+12:43:47.702 [warn] Cell completed with errors [Iu [Error]: list indices must be integers or slices, not type
+	at n.execute (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-toolsai.jupyter-2025.9.1/dist/extension.node.js:302:4958)] {
+  ename: 'TypeError',
+  evalue: 'list indices must be integers or slices, not type',
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mTypeError\x1B[0m                                 Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[8], line 66\x1B[0m\n' +
+      '\x1B[1;32m     52\x1B[0m     cost \x1B[38;5;241m=\x1B[39m (\n' +
+      '\x1B[1;32m     53\x1B[0m         usage\x1B[38;5;241m.\x1B[39mprompt_tokens \x1B[38;5;241m*\x1B[39m rates[\x1B[38;5;124m"\x1B[39m\x1B[38;5;124min\x1B[39m\x1B[38;5;124m"\x1B[39m]\n' +
+      '\x1B[1;32m     54\x1B[0m         \x1B[38;5;241m+\x1B[39m usage\x1B[38;5;241m.\x1B[39mcompletion_tokens \x1B[38;5;241m*\x1B[39m rates[\x1B[38;5;124m"\x1B[39m\x1B[38;5;124mout\x1B[39m\x1B[38;5;124m"\x1B[39m]\n' +
+      '\x1B[1;32m     55\x1B[0m     )\n' +
+      '\x1B[1;32m     57\x1B[0m     \x1B[38;5;28;01mreturn\x1B[39;00m {\n' +
+      '\x1B[1;32m     58\x1B[0m         \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mstrategy\x1B[39m\x1B[38;5;124m"\x1B[39m: strategy_name,\n' +
+      '\x1B[1;32m     59\x1B[0m         \x1B[38;5;124m"\x1B[39m\x1B[38;5;124msnippet_id\x1B[39m\x1B[38;5;124m"\x1B[39m: snippet[\x1B[38;5;124m"\x1B[39m\x1B[38;5;124mid\x1B[39m\x1B[38;5;124m"\x1B[39m],\n' +
+      '\x1B[0;32m   (...)\x1B[0m\n' +
+      '\x1B[1;32m     63\x1B[0m         \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mlatency_s\x1B[39m\x1B[38;5;124m"\x1B[39m: latency,\n' +
+      '\x1B[1;32m     64\x1B[0m     }\n' +
+      '\x1B[0;32m---> 66\x1B[0m \x1B[38;5;28;01masync\x1B[39;00m \x1B[38;5;28;01mdef\x1B[39;00m \x1B[38;5;21mrun_all\x1B[39m() \x1B[38;5;241m-\x1B[39m\x1B[38;5;241m>\x1B[39m \x1B[38;5;28;43mlist\x1B[39;49m\x1B[43m[\x1B[49m\x1B[38;5;28;43mdict\x1B[39;49m\x1B[43m]\x1B[49m:\n' +
+      '\x1B[1;32m     67\x1B[0m \x1B[38;5;250m    \x1B[39m\x1B[38;5;124;03m"""Run all 10 × 4 = 40 calls in parallel. Use asyncio.gather."""\x1B[39;00m\n' +
+      '\x1B[1;32m     68\x1B[0m     \x1B[38;5;66;03m# TODO: build the task list, gather, return results\x1B[39;00m\n',
+    '\x1B[0;31mTypeError\x1B[0m: list indices must be integers or slices, not type'
+  ]
+}
+12:44:48.540 [warn] Cell completed with errors [Iu [Error]: list indices must be integers or slices, not type
+	at n.execute (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-toolsai.jupyter-2025.9.1/dist/extension.node.js:302:4958)] {
+  ename: 'TypeError',
+  evalue: 'list indices must be integers or slices, not type',
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mTypeError\x1B[0m                                 Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[9], line 66\x1B[0m\n' +
+      '\x1B[1;32m     52\x1B[0m     cost \x1B[38;5;241m=\x1B[39m (\n' +
+      '\x1B[1;32m     53\x1B[0m         usage\x1B[38;5;241m.\x1B[39mprompt_tokens \x1B[38;5;241m*\x1B[39m rates[\x1B[38;5;124m"\x1B[39m\x1B[38;5;124min\x1B[39m\x1B[38;5;124m"\x1B[39m]\n' +
+      '\x1B[1;32m     54\x1B[0m         \x1B[38;5;241m+\x1B[39m usage\x1B[38;5;241m.\x1B[39mcompletion_tokens \x1B[38;5;241m*\x1B[39m rates[\x1B[38;5;124m"\x1B[39m\x1B[38;5;124mout\x1B[39m\x1B[38;5;124m"\x1B[39m]\n' +
+      '\x1B[1;32m     55\x1B[0m     )\n' +
+      '\x1B[1;32m     57\x1B[0m     \x1B[38;5;28;01mreturn\x1B[39;00m {\n' +
+      '\x1B[1;32m     58\x1B[0m         \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mstrategy\x1B[39m\x1B[38;5;124m"\x1B[39m: strategy_name,\n' +
+      '\x1B[1;32m     59\x1B[0m         \x1B[38;5;124m"\x1B[39m\x1B[38;5;124msnippet_id\x1B[39m\x1B[38;5;124m"\x1B[39m: snippet[\x1B[38;5;124m"\x1B[39m\x1B[38;5;124mid\x1B[39m\x1B[38;5;124m"\x1B[39m],\n' +
+      '\x1B[0;32m   (...)\x1B[0m\n' +
+      '\x1B[1;32m     63\x1B[0m         \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mlatency_s\x1B[39m\x1B[38;5;124m"\x1B[39m: latency,\n' +
+      '\x1B[1;32m     64\x1B[0m     }\n' +
+      '\x1B[0;32m---> 66\x1B[0m \x1B[38;5;28;01masync\x1B[39;00m \x1B[38;5;28;01mdef\x1B[39;00m \x1B[38;5;21mrun_all\x1B[39m() \x1B[38;5;241m-\x1B[39m\x1B[38;5;241m>\x1B[39m \x1B[38;5;28;43mlist\x1B[39;49m\x1B[43m[\x1B[49m\x1B[38;5;28;43mdict\x1B[39;49m\x1B[43m]\x1B[49m:\n' +
+      '\x1B[1;32m     67\x1B[0m \x1B[38;5;250m    \x1B[39m\x1B[38;5;124;03m"""Run all 10 × 4 = 40 calls in parallel. Use asyncio.gather."""\x1B[39;00m\n' +
+      '\x1B[1;32m     68\x1B[0m     \x1B[38;5;66;03m# TODO: build the task list, gather, return results\x1B[39;00m\n',
+    '\x1B[0;31mTypeError\x1B[0m: list indices must be integers or slices, not type'
+  ]
+}
+12:45:14.832 [warn] Cell completed with errors [Iu [Error]: list indices must be integers or slices, not type
+	at n.execute (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-toolsai.jupyter-2025.9.1/dist/extension.node.js:302:4958)] {
+  ename: 'TypeError',
+  evalue: 'list indices must be integers or slices, not type',
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mTypeError\x1B[0m                                 Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[12], line 66\x1B[0m\n' +
+      '\x1B[1;32m     52\x1B[0m     cost \x1B[38;5;241m=\x1B[39m (\n' +
+      '\x1B[1;32m     53\x1B[0m         usage\x1B[38;5;241m.\x1B[39mprompt_tokens \x1B[38;5;241m*\x1B[39m rates[\x1B[38;5;124m"\x1B[39m\x1B[38;5;124min\x1B[39m\x1B[38;5;124m"\x1B[39m]\n' +
+      '\x1B[1;32m     54\x1B[0m         \x1B[38;5;241m+\x1B[39m usage\x1B[38;5;241m.\x1B[39mcompletion_tokens \x1B[38;5;241m*\x1B[39m rates[\x1B[38;5;124m"\x1B[39m\x1B[38;5;124mout\x1B[39m\x1B[38;5;124m"\x1B[39m]\n' +
+      '\x1B[1;32m     55\x1B[0m     )\n' +
+      '\x1B[1;32m     57\x1B[0m     \x1B[38;5;28;01mreturn\x1B[39;00m {\n' +
+      '\x1B[1;32m     58\x1B[0m         \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mstrategy\x1B[39m\x1B[38;5;124m"\x1B[39m: strategy_name,\n' +
+      '\x1B[1;32m     59\x1B[0m         \x1B[38;5;124m"\x1B[39m\x1B[38;5;124msnippet_id\x1B[39m\x1B[38;5;124m"\x1B[39m: snippet[\x1B[38;5;124m"\x1B[39m\x1B[38;5;124mid\x1B[39m\x1B[38;5;124m"\x1B[39m],\n' +
+      '\x1B[0;32m   (...)\x1B[0m\n' +
+      '\x1B[1;32m     63\x1B[0m         \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mlatency_s\x1B[39m\x1B[38;5;124m"\x1B[39m: latency,\n' +
+      '\x1B[1;32m     64\x1B[0m     }\n' +
+      '\x1B[0;32m---> 66\x1B[0m \x1B[38;5;28;01masync\x1B[39;00m \x1B[38;5;28;01mdef\x1B[39;00m \x1B[38;5;21mrun_all\x1B[39m() \x1B[38;5;241m-\x1B[39m\x1B[38;5;241m>\x1B[39m \x1B[38;5;28;43mlist\x1B[39;49m\x1B[43m[\x1B[49m\x1B[38;5;28;43mdict\x1B[39;49m\x1B[43m]\x1B[49m:\n' +
+      '\x1B[1;32m     67\x1B[0m \x1B[38;5;250m    \x1B[39m\x1B[38;5;124;03m"""Run all 10 × 4 = 40 calls in parallel. Use asyncio.gather."""\x1B[39;00m\n' +
+      '\x1B[1;32m     68\x1B[0m     \x1B[38;5;66;03m# TODO: build the task list, gather, return results\x1B[39;00m\n',
+    '\x1B[0;31mTypeError\x1B[0m: list indices must be integers or slices, not type'
+  ]
+}
+12:58:49.264 [info] Dispose Kernel '~/Mini Project/MP1_project_lab.ipynb' associated with '~/Mini Project/MP1_project_lab.ipynb'
+13:03:35.211 [info] Starting Kernel (Python Path: /bin/python, Unknown, 3.10.14) for '~/Mini Project/MP1_project_lab.ipynb' (disableUI=true)
+13:03:35.827 [warn] Failed to get activated env vars for /bin/python in 612ms
+13:03:35.863 [info] Process Execution: /bin/python -m pip list
+13:03:35.897 [warn] Failed to get activated env vars for /bin/python in 679ms
+13:03:35.935 [info] Process Execution: /bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+13:03:35.994 [info] Process Execution: /bin/python -m ipykernel_launcher --f=~/.local/share/jupyter/runtime/kernel-v379b95816cc3dc0a933bdb038e8f8396b760a3ffe.json
+    > cwd: ~/Mini Project
+13:03:37.399 [info] Kernel successfully started
+13:03:38.470 [error] Widget Error: Failed to access CDN https://unpkg.com/ after 0 attempt(s), TypeError: Failed to fetch
+13:56:27.379 [info] Dispose Kernel '~/AI-RAG_MP1_PromptLab/MP1_PromptLab/learner/MP1_Starter_Template.ipynb' associated with '~/AI-RAG_MP1_PromptLab/MP1_PromptLab/learner/MP1_Starter_Template.ipynb'
+13:56:27.410 [info] Dispose Kernel '~/Mini Project/MP1_project_lab.ipynb' associated with '~/Mini Project/MP1_project_lab.ipynb'
+13:56:27.410 [info] Dispose Kernel '~/Mini Project/MP1_project_lab.ipynb' associated with '~/Mini Project/MP1_project_lab.ipynb'

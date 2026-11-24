@@ -1,0 +1,38 @@
+2026-11-23 13:56:44.979 [info] Telemetry level is off
+2026-11-23 13:56:44.979 [info] Experiments are disabled, only manually opted experiments are active.
+2026-11-23 13:56:44.984 [warning] Dir "/voc/work/.pixi/envs" is not watchable (directory does not exist)
+2026-11-23 13:56:47.227 [info] Starting Environment refresh
+2026-11-23 13:56:47.227 [info] Searching for interpreters in posix paths locator
+2026-11-23 13:56:47.236 [info] Searching for pyenv environments
+2026-11-23 13:56:47.236 [info] Searching for conda environments
+2026-11-23 13:56:47.241 [info] Searching for global virtual environments
+2026-11-23 13:56:47.246 [info] Searching for custom virtual environments
+2026-11-23 13:56:47.256 [info] Skipping ActivatedEnv Detection:  process.env.VSCODE_CLI !== '1'
+2026-11-23 13:56:47.267 [info] pyenv is not installed
+2026-11-23 13:56:47.267 [info] Finished searching for pyenv environments: 34 milliseconds
+2026-11-23 13:56:47.272 [info] Finished searching for custom virtual envs: 38 milliseconds
+2026-11-23 13:56:47.299 [info] > conda info --json
+2026-11-23 13:56:47.324 [info] > hatch env show --json
+2026-11-23 13:56:47.324 [info] cwd: .
+2026-11-23 13:56:47.335 [info] Python interpreter path: /bin/python
+2026-11-23 13:56:47.387 [info] Finished searching for global virtual envs: 153 milliseconds
+2026-11-23 13:56:47.392 [info] Found: /bin/python --> /bin/python3.10
+2026-11-23 13:56:47.401 [info] Found: /bin/python3 --> /bin/python3.10
+2026-11-23 13:56:47.403 [info] Found: /bin/python3.10 --> /bin/python3.10
+2026-11-23 13:56:47.408 [info] Found: /bin/python3.8 --> /bin/python3.8
+2026-11-23 13:56:47.488 [info] > /bin/python -I /usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/python_files/get_output_via_markers.py /usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/python_files/interpreterInfo.py
+2026-11-23 13:56:47.496 [info] Found: /usr/bin/python --> /usr/bin/python3.10
+2026-11-23 13:56:47.498 [info] Found: /usr/bin/python3 --> /usr/bin/python3.10
+2026-11-23 13:56:47.501 [info] Found: /usr/bin/python3.10 --> /usr/bin/python3.10
+2026-11-23 13:56:47.505 [info] Found: /usr/bin/python3.8 --> /usr/bin/python3.8
+2026-11-23 13:56:47.581 [info] > /bin/python3.8 -I /usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/python_files/get_output_via_markers.py /usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/python_files/interpreterInfo.py
+2026-11-23 13:56:47.594 [info] Finished searching for interpreters in posix paths locator: 370 milliseconds
+2026-11-23 13:56:47.631 [info] > /usr/bin/python -I /usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/python_files/get_output_via_markers.py /usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/python_files/interpreterInfo.py
+2026-11-23 13:56:47.638 [info] Environments refresh paths discovered (event): 415 milliseconds
+2026-11-23 13:56:47.638 [info] Environments refresh paths discovered: 415 milliseconds
+2026-11-23 13:56:47.709 [info] > /usr/bin/python3.8 -I /usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/python_files/get_output_via_markers.py /usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/python_files/interpreterInfo.py
+2026-11-23 13:56:47.752 [info] Environments refresh finished (event): 529 milliseconds
+2026-11-23 13:56:47.761 [info] Environment refresh took 539 milliseconds
+2026-11-23 13:56:47.927 [info] > pyenv which python
+2026-11-23 13:56:47.927 [info] cwd: .
+2026-11-23 13:56:50.522 [info] Starting Jedi language server for work.

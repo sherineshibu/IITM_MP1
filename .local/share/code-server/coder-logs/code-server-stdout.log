@@ -1,0 +1,234 @@
+[2026-11-14T07:41:54.950Z] info  code-server 4.126.0 2c06497ca93cab8ced876947c58e6b42be5a8210
+[2026-11-14T07:41:54.951Z] info  Using user-data-dir /voc/work/.local/share/code-server
+[2026-11-14T07:41:54.982Z] info  Using config file /voc/work/.config/code-server/config.yaml
+[2026-11-14T07:41:54.982Z] info  HTTP server listening on http://0.0.0.0:8081/
+[2026-11-14T07:41:54.982Z] info    - Authentication is disabled
+[2026-11-14T07:41:54.982Z] info    - Not serving HTTPS
+[2026-11-14T07:41:54.983Z] info  Session server listening on /voc/work/.local/share/code-server/code-server-ipc.sock
+[07:41:55] 
+
+
+
+
+[reconnection-grace-time] No CLI argument provided, using default: 10800000ms (10800s)
+[07:41:55] [AgentHostChannel] Registered unavailable IPC channel 'agentHostProxy': no --agent-host-bridge-port / --agent-host-bridge-path set.
+[07:41:55] Extension host agent started.
+[07:41:55] Started initializing default profile extensions in extensions installation folder. file:///voc/work/.local/share/code-server/extensions
+[07:41:56] Completed initializing default profile extensions in extensions installation folder. file:///voc/work/.local/share/code-server/extensions
+[07:42:03] [172.16.6.1][3ef75cf4][ManagementConnection] New connection established.
+[07:42:06] [172.16.6.1][14743de6][ExtensionHostConnection] New connection established.
+[07:42:06] [172.16.6.1][14743de6][ExtensionHostConnection] Starting extension host process...
+[07:42:06] [172.16.6.1][14743de6][ExtensionHostConnection] <82> Launched Extension Host Process.
+[07:42:07] [172.16.6.1][14743de6][ExtensionHostConnection] <82> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
+
+[09:23:40] [172.16.6.1][3ef75cf4][ManagementConnection] The client has reconnected.
+[09:23:41] [172.16.6.1][14743de6][ExtensionHostConnection] The client has reconnected.
+[09:23:43] [172.16.6.1][3ef75cf4][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2026-11-15T04:40:03.459Z] info  code-server 4.126.0 2c06497ca93cab8ced876947c58e6b42be5a8210
+[2026-11-15T04:40:03.460Z] info  Using user-data-dir /voc/work/.local/share/code-server
+[2026-11-15T04:40:03.503Z] info  Using config file /voc/work/.config/code-server/config.yaml
+[2026-11-15T04:40:03.503Z] info  HTTP server listening on http://0.0.0.0:8081/
+[2026-11-15T04:40:03.503Z] info    - Authentication is disabled
+[2026-11-15T04:40:03.503Z] info    - Not serving HTTPS
+[2026-11-15T04:40:03.504Z] info  Session server listening on /voc/work/.local/share/code-server/code-server-ipc.sock
+[04:40:04] 
+
+
+
+
+[reconnection-grace-time] No CLI argument provided, using default: 10800000ms (10800s)
+[04:40:04] [AgentHostChannel] Registered unavailable IPC channel 'agentHostProxy': no --agent-host-bridge-port / --agent-host-bridge-path set.
+[04:40:04] Extension host agent started.
+[2026-11-20T15:39:33.130Z] info  code-server 4.126.0 2c06497ca93cab8ced876947c58e6b42be5a8210
+[2026-11-20T15:39:33.131Z] info  Using user-data-dir /voc/work/.local/share/code-server
+[2026-11-20T15:39:33.169Z] info  Using config file /voc/work/.config/code-server/config.yaml
+[2026-11-20T15:39:33.169Z] info  HTTP server listening on http://0.0.0.0:8081/
+[2026-11-20T15:39:33.169Z] info    - Authentication is disabled
+[2026-11-20T15:39:33.170Z] info    - Not serving HTTPS
+[2026-11-20T15:39:33.170Z] info  Session server listening on /voc/work/.local/share/code-server/code-server-ipc.sock
+[15:39:34] 
+
+
+
+
+[reconnection-grace-time] No CLI argument provided, using default: 10800000ms (10800s)
+[15:39:34] [AgentHostChannel] Registered unavailable IPC channel 'agentHostProxy': no --agent-host-bridge-port / --agent-host-bridge-path set.
+[15:39:34] Extension host agent started.
+[15:39:44] [172.16.1.65][2be2082b][ManagementConnection] New connection established.
+[15:39:47] [172.16.1.65][d8ae3bcb][ExtensionHostConnection] New connection established.
+[15:39:47] [172.16.1.65][d8ae3bcb][ExtensionHostConnection] Starting extension host process...
+[15:39:47] [172.16.1.65][d8ae3bcb][ExtensionHostConnection] <66> Launched Extension Host Process.
+[15:39:48] [172.16.1.65][d8ae3bcb][ExtensionHostConnection] <66> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
+
+[16:21:41] [172.16.1.65][2be2082b][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[16:39:15] [172.16.1.65][2be2082b][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[16:39:15] [172.16.1.65][2be2082b][ManagementConnection] The client has reconnected.
+[16:39:16] [172.16.1.65][2be2082b][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[16:39:20] [172.16.1.65][68054dc7][ManagementConnection] New connection established.
+[16:39:24] [172.16.1.65][860e0e58][ExtensionHostConnection] New connection established.
+[16:39:24] [172.16.1.65][860e0e58][ExtensionHostConnection] Starting extension host process...
+[16:39:24] [172.16.1.65][860e0e58][ExtensionHostConnection] <1519> Launched Extension Host Process.
+[16:39:24] [172.16.1.65][860e0e58][ExtensionHostConnection] <1519> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
+
+[16:44:16] [172.16.1.65][d8ae3bcb][ExtensionHostConnection] <66> Extension Host Process exited with code: 0, signal: null.
+[17:54:48] [172.16.1.65][68054dc7][ManagementConnection] The client has reconnected.
+[18:39:16] [172.16.1.65][68054dc7][ManagementConnection] The client has reconnected.
+[2026-11-21T04:34:48.121Z] info  code-server 4.126.0 2c06497ca93cab8ced876947c58e6b42be5a8210
+[2026-11-21T04:34:48.123Z] info  Using user-data-dir /voc/work/.local/share/code-server
+[2026-11-21T04:34:48.172Z] info  Using config file /voc/work/.config/code-server/config.yaml
+[2026-11-21T04:34:48.172Z] info  HTTP server listening on http://0.0.0.0:8081/
+[2026-11-21T04:34:48.172Z] info    - Authentication is disabled
+[2026-11-21T04:34:48.172Z] info    - Not serving HTTPS
+[2026-11-21T04:34:48.172Z] info  Session server listening on /voc/work/.local/share/code-server/code-server-ipc.sock
+[04:34:49] 
+
+
+
+
+[reconnection-grace-time] No CLI argument provided, using default: 10800000ms (10800s)
+[04:34:49] [AgentHostChannel] Registered unavailable IPC channel 'agentHostProxy': no --agent-host-bridge-port / --agent-host-bridge-path set.
+[04:34:49] Extension host agent started.
+[04:34:58] [172.16.6.129][6753c691][ManagementConnection] New connection established.
+[04:35:01] [172.16.6.129][c712f3f9][ExtensionHostConnection] New connection established.
+[04:35:01] [172.16.6.129][c712f3f9][ExtensionHostConnection] Starting extension host process...
+[04:35:01] [172.16.6.129][c712f3f9][ExtensionHostConnection] <79> Launched Extension Host Process.
+[04:35:01] [172.16.6.129][c712f3f9][ExtensionHostConnection] <79> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
+
+[2026-11-23T04:53:08.298Z] info  code-server 4.126.0 2c06497ca93cab8ced876947c58e6b42be5a8210
+[2026-11-23T04:53:08.311Z] info  Using user-data-dir /voc/work/.local/share/code-server
+[2026-11-23T04:53:08.354Z] info  Using config file /voc/work/.config/code-server/config.yaml
+[2026-11-23T04:53:08.354Z] info  HTTP server listening on http://0.0.0.0:8081/
+[2026-11-23T04:53:08.354Z] info    - Authentication is disabled
+[2026-11-23T04:53:08.354Z] info    - Not serving HTTPS
+[2026-11-23T04:53:08.354Z] info  Session server listening on /voc/work/.local/share/code-server/code-server-ipc.sock
+[04:53:10] 
+
+
+
+
+[reconnection-grace-time] No CLI argument provided, using default: 10800000ms (10800s)
+[04:53:12] [AgentHostChannel] Registered unavailable IPC channel 'agentHostProxy': no --agent-host-bridge-port / --agent-host-bridge-path set.
+[04:53:12] Extension host agent started.
+[04:53:25] [172.16.0.193][9e9ec36f][ManagementConnection] New connection established.
+[04:53:29] [172.16.0.193][8642f945][ExtensionHostConnection] New connection established.
+[04:53:29] [172.16.0.193][8642f945][ExtensionHostConnection] Starting extension host process...
+[04:53:29] [172.16.0.193][8642f945][ExtensionHostConnection] <66> Launched Extension Host Process.
+[04:53:32] [172.16.0.193][8642f945][ExtensionHostConnection] <66> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
+
+[04:57:32] [172.16.0.193][9e9ec36f][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[04:57:33] [172.16.0.193][8642f945][ExtensionHostConnection] <66> Extension Host Process exited with code: 0, signal: null.
+[05:24:02] [172.16.0.193][474ea96a][ManagementConnection] New connection established.
+[05:24:06] [172.16.0.193][17210e7c][ExtensionHostConnection] New connection established.
+[05:24:06] [172.16.0.193][17210e7c][ExtensionHostConnection] Starting extension host process...
+[05:24:06] [172.16.0.193][17210e7c][ExtensionHostConnection] <156> Launched Extension Host Process.
+[05:24:06] [172.16.0.193][17210e7c][ExtensionHostConnection] <156> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
+
+[05:29:54] [172.16.0.193][17210e7c][ExtensionHostConnection] The client has reconnected.
+[05:29:55] [172.16.0.193][474ea96a][ManagementConnection] The client has reconnected.
+[06:32:04] [172.16.0.193][17210e7c][ExtensionHostConnection] The client has reconnected.
+[06:32:06] [172.16.0.193][474ea96a][ManagementConnection] The client has reconnected.
+[06:47:03] [172.16.0.193][17210e7c][ExtensionHostConnection] The client has reconnected.
+[06:47:03] [172.16.0.193][474ea96a][ManagementConnection] The client has reconnected.
+[08:00:36] [172.16.0.193][17210e7c][ExtensionHostConnection] The client has reconnected.
+[08:00:36] [172.16.0.193][474ea96a][ManagementConnection] The client has reconnected.
+[08:00:36] [172.16.0.193][474ea96a][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[08:00:37] [172.16.0.193][17210e7c][ExtensionHostConnection] <156> Extension Host Process exited with code: 0, signal: null.
+[08:00:40] [172.16.0.193][0eaad57b][ManagementConnection] New connection established.
+[08:00:44] [172.16.0.193][7a1ba802][ExtensionHostConnection] New connection established.
+[08:00:44] [172.16.0.193][7a1ba802][ExtensionHostConnection] Starting extension host process...
+[08:00:44] [172.16.0.193][7a1ba802][ExtensionHostConnection] <9415> Launched Extension Host Process.
+[08:00:45] [172.16.0.193][7a1ba802][ExtensionHostConnection] <9415> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
+
+[08:28:56] [172.16.0.193][0eaad57b][ManagementConnection] The client has reconnected.
+[08:28:56] [172.16.0.193][7a1ba802][ExtensionHostConnection] The client has reconnected.
+[09:25:34] [172.16.0.193][0eaad57b][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[09:25:34] [172.16.0.193][7a1ba802][ExtensionHostConnection] <9415> Extension Host Process exited with code: 0, signal: null.
+[2026-11-23T10:10:30.966Z] info  code-server 4.126.0 2c06497ca93cab8ced876947c58e6b42be5a8210
+[2026-11-23T10:10:30.968Z] info  Using user-data-dir /voc/work/.local/share/code-server
+[2026-11-23T10:10:31.007Z] info  Using config file /voc/work/.config/code-server/config.yaml
+[2026-11-23T10:10:31.007Z] info  HTTP server listening on http://0.0.0.0:8081/
+[2026-11-23T10:10:31.007Z] info    - Authentication is disabled
+[2026-11-23T10:10:31.008Z] info    - Not serving HTTPS
+[2026-11-23T10:10:31.008Z] info  Session server listening on /voc/work/.local/share/code-server/code-server-ipc.sock
+[10:10:32] 
+
+
+
+
+[reconnection-grace-time] No CLI argument provided, using default: 10800000ms (10800s)
+[10:10:32] [AgentHostChannel] Registered unavailable IPC channel 'agentHostProxy': no --agent-host-bridge-port / --agent-host-bridge-path set.
+[10:10:32] Extension host agent started.
+[10:10:40] [172.16.1.1][b72613a8][ManagementConnection] New connection established.
+[10:10:44] [172.16.1.1][3b71c2e2][ExtensionHostConnection] New connection established.
+[10:10:44] [172.16.1.1][3b71c2e2][ExtensionHostConnection] Starting extension host process...
+[10:10:44] [172.16.1.1][3b71c2e2][ExtensionHostConnection] <79> Launched Extension Host Process.
+[10:10:44] [172.16.1.1][3b71c2e2][ExtensionHostConnection] <79> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
+
+[12:31:38] [172.16.1.1][b72613a8][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[12:31:39] [172.16.1.1][3b71c2e2][ExtensionHostConnection] <79> Extension Host Process exited with code: 0, signal: null.
+[12:31:49] [172.16.1.1][6089b2eb][ManagementConnection] New connection established.
+[12:31:57] [172.16.1.1][b810ad54][ManagementConnection] New connection established.
+[12:32:01] [172.16.1.1][028431b0][ExtensionHostConnection] New connection established.
+[12:32:01] [172.16.1.1][028431b0][ExtensionHostConnection] Starting extension host process...
+[12:32:01] [172.16.1.1][028431b0][ExtensionHostConnection] <9895> Launched Extension Host Process.
+[12:32:01] [172.16.1.1][028431b0][ExtensionHostConnection] <9895> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
+
+[12:32:20] [172.16.1.1][6089b2eb][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[13:17:14] [172.16.1.1][6089b2eb][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[13:17:14] [172.16.1.1][028431b0][ExtensionHostConnection] The client has reconnected.
+[13:17:15] [172.16.1.1][b810ad54][ManagementConnection] The client has reconnected.
+[13:22:15] [172.16.1.1][6089b2eb][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
+[13:56:26] [172.16.1.1][028431b0][ExtensionHostConnection] The client has reconnected.
+[13:56:27] [172.16.1.1][028431b0][ExtensionHostConnection] <9895> Extension Host Process exited with code: 0, signal: null.
+[13:56:31] [172.16.1.1][261b8fda][ManagementConnection] New connection established.
+[13:56:34] [172.16.1.1][273f4abc][ExtensionHostConnection] New connection established.
+[13:56:34] [172.16.1.1][273f4abc][ExtensionHostConnection] Starting extension host process...
+[13:56:34] [172.16.1.1][273f4abc][ExtensionHostConnection] <14680> Launched Extension Host Process.
+[13:56:35] [172.16.1.1][273f4abc][ExtensionHostConnection] <14680> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
+
+[13:56:55] [172.16.1.1][b810ad54][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2026-11-24T05:27:58.950Z] info  code-server 4.126.0 2c06497ca93cab8ced876947c58e6b42be5a8210
+[2026-11-24T05:27:58.951Z] info  Using user-data-dir /voc/work/.local/share/code-server
+[2026-11-24T05:27:58.986Z] info  Using config file /voc/work/.config/code-server/config.yaml
+[2026-11-24T05:27:58.986Z] info  HTTP server listening on http://0.0.0.0:8081/
+[2026-11-24T05:27:58.986Z] info    - Authentication is disabled
+[2026-11-24T05:27:58.986Z] info    - Not serving HTTPS
+[2026-11-24T05:27:58.986Z] info  Session server listening on /voc/work/.local/share/code-server/code-server-ipc.sock
+[05:28:00] 
+
+
+
+
+[reconnection-grace-time] No CLI argument provided, using default: 10800000ms (10800s)
+[05:28:01] [AgentHostChannel] Registered unavailable IPC channel 'agentHostProxy': no --agent-host-bridge-port / --agent-host-bridge-path set.
+[05:28:01] Extension host agent started.
+[05:28:09] [172.16.7.65][39c812d1][ManagementConnection] New connection established.
+[05:28:12] [172.16.7.65][864aba0e][ExtensionHostConnection] New connection established.
+[05:28:12] [172.16.7.65][864aba0e][ExtensionHostConnection] Starting extension host process...
+[05:28:12] [172.16.7.65][864aba0e][ExtensionHostConnection] <79> Launched Extension Host Process.
+[05:28:13] [172.16.7.65][864aba0e][ExtensionHostConnection] <79> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
+
+[05:42:59] [172.16.7.65][39c812d1][ManagementConnection] The client has reconnected.
+[07:19:12] [172.16.7.65][39c812d1][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[07:19:12] [172.16.7.65][864aba0e][ExtensionHostConnection] <79> Extension Host Process exited with code: 0, signal: null.
+[2026-11-24T11:46:48.752Z] info  code-server 4.126.0 2c06497ca93cab8ced876947c58e6b42be5a8210
+[2026-11-24T11:46:48.753Z] info  Using user-data-dir /voc/work/.local/share/code-server
+[2026-11-24T11:46:48.792Z] info  Using config file /voc/work/.config/code-server/config.yaml
+[2026-11-24T11:46:48.792Z] info  HTTP server listening on http://0.0.0.0:8081/
+[2026-11-24T11:46:48.792Z] info    - Authentication is disabled
+[2026-11-24T11:46:48.792Z] info    - Not serving HTTPS
+[2026-11-24T11:46:48.792Z] info  Session server listening on /voc/work/.local/share/code-server/code-server-ipc.sock
+[11:46:49] 
+
+
+
+
+[reconnection-grace-time] No CLI argument provided, using default: 10800000ms (10800s)
+[11:46:49] [AgentHostChannel] Registered unavailable IPC channel 'agentHostProxy': no --agent-host-bridge-port / --agent-host-bridge-path set.
+[11:46:50] Extension host agent started.
+[11:46:58] [172.16.12.65][a6de3087][ManagementConnection] New connection established.
+[11:47:01] [172.16.12.65][f0dffc81][ExtensionHostConnection] New connection established.
+[11:47:01] [172.16.12.65][f0dffc81][ExtensionHostConnection] Starting extension host process...
+[11:47:01] [172.16.12.65][f0dffc81][ExtensionHostConnection] <79> Launched Extension Host Process.
+[11:47:02] [172.16.12.65][f0dffc81][ExtensionHostConnection] <79> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
+

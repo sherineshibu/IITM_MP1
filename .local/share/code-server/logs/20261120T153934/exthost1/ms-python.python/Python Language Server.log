@@ -1,0 +1,6 @@
+2026-11-20 16:03:05.372 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "8"
+
+2026-11-20 16:03:05.389 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "9"
+
+2026-11-20 16:03:06.992 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "10"
+

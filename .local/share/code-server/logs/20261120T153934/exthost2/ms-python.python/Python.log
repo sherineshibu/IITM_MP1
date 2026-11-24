@@ -1,0 +1,60 @@
+2026-11-20 16:39:31.726 [info] Telemetry level is off
+2026-11-20 16:39:31.726 [info] Experiments are disabled, only manually opted experiments are active.
+2026-11-20 16:39:31.729 [warning] Dir "/voc/work/.pixi/envs" is not watchable (directory does not exist)
+2026-11-20 16:39:33.718 [info] Starting Environment refresh
+2026-11-20 16:39:33.718 [info] Searching for interpreters in posix paths locator
+2026-11-20 16:39:33.725 [info] Searching for pyenv environments
+2026-11-20 16:39:33.726 [info] Searching for conda environments
+2026-11-20 16:39:33.730 [info] Searching for global virtual environments
+2026-11-20 16:39:33.733 [info] Searching for custom virtual environments
+2026-11-20 16:39:33.747 [info] Skipping ActivatedEnv Detection:  process.env.VSCODE_CLI !== '1'
+2026-11-20 16:39:33.755 [info] pyenv is not installed
+2026-11-20 16:39:33.755 [info] Finished searching for pyenv environments: 32 milliseconds
+2026-11-20 16:39:33.760 [info] Finished searching for custom virtual envs: 36 milliseconds
+2026-11-20 16:39:33.780 [info] > conda info --json
+2026-11-20 16:39:33.798 [info] > hatch env show --json
+2026-11-20 16:39:33.798 [info] cwd: .
+2026-11-20 16:39:33.808 [info] Python interpreter path: /bin/python
+2026-11-20 16:39:33.821 [info] Finished searching for global virtual envs: 97 milliseconds
+2026-11-20 16:39:33.825 [info] Found: /bin/python --> /bin/python3.10
+2026-11-20 16:39:33.829 [info] Found: /bin/python3 --> /bin/python3.10
+2026-11-20 16:39:33.831 [info] Found: /bin/python3.10 --> /bin/python3.10
+2026-11-20 16:39:33.834 [info] Found: /bin/python3.8 --> /bin/python3.8
+2026-11-20 16:39:33.860 [info] > /bin/python -I /usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/python_files/get_output_via_markers.py /usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/python_files/interpreterInfo.py
+2026-11-20 16:39:33.871 [info] Found: /usr/bin/python --> /usr/bin/python3.10
+2026-11-20 16:39:33.871 [info] Found: /usr/bin/python3 --> /usr/bin/python3.10
+2026-11-20 16:39:33.875 [info] Found: /usr/bin/python3.10 --> /usr/bin/python3.10
+2026-11-20 16:39:33.880 [info] Found: /usr/bin/python3.8 --> /usr/bin/python3.8
+2026-11-20 16:39:33.924 [info] > /bin/python3.8 -I /usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/python_files/get_output_via_markers.py /usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/python_files/interpreterInfo.py
+2026-11-20 16:39:33.947 [info] Finished searching for interpreters in posix paths locator: 218 milliseconds
+2026-11-20 16:39:33.947 [info] > /usr/bin/python -I /usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/python_files/get_output_via_markers.py /usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/python_files/interpreterInfo.py
+2026-11-20 16:39:33.962 [info] Environments refresh paths discovered (event): 247 milliseconds
+2026-11-20 16:39:33.962 [info] Environments refresh paths discovered: 247 milliseconds
+2026-11-20 16:39:34.014 [info] > /usr/bin/python3.8 -I /usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/python_files/get_output_via_markers.py /usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/python_files/interpreterInfo.py
+2026-11-20 16:39:34.053 [info] Environments refresh finished (event): 338 milliseconds
+2026-11-20 16:39:34.059 [info] Environment refresh took 345 milliseconds
+2026-11-20 16:39:34.267 [info] > pyenv which python
+2026-11-20 16:39:34.267 [info] cwd: .
+2026-11-20 16:39:35.390 [info] Running installed packages checker:  {
+  id: '/bin/python',
+  sysPrefix: '/usr',
+  envType: 'Global',
+  envName: '',
+  envPath: '',
+  path: '/bin/python',
+  architecture: 3,
+  sysVersion: '3.10.14 (main, Apr  6 2024, 18:45:05) [GCC 9.4.0]',
+  version: {
+    raw: '3.10.14',
+    major: 3,
+    minor: 10,
+    patch: 14,
+    build: [],
+    prerelease: [ 'final', '0' ]
+  },
+  displayName: 'Python 3.10.14 64-bit',
+  detailedDisplayName: 'Python 3.10.14 64-bit',
+  type: undefined
+} /usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/python_files/installed_check.py /voc/work/AI-RAG_MP1_PromptLab/MP1_PromptLab/requirements.txt
+2026-11-20 16:39:35.391 [info] > /bin/python /usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/python_files/installed_check.py ./AI-RAG_MP1_PromptLab/MP1_PromptLab/requirements.txt
+2026-11-20 16:39:35.893 [info] Starting Jedi language server for work.

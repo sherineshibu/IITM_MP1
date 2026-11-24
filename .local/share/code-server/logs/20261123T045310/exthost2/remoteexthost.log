@@ -1,0 +1,84 @@
+2026-11-23 05:24:08.080 [info] Extension host with pid 156 started
+2026-11-23 05:24:08.104 [info] Lock '/voc/work/.local/share/code-server/User/workspaceStorage/-7709b43a/vscode.lock': Lock acquired.
+2026-11-23 05:24:08.490 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-11-23 05:24:08.490 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-11-23 05:24:08.871 [info] ExtensionService#_doActivateExtension formulahendry.auto-close-tag, startup: true, activationEvent: '*'
+2026-11-23 05:24:08.871 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-11-23 05:24:08.876 [info] ExtensionService#_doActivateExtension synedra.auto-run-command, startup: true, activationEvent: '*'
+2026-11-23 05:24:09.200 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2026-11-23 05:24:09.200 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-11-23 05:24:09.872 [info] Eager extensions activated
+2026-11-23 05:24:09.873 [info] ExtensionService#_doActivateExtension Anthropic.claude-code, startup: false, activationEvent: 'onStartupFinished'
+2026-11-23 05:24:09.877 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2026-11-23 05:24:09.882 [info] ExtensionService#_doActivateExtension cweijan.vscode-database-client2, startup: false, activationEvent: 'onStartupFinished'
+2026-11-23 05:24:09.887 [info] ExtensionService#_doActivateExtension cweijan.vscode-office, startup: false, activationEvent: 'onStartupFinished'
+2026-11-23 05:24:09.891 [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint, startup: false, activationEvent: 'onStartupFinished'
+2026-11-23 05:24:09.896 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-11-23 05:24:09.902 [info] ExtensionService#_doActivateExtension ecmel.vscode-html-css, startup: false, activationEvent: 'onStartupFinished'
+2026-11-23 05:24:09.908 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-11-23 05:24:09.912 [info] ExtensionService#_doActivateExtension ms-dotnettools.vscode-dotnet-runtime, startup: false, activationEvent: 'onStartupFinished'
+2026-11-23 05:24:12.902 [error] Error: Extension dbclient-jdbc not found!
+	at r.upgradeJDBC (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/cweijan.vscode-database-client2-9.0.1/out/extension.js:157674:15)
+	at r.initTreeView (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/cweijan.vscode-database-client2-9.0.1/out/extension.js:218686:10)
+	at r.init (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/cweijan.vscode-database-client2-9.0.1/out/extension.js:218680:54)
+	at Qln (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/cweijan.vscode-database-client2-9.0.1/out/extension.js:220217:10)
+	at zd._callActivateOptional (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:538:18738)
+	at zd._callActivate (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:538:18448)
+	at file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:538:16422
+	at async Hb._activate (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:534:16021)
+	at async Hb._waitForDepsThenActivate (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:534:15963)
+	at async Hb._initialize (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:534:15330)
+2026-11-23 05:24:15.603 [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: false, activationEvent: 'onNotebookSerializer:jupyter-notebook'
+2026-11-23 05:24:17.026 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onNotebook:jupyter-notebook'
+2026-11-23 05:24:17.026 [info] ExtensionService#_doActivateExtension ms-toolsai.vscode-jupyter-cell-tags, startup: false, activationEvent: 'onNotebook:jupyter-notebook'
+2026-11-23 05:24:17.031 [info] ExtensionService#_doActivateExtension ms-toolsai.vscode-jupyter-slideshow, startup: false, activationEvent: 'onNotebook:jupyter-notebook'
+2026-11-23 05:24:17.458 [warning] DiagnosticCollection with name 'eslint' does already exist.
+2026-11-23 05:24:19.325 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+2026-11-23 05:24:20.276 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+2026-11-23 05:24:20.839 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+2026-11-23 05:24:20.839 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2026-11-23 05:24:22.361 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+2026-11-23 05:24:22.362 [info] ExtensionService#_doActivateExtension vscode.mermaid-markdown-features, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+2026-11-23 05:24:26.452 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2026-11-23 05:33:27.378 [error] Error: Canceled future for complete_request message before replies were done
+	at Ms.dispose (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-toolsai.jupyter-2025.9.1/dist/node_modules/@jupyterlab/services/lib/kernel/default/index.js:17:43404)
+	at /usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-toolsai.jupyter-2025.9.1/dist/node_modules/@jupyterlab/services/lib/kernel/default/index.js:17:57939
+	at Map.forEach (<anonymous>)
+	at n._clearKernelState (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-toolsai.jupyter-2025.9.1/dist/node_modules/@jupyterlab/services/lib/kernel/default/index.js:17:57925)
+	at n.dispose (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-toolsai.jupyter-2025.9.1/dist/node_modules/@jupyterlab/services/lib/kernel/default/index.js:17:51191)
+	at /usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-toolsai.jupyter-2025.9.1/dist/extension.node.js:309:11004
+	at ci (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-toolsai.jupyter-2025.9.1/dist/extension.node.js:60:10550)
+	at JT.start (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-toolsai.jupyter-2025.9.1/dist/extension.node.js:309:10980)
+	at JT.restart (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-toolsai.jupyter-2025.9.1/dist/extension.node.js:309:10765)
+	at UT.restart (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-toolsai.jupyter-2025.9.1/dist/extension.node.js:279:30732)
+	at dT.restart (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-toolsai.jupyter-2025.9.1/dist/extension.node.js:282:33385)
+	at async n.wrapKernelMethodImpl (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-toolsai.jupyter-2025.9.1/dist/extension.node.js:309:84556)
+2026-11-23 06:43:48.780 [error] [ms-python.python] provider FAILED
+2026-11-23 06:43:48.784 [error] Error: KeyError: 'list_few'
+	at ae (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/out/client/extension.js:2:2045190)
+	at oe (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/out/client/extension.js:2:2043156)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/out/client/extension.js:2:2039455)
+	at process.processImmediate (node:internal/timers:504:21)
+2026-11-23 06:43:48.809 [error] [ms-python.python] provider FAILED
+2026-11-23 06:43:48.809 [error] Error: KeyError: 'list_few'
+	at ae (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/out/client/extension.js:2:2045190)
+	at oe (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/out/client/extension.js:2:2043156)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/out/client/extension.js:2:2039455)
+	at process.processImmediate (node:internal/timers:504:21)
+2026-11-23 06:43:49.058 [error] [ms-python.python] provider FAILED
+2026-11-23 06:43:49.059 [error] Error: KeyError: 'list_few'
+	at ae (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/out/client/extension.js:2:2045190)
+	at oe (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/out/client/extension.js:2:2043156)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/out/client/extension.js:2:2039455)
+	at process.processImmediate (node:internal/timers:504:21)
+2026-11-23 06:43:49.240 [error] [ms-python.python] provider FAILED
+2026-11-23 06:43:49.240 [error] Error: KeyError: 'list_few'
+	at ae (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/out/client/extension.js:2:2045190)
+	at oe (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/out/client/extension.js:2:2043156)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/out/client/extension.js:2:2039455)
+	at process.processImmediate (node:internal/timers:504:21)
+2026-11-23 08:00:36.968 [info] Extension host terminating: received terminate message from renderer
+2026-11-23 08:00:36.971 [info] Lock '/voc/work/.local/share/code-server/User/workspaceStorage/-7709b43a/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2026-11-23 08:00:37.082 [error] Unable to refresh tree view cell-tag: Canceled
+2026-11-23 08:00:37.089 [error] Unable to refresh tree view cell-tag: Canceled
+2026-11-23 08:00:37.119 [info] Extension host with pid 156 exiting with code 0

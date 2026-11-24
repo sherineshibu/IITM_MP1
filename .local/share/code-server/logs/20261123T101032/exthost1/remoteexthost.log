@@ -1,0 +1,113 @@
+2026-11-23 10:10:47.480 [info] Extension host with pid 79 started
+2026-11-23 10:10:47.498 [info] Lock '/voc/work/.local/share/code-server/User/workspaceStorage/-3fa9382/vscode.lock': Lock acquired.
+2026-11-23 10:10:47.836 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-11-23 10:10:47.837 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-11-23 10:10:48.194 [info] ExtensionService#_doActivateExtension formulahendry.auto-close-tag, startup: true, activationEvent: '*'
+2026-11-23 10:10:48.195 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-11-23 10:10:48.199 [info] ExtensionService#_doActivateExtension synedra.auto-run-command, startup: true, activationEvent: '*'
+2026-11-23 10:10:48.503 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2026-11-23 10:10:48.503 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-11-23 10:10:49.188 [info] Eager extensions activated
+2026-11-23 10:10:49.188 [info] ExtensionService#_doActivateExtension Anthropic.claude-code, startup: false, activationEvent: 'onStartupFinished'
+2026-11-23 10:10:49.193 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2026-11-23 10:10:49.197 [info] ExtensionService#_doActivateExtension cweijan.vscode-database-client2, startup: false, activationEvent: 'onStartupFinished'
+2026-11-23 10:10:49.202 [info] ExtensionService#_doActivateExtension cweijan.vscode-office, startup: false, activationEvent: 'onStartupFinished'
+2026-11-23 10:10:49.206 [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint, startup: false, activationEvent: 'onStartupFinished'
+2026-11-23 10:10:49.211 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-11-23 10:10:49.215 [info] ExtensionService#_doActivateExtension ecmel.vscode-html-css, startup: false, activationEvent: 'onStartupFinished'
+2026-11-23 10:10:49.220 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-11-23 10:10:49.225 [info] ExtensionService#_doActivateExtension ms-dotnettools.vscode-dotnet-runtime, startup: false, activationEvent: 'onStartupFinished'
+2026-11-23 10:10:51.927 [error] Error: Extension dbclient-jdbc not found!
+	at r.upgradeJDBC (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/cweijan.vscode-database-client2-9.0.1/out/extension.js:157674:15)
+	at r.initTreeView (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/cweijan.vscode-database-client2-9.0.1/out/extension.js:218686:10)
+	at r.init (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/cweijan.vscode-database-client2-9.0.1/out/extension.js:218680:54)
+	at Qln (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/cweijan.vscode-database-client2-9.0.1/out/extension.js:220217:10)
+	at zd._callActivateOptional (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:538:18738)
+	at zd._callActivate (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:538:18448)
+	at file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:538:16422
+	at async Hb._activate (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:534:16021)
+	at async Hb._waitForDepsThenActivate (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:534:15963)
+	at async Hb._initialize (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:534:15330)
+2026-11-23 10:12:27.371 [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: false, activationEvent: 'onNotebookSerializer:jupyter-notebook'
+2026-11-23 10:12:28.650 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onNotebook:jupyter-notebook'
+2026-11-23 10:12:28.651 [info] ExtensionService#_doActivateExtension ms-toolsai.vscode-jupyter-cell-tags, startup: false, activationEvent: 'onNotebook:jupyter-notebook'
+2026-11-23 10:12:28.656 [info] ExtensionService#_doActivateExtension ms-toolsai.vscode-jupyter-slideshow, startup: false, activationEvent: 'onNotebook:jupyter-notebook'
+2026-11-23 10:12:28.808 [warning] DiagnosticCollection with name 'eslint' does already exist.
+2026-11-23 10:12:29.184 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+2026-11-23 10:12:29.418 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+2026-11-23 10:12:37.135 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2026-11-23 10:12:53.792 [error] Error: Canceled future for complete_request message before replies were done
+	at Ms.dispose (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-toolsai.jupyter-2025.9.1/dist/node_modules/@jupyterlab/services/lib/kernel/default/index.js:17:43404)
+	at /usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-toolsai.jupyter-2025.9.1/dist/node_modules/@jupyterlab/services/lib/kernel/default/index.js:17:57939
+	at Map.forEach (<anonymous>)
+	at n._clearKernelState (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-toolsai.jupyter-2025.9.1/dist/node_modules/@jupyterlab/services/lib/kernel/default/index.js:17:57925)
+	at n.dispose (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-toolsai.jupyter-2025.9.1/dist/node_modules/@jupyterlab/services/lib/kernel/default/index.js:17:51191)
+	at /usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-toolsai.jupyter-2025.9.1/dist/extension.node.js:309:11004
+	at ci (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-toolsai.jupyter-2025.9.1/dist/extension.node.js:60:10550)
+	at JT.start (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-toolsai.jupyter-2025.9.1/dist/extension.node.js:309:10980)
+	at JT.restart (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-toolsai.jupyter-2025.9.1/dist/extension.node.js:309:10765)
+	at UT.restart (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-toolsai.jupyter-2025.9.1/dist/extension.node.js:279:30732)
+	at dT.restart (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-toolsai.jupyter-2025.9.1/dist/extension.node.js:282:33385)
+	at async n.wrapKernelMethodImpl (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-toolsai.jupyter-2025.9.1/dist/extension.node.js:309:84556)
+2026-11-23 11:45:31.064 [error] [ms-python.python] provider FAILED
+2026-11-23 11:45:31.068 [error] Error: ValueError: `column` parameter (12) is not in a valid range (0-8) for line 225 ('# Run it\n').
+	at ae (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/out/client/extension.js:2:2045190)
+	at oe (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/out/client/extension.js:2:2043156)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/out/client/extension.js:2:2039455)
+	at process.processImmediate (node:internal/timers:504:21)
+2026-11-23 11:45:34.651 [error] [ms-python.python] provider FAILED
+2026-11-23 11:45:34.652 [error] Error: ValueError: `column` parameter (13) is not in a valid range (0-8) for line 225 ('# Run it\n').
+	at ae (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/out/client/extension.js:2:2045190)
+	at oe (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/out/client/extension.js:2:2043156)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/out/client/extension.js:2:2039455)
+	at process.processImmediate (node:internal/timers:504:21)
+2026-11-23 11:45:45.138 [error] [ms-python.python] provider FAILED
+2026-11-23 11:45:45.139 [error] Error: ValueError: `column` parameter (21) is not in a valid range (0-8) for line 225 ('# Run it\n').
+	at ae (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/out/client/extension.js:2:2045190)
+	at oe (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/out/client/extension.js:2:2043156)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/out/client/extension.js:2:2039455)
+	at process.processImmediate (node:internal/timers:504:21)
+2026-11-23 11:45:45.758 [error] [ms-python.python] provider FAILED
+2026-11-23 11:45:45.759 [error] Error: ValueError: `column` parameter (13) is not in a valid range (0-8) for line 225 ('# Run it\n').
+	at ae (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/out/client/extension.js:2:2045190)
+	at oe (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/out/client/extension.js:2:2043156)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/out/client/extension.js:2:2039455)
+	at process.processImmediate (node:internal/timers:504:21)
+2026-11-23 11:46:32.288 [error] [ms-python.python] provider FAILED
+2026-11-23 11:46:32.288 [error] Error: ValueError: `column` parameter (33) is not in a valid range (0-25) for line 236 ('    def normalize(value):\n').
+	at ae (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/out/client/extension.js:2:2045190)
+	at oe (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/out/client/extension.js:2:2043156)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/out/client/extension.js:2:2039455)
+	at process.processImmediate (node:internal/timers:504:21)
+2026-11-23 11:50:47.070 [error] [ms-python.python] provider FAILED
+2026-11-23 11:50:47.072 [error] Error: ValueError: `column` parameter (16) is not in a valid range (0-0) for line 232 ('\n').
+	at ae (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/out/client/extension.js:2:2045190)
+	at oe (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/out/client/extension.js:2:2043156)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/out/client/extension.js:2:2039455)
+	at process.processImmediate (node:internal/timers:504:21)
+2026-11-23 11:51:07.056 [error] [ms-python.python] provider FAILED
+2026-11-23 11:51:07.056 [error] Error: ValueError: `column` parameter (17) is not in a valid range (0-0) for line 326 ('\n').
+	at ae (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/out/client/extension.js:2:2045190)
+	at oe (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/out/client/extension.js:2:2043156)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/out/client/extension.js:2:2039455)
+	at process.processImmediate (node:internal/timers:504:21)
+2026-11-23 11:53:26.968 [error] [ms-python.python] provider FAILED
+2026-11-23 11:53:26.970 [error] Error: ValueError: `column` parameter (14) is not in a valid range (0-8) for line 225 ('# Run it\n').
+	at ae (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/out/client/extension.js:2:2045190)
+	at oe (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/out/client/extension.js:2:2043156)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/out/client/extension.js:2:2039455)
+	at process.processImmediate (node:internal/timers:504:21)
+2026-11-23 11:54:53.953 [error] [ms-python.python] provider FAILED
+2026-11-23 11:54:53.955 [error] Error: ValueError: `column` parameter (14) is not in a valid range (0-8) for line 225 ('# Run it\n').
+	at ae (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/out/client/extension.js:2:2045190)
+	at oe (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/out/client/extension.js:2:2043156)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/out/client/extension.js:2:2039455)
+	at process.processImmediate (node:internal/timers:504:21)
+2026-11-23 11:57:31.996 [info] ExtensionService#_doActivateExtension vscode.debug-server-ready, startup: false, activationEvent: 'onDebugResolve'
+2026-11-23 12:30:25.563 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2026-11-23 12:30:25.565 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2026-11-23 12:30:25.572 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2026-11-23 12:30:25.577 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+2026-11-23 12:31:38.954 [info] Extension host terminating: received terminate message from renderer
+2026-11-23 12:31:38.956 [info] Lock '/voc/work/.local/share/code-server/User/workspaceStorage/-3fa9382/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2026-11-23 12:31:39.107 [info] Extension host with pid 79 exiting with code 0

@@ -1,0 +1,314 @@
+code-server (1.126.0, vocproxy-1-37.us-west-2.vocareum.com, server-distro)
+Jupyter Extension Version: 2025.9.1.
+Python Extension Version: 2026.4.0.
+Python Environment Extension not installed.
+Pylance Extension not installed.
+Platform: linux (x64).
+Home = /voc/work
+Temp Storage folder ~/.local/share/code-server/User/globalStorage/ms-toolsai.jupyter/version-2025.9.1
+Workspace folder /voc/work
+05:24:19.965 [info] Telemetry level is off
+05:24:19.965 [info] Experiments are disabled, only manually opted experiments are active.
+05:33:19.931 [info] Starting Kernel (Python Path: /bin/python, Unknown, 3.10.14) for '~/AI-RAG_MP1_PromptLab/MP1_PromptLab/learner/MP1_Starter_Template.ipynb' (disableUI=true)
+05:33:19.957 [warn] Failed to get activated env vars for /bin/python in 777ms
+05:33:19.984 [info] Process Execution: /bin/python -c "import site;print("USER_BASE_VALUE");print(site.USER_BASE);print("USER_BASE_VALUE");"
+05:33:20.071 [info] Process Execution: /bin/python -m pip list
+05:33:20.484 [warn] Failed to get activated env vars for /bin/python in 539ms
+05:33:20.505 [info] Process Execution: /bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+05:33:20.527 [info] Process Execution: /bin/python -m ipykernel_launcher --f=~/.local/share/jupyter/runtime/kernel-v38530b45522195f495a004a6796409c8990937a72.json
+    > cwd: ~/AI-RAG_MP1_PromptLab/MP1_PromptLab/learner
+05:33:24.271 [info] Restart requested ~/AI-RAG_MP1_PromptLab/MP1_PromptLab/learner/MP1_Starter_Template.ipynb
+05:33:26.289 [info] Kernel successfully started
+05:33:26.343 [info] Process Execution: /bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+05:33:26.364 [info] Process Execution: /bin/python /usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-toolsai.jupyter-2025.9.1/pythonFiles/printJupyterDataDir.py
+05:33:26.463 [info] Process Execution: /bin/python -m ipykernel_launcher --f=~/.local/share/jupyter/runtime/kernel-v3a5fd63f71410c3ecd1f1208c2c257e35f3050390.json
+    > cwd: ~/AI-RAG_MP1_PromptLab/MP1_PromptLab/learner
+05:33:27.241 [error] Widget Error: Failed to access CDN https://unpkg.com/ after 0 attempt(s), TypeError: Failed to fetch
+05:33:27.666 [info] Restarted 8b093ffa-166d-4a00-8537-68faa9131230
+05:33:35.486 [info] Restart requested ~/AI-RAG_MP1_PromptLab/MP1_PromptLab/learner/MP1_Starter_Template.ipynb
+05:33:35.536 [info] Process Execution: /bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+05:33:35.616 [info] Process Execution: /bin/python -m ipykernel_launcher --f=~/.local/share/jupyter/runtime/kernel-v305e92b45578f7cddded10d31bb86363e6c3682f7.json
+    > cwd: ~/AI-RAG_MP1_PromptLab/MP1_PromptLab/learner
+05:33:36.633 [info] Restarted 8b093ffa-166d-4a00-8537-68faa9131230
+06:11:34.038 [info] Restart requested ~/AI-RAG_MP1_PromptLab/MP1_PromptLab/learner/MP1_Starter_Template.ipynb
+06:11:34.693 [warn] Failed to get activated env vars for /bin/python in 624ms
+06:11:34.719 [info] Process Execution: /bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+06:11:34.746 [info] Process Execution: /bin/python -m ipykernel_launcher --f=~/.local/share/jupyter/runtime/kernel-v37ca190f57562fd496edea8ab98a57f5afb3991e5.json
+    > cwd: ~/AI-RAG_MP1_PromptLab/MP1_PromptLab/learner
+06:11:35.721 [info] Restarted 8b093ffa-166d-4a00-8537-68faa9131230
+06:12:37.562 [warn] Cell completed with errors [Iu [Error]: NotImplementedError
+	at n.execute (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-toolsai.jupyter-2025.9.1/dist/extension.node.js:302:4958)] {
+  ename: 'NotImplementedError',
+  evalue: '',
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mNotImplementedError\x1B[0m                       Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[3], line 12\x1B[0m\n' +
+      "\x1B[1;32m      3\x1B[0m     \x1B[38;5;66;03m# TODO: return a messages list like [{'role': 'user', 'content': '...'}]\x1B[39;00m\n" +
+      '\x1B[1;32m      5\x1B[0m     \x1B[38;5;28;01mreturn\x1B[39;00m [{\x1B[38;5;124m"\x1B[39m\x1B[38;5;124mrole\x1B[39m\x1B[38;5;124m"\x1B[39m: \x1B[38;5;124m"\x1B[39m\x1B[38;5;124muser\x1B[39m\x1B[38;5;124m"\x1B[39m, \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mcontent\x1B[39m\x1B[38;5;124m"\x1B[39m: (\n' +
+      '\x1B[1;32m      6\x1B[0m         \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mExtract the hiring company, advertised role, and minimum years of experience \x1B[39m\x1B[38;5;124m"\x1B[39m\n' +
+      '\x1B[1;32m      7\x1B[0m         \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mas a JSON object with keys company, role, and years_experience_required \x1B[39m\x1B[38;5;124m"\x1B[39m\n' +
+      '\x1B[1;32m      8\x1B[0m         \x1B[38;5;124m"\x1B[39m\x1B[38;5;124m(integer or null for years).\x1B[39m\x1B[38;5;130;01m\\n\x1B[39;00m\x1B[38;5;124m"\x1B[39m\n' +
+      '\x1B[1;32m      9\x1B[0m         \x1B[38;5;124mf\x1B[39m\x1B[38;5;124m"\x1B[39m\x1B[38;5;124mJob snippet: \x1B[39m\x1B[38;5;132;01m{\x1B[39;00mjson\x1B[38;5;241m.\x1B[39mdumps(snippet_text)\x1B[38;5;132;01m}\x1B[39;00m\x1B[38;5;124m"\x1B[39m\n' +
+      '\x1B[1;32m     10\x1B[0m           )}]\n' +
+      '\x1B[0;32m---> 12\x1B[0m \x1B[38;5;28;01mraise\x1B[39;00m \x1B[38;5;167;01mNotImplementedError\x1B[39;00m\n' +
+      '\x1B[1;32m     15\x1B[0m \x1B[38;5;28;01mdef\x1B[39;00m \x1B[38;5;21mprompt_few_shot\x1B[39m(snippet_text: \x1B[38;5;28mstr\x1B[39m) \x1B[38;5;241m-\x1B[39m\x1B[38;5;241m>\x1B[39m \x1B[38;5;28mlist\x1B[39m[\x1B[38;5;28mdict\x1B[39m]:\n' +
+      '\x1B[1;32m     16\x1B[0m \x1B[38;5;250m    \x1B[39m\x1B[38;5;124;03m"""Strategy 2 — few-shot. Include 2-3 worked examples in the prompt."""\x1B[39;00m\n',
+    '\x1B[0;31mNotImplementedError\x1B[0m: '
+  ]
+}
+06:14:38.203 [warn] Cell completed with errors [Iu [Error]: Missing parentheses in call to 'print'. Did you mean print(...)? (1330652651.py, line 12)
+	at n.execute (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-toolsai.jupyter-2025.9.1/dist/extension.node.js:302:4958)] {
+  ename: 'SyntaxError',
+  evalue: "Missing parentheses in call to 'print'. Did you mean print(...)? (1330652651.py, line 12)",
+  traceback: [
+    '\x1B[0;36m  Cell \x1B[0;32mIn[7], line 12\x1B[0;36m\x1B[0m\n' +
+      '\x1B[0;31m    print prompt_zero_shot\x1B[0m\n' +
+      '\x1B[0m    ^\x1B[0m\n' +
+      "\x1B[0;31mSyntaxError\x1B[0m\x1B[0;31m:\x1B[0m Missing parentheses in call to 'print'. Did you mean print(...)?\n"
+  ]
+}
+06:15:08.884 [warn] Cell completed with errors [Iu [Error]: Missing parentheses in call to 'print'. Did you mean print(...)? (3576039178.py, line 12)
+	at n.execute (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-toolsai.jupyter-2025.9.1/dist/extension.node.js:302:4958)] {
+  ename: 'SyntaxError',
+  evalue: "Missing parentheses in call to 'print'. Did you mean print(...)? (3576039178.py, line 12)",
+  traceback: [
+    '\x1B[0;36m  Cell \x1B[0;32mIn[8], line 12\x1B[0;36m\x1B[0m\n' +
+      '\x1B[0;31m    print prompt_zero_shot()\x1B[0m\n' +
+      '\x1B[0m    ^\x1B[0m\n' +
+      "\x1B[0;31mSyntaxError\x1B[0m\x1B[0;31m:\x1B[0m Missing parentheses in call to 'print'. Did you mean print(...)?\n"
+  ]
+}
+06:15:38.500 [warn] Cell completed with errors [Iu [Error]: prompt_zero_shot() missing 1 required positional argument: 'snippet_text'
+	at n.execute (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-toolsai.jupyter-2025.9.1/dist/extension.node.js:302:4958)] {
+  ename: 'TypeError',
+  evalue: "prompt_zero_shot() missing 1 required positional argument: 'snippet_text'",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mTypeError\x1B[0m                                 Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[9], line 12\x1B[0m\n' +
+      "\x1B[1;32m      3\x1B[0m     \x1B[38;5;66;03m# TODO: return a messages list like [{'role': 'user', 'content': '...'}]\x1B[39;00m\n" +
+      '\x1B[1;32m      5\x1B[0m     \x1B[38;5;28;01mreturn\x1B[39;00m [{\x1B[38;5;124m"\x1B[39m\x1B[38;5;124mrole\x1B[39m\x1B[38;5;124m"\x1B[39m: \x1B[38;5;124m"\x1B[39m\x1B[38;5;124muser\x1B[39m\x1B[38;5;124m"\x1B[39m, \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mcontent\x1B[39m\x1B[38;5;124m"\x1B[39m: (\n' +
+      '\x1B[1;32m      6\x1B[0m         \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mExtract the hiring company, advertised role, and minimum years of experience \x1B[39m\x1B[38;5;124m"\x1B[39m\n' +
+      '\x1B[1;32m      7\x1B[0m         \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mas a JSON object with keys company, role, and years_experience_required \x1B[39m\x1B[38;5;124m"\x1B[39m\n' +
+      '\x1B[1;32m      8\x1B[0m         \x1B[38;5;124m"\x1B[39m\x1B[38;5;124m(integer or null for years).\x1B[39m\x1B[38;5;130;01m\\n\x1B[39;00m\x1B[38;5;124m"\x1B[39m\n' +
+      '\x1B[1;32m      9\x1B[0m         \x1B[38;5;124mf\x1B[39m\x1B[38;5;124m"\x1B[39m\x1B[38;5;124mJob snippet: \x1B[39m\x1B[38;5;132;01m{\x1B[39;00mjson\x1B[38;5;241m.\x1B[39mdumps(snippet_text)\x1B[38;5;132;01m}\x1B[39;00m\x1B[38;5;124m"\x1B[39m\n' +
+      '\x1B[1;32m     10\x1B[0m           )}]\n' +
+      '\x1B[0;32m---> 12\x1B[0m \x1B[38;5;28mprint\x1B[39m( \x1B[43mprompt_zero_shot\x1B[49m\x1B[43m(\x1B[49m\x1B[43m)\x1B[49m )\n' +
+      '\x1B[1;32m     13\x1B[0m \x1B[38;5;66;03m#raise NotImplementedError\x1B[39;00m\n' +
+      '\x1B[1;32m     16\x1B[0m \x1B[38;5;28;01mdef\x1B[39;00m \x1B[38;5;21mprompt_few_shot\x1B[39m(snippet_text: \x1B[38;5;28mstr\x1B[39m) \x1B[38;5;241m-\x1B[39m\x1B[38;5;241m>\x1B[39m \x1B[38;5;28mlist\x1B[39m[\x1B[38;5;28mdict\x1B[39m]:\n',
+    "\x1B[0;31mTypeError\x1B[0m: prompt_zero_shot() missing 1 required positional argument: 'snippet_text'"
+  ]
+}
+06:16:08.661 [warn] Cell completed with errors [Iu [Error]: 'function' object is not subscriptable
+	at n.execute (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-toolsai.jupyter-2025.9.1/dist/extension.node.js:302:4958)] {
+  ename: 'TypeError',
+  evalue: "'function' object is not subscriptable",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mTypeError\x1B[0m                                 Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[10], line 16\x1B[0m\n' +
+      '\x1B[1;32m     12\x1B[0m \x1B[38;5;28mlist\x1B[39m \x1B[38;5;241m=\x1B[39m prompt_zero_shot\n' +
+      '\x1B[1;32m     13\x1B[0m \x1B[38;5;66;03m#raise NotImplementedError\x1B[39;00m\n' +
+      '\x1B[0;32m---> 16\x1B[0m \x1B[38;5;28;01mdef\x1B[39;00m \x1B[38;5;21mprompt_few_shot\x1B[39m(snippet_text: \x1B[38;5;28mstr\x1B[39m) \x1B[38;5;241m-\x1B[39m\x1B[38;5;241m>\x1B[39m \x1B[38;5;28;43mlist\x1B[39;49m\x1B[43m[\x1B[49m\x1B[38;5;28;43mdict\x1B[39;49m\x1B[43m]\x1B[49m:\n' +
+      '\x1B[1;32m     17\x1B[0m \x1B[38;5;250m    \x1B[39m\x1B[38;5;124;03m"""Strategy 2 — few-shot. Include 2-3 worked examples in the prompt."""\x1B[39;00m\n' +
+      '\x1B[1;32m     18\x1B[0m     \x1B[38;5;66;03m# TODO: same shape, but include examples\x1B[39;00m\n',
+    "\x1B[0;31mTypeError\x1B[0m: 'function' object is not subscriptable"
+  ]
+}
+06:16:15.801 [warn] Cell completed with errors [Iu [Error]: 'function' object is not subscriptable
+	at n.execute (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-toolsai.jupyter-2025.9.1/dist/extension.node.js:302:4958)] {
+  ename: 'TypeError',
+  evalue: "'function' object is not subscriptable",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mTypeError\x1B[0m                                 Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[11], line 1\x1B[0m\n' +
+      '\x1B[0;32m----> 1\x1B[0m \x1B[38;5;28;01mdef\x1B[39;00m \x1B[38;5;21mprompt_zero_shot\x1B[39m(snippet_text: \x1B[38;5;28mstr\x1B[39m) \x1B[38;5;241m-\x1B[39m\x1B[38;5;241m>\x1B[39m \x1B[38;5;28;43mlist\x1B[39;49m\x1B[43m[\x1B[49m\x1B[38;5;28;43mdict\x1B[39;49m\x1B[43m]\x1B[49m:\n' +
+      '\x1B[1;32m      2\x1B[0m \x1B[38;5;250m    \x1B[39m\x1B[38;5;124;03m"""Strategy 1 — zero-shot. Just ask, no examples, no persona."""\x1B[39;00m\n' +
+      "\x1B[1;32m      3\x1B[0m     \x1B[38;5;66;03m# TODO: return a messages list like [{'role': 'user', 'content': '...'}]\x1B[39;00m\n",
+    "\x1B[0;31mTypeError\x1B[0m: 'function' object is not subscriptable"
+  ]
+}
+06:17:10.659 [warn] Cell completed with errors [Iu [Error]: 'function' object is not subscriptable
+	at n.execute (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-toolsai.jupyter-2025.9.1/dist/extension.node.js:302:4958)] {
+  ename: 'TypeError',
+  evalue: "'function' object is not subscriptable",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mTypeError\x1B[0m                                 Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[12], line 1\x1B[0m\n' +
+      '\x1B[0;32m----> 1\x1B[0m \x1B[38;5;28;01mdef\x1B[39;00m \x1B[38;5;21mprompt_zero_shot\x1B[39m(snippet_text: \x1B[38;5;28mstr\x1B[39m) \x1B[38;5;241m-\x1B[39m\x1B[38;5;241m>\x1B[39m \x1B[38;5;28;43mlist\x1B[39;49m\x1B[43m[\x1B[49m\x1B[38;5;28;43mdict\x1B[39;49m\x1B[43m]\x1B[49m:\n' +
+      '\x1B[1;32m      2\x1B[0m \x1B[38;5;250m    \x1B[39m\x1B[38;5;124;03m"""Strategy 1 — zero-shot. Just ask, no examples, no persona."""\x1B[39;00m\n' +
+      "\x1B[1;32m      3\x1B[0m     \x1B[38;5;66;03m# TODO: return a messages list like [{'role': 'user', 'content': '...'}]\x1B[39;00m\n",
+    "\x1B[0;31mTypeError\x1B[0m: 'function' object is not subscriptable"
+  ]
+}
+06:17:21.139 [warn] Cell completed with errors [Iu [Error]: 'function' object is not subscriptable
+	at n.execute (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-toolsai.jupyter-2025.9.1/dist/extension.node.js:302:4958)] {
+  ename: 'TypeError',
+  evalue: "'function' object is not subscriptable",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mTypeError\x1B[0m                                 Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[13], line 1\x1B[0m\n' +
+      '\x1B[0;32m----> 1\x1B[0m \x1B[38;5;28;01mdef\x1B[39;00m \x1B[38;5;21mprompt_zero_shot\x1B[39m(snippet_text: \x1B[38;5;28mstr\x1B[39m) \x1B[38;5;241m-\x1B[39m\x1B[38;5;241m>\x1B[39m \x1B[38;5;28;43mlist\x1B[39;49m\x1B[43m[\x1B[49m\x1B[38;5;28;43mdict\x1B[39;49m\x1B[43m]\x1B[49m:\n' +
+      '\x1B[1;32m      2\x1B[0m \x1B[38;5;250m    \x1B[39m\x1B[38;5;124;03m"""Strategy 1 — zero-shot. Just ask, no examples, no persona."""\x1B[39;00m\n' +
+      "\x1B[1;32m      3\x1B[0m     \x1B[38;5;66;03m# TODO: return a messages list like [{'role': 'user', 'content': '...'}]\x1B[39;00m\n",
+    "\x1B[0;31mTypeError\x1B[0m: 'function' object is not subscriptable"
+  ]
+}
+06:17:57.417 [warn] Cell completed with errors [Iu [Error]: 'function' object is not subscriptable
+	at n.execute (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-toolsai.jupyter-2025.9.1/dist/extension.node.js:302:4958)] {
+  ename: 'TypeError',
+  evalue: "'function' object is not subscriptable",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mTypeError\x1B[0m                                 Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[14], line 1\x1B[0m\n' +
+      '\x1B[0;32m----> 1\x1B[0m \x1B[38;5;28;01mdef\x1B[39;00m \x1B[38;5;21mprompt_zero_shot\x1B[39m(snippet_text: \x1B[38;5;28mstr\x1B[39m) \x1B[38;5;241m-\x1B[39m\x1B[38;5;241m>\x1B[39m \x1B[38;5;28;43mlist\x1B[39;49m\x1B[43m[\x1B[49m\x1B[38;5;28;43mdict\x1B[39;49m\x1B[43m]\x1B[49m:\n' +
+      '\x1B[1;32m      2\x1B[0m \x1B[38;5;250m    \x1B[39m\x1B[38;5;124;03m"""Strategy 1 — zero-shot. Just ask, no examples, no persona."""\x1B[39;00m\n' +
+      "\x1B[1;32m      3\x1B[0m     \x1B[38;5;66;03m# TODO: return a messages list like [{'role': 'user', 'content': '...'}]\x1B[39;00m\n",
+    "\x1B[0;31mTypeError\x1B[0m: 'function' object is not subscriptable"
+  ]
+}
+06:18:44.008 [warn] Cell completed with errors [Iu [Error]: 'function' object is not subscriptable
+	at n.execute (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-toolsai.jupyter-2025.9.1/dist/extension.node.js:302:4958)] {
+  ename: 'TypeError',
+  evalue: "'function' object is not subscriptable",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mTypeError\x1B[0m                                 Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[15], line 1\x1B[0m\n' +
+      '\x1B[0;32m----> 1\x1B[0m \x1B[38;5;28;01mdef\x1B[39;00m \x1B[38;5;21mprompt_zero_shot\x1B[39m(snippet_text: \x1B[38;5;28mstr\x1B[39m) \x1B[38;5;241m-\x1B[39m\x1B[38;5;241m>\x1B[39m \x1B[38;5;28;43mlist\x1B[39;49m\x1B[43m[\x1B[49m\x1B[38;5;28;43mdict\x1B[39;49m\x1B[43m]\x1B[49m:\n' +
+      '\x1B[1;32m      2\x1B[0m \x1B[38;5;250m    \x1B[39m\x1B[38;5;124;03m"""Strategy 1 — zero-shot. Just ask, no examples, no persona."""\x1B[39;00m\n' +
+      "\x1B[1;32m      3\x1B[0m     \x1B[38;5;66;03m# TODO: return a messages list like [{'role': 'user', 'content': '...'}]\x1B[39;00m\n",
+    "\x1B[0;31mTypeError\x1B[0m: 'function' object is not subscriptable"
+  ]
+}
+06:19:37.538 [warn] Cell completed with errors [Iu [Error]: 'function' object is not subscriptable
+	at n.execute (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-toolsai.jupyter-2025.9.1/dist/extension.node.js:302:4958)] {
+  ename: 'TypeError',
+  evalue: "'function' object is not subscriptable",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mTypeError\x1B[0m                                 Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[16], line 1\x1B[0m\n' +
+      '\x1B[0;32m----> 1\x1B[0m \x1B[38;5;28;01mdef\x1B[39;00m \x1B[38;5;21mprompt_zero_shot\x1B[39m(snippet_text: \x1B[38;5;28mstr\x1B[39m) \x1B[38;5;241m-\x1B[39m\x1B[38;5;241m>\x1B[39m \x1B[38;5;28;43mlist\x1B[39;49m\x1B[43m[\x1B[49m\x1B[38;5;28;43mdict\x1B[39;49m\x1B[43m]\x1B[49m:\n' +
+      '\x1B[1;32m      2\x1B[0m \x1B[38;5;250m    \x1B[39m\x1B[38;5;124;03m"""Strategy 1 — zero-shot. Just ask, no examples, no persona."""\x1B[39;00m\n' +
+      "\x1B[1;32m      3\x1B[0m     \x1B[38;5;66;03m# TODO: return a messages list like [{'role': 'user', 'content': '...'}]\x1B[39;00m\n",
+    "\x1B[0;31mTypeError\x1B[0m: 'function' object is not subscriptable"
+  ]
+}
+06:19:44.039 [info] Restart requested ~/AI-RAG_MP1_PromptLab/MP1_PromptLab/learner/MP1_Starter_Template.ipynb
+06:19:44.654 [warn] Failed to get activated env vars for /bin/python in 586ms
+06:19:44.675 [info] Process Execution: /bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+06:19:44.697 [info] Process Execution: /bin/python -m ipykernel_launcher --f=~/.local/share/jupyter/runtime/kernel-v352da2cc7951e3eb0b03fabf3386bf65c8c5a3941.json
+    > cwd: ~/AI-RAG_MP1_PromptLab/MP1_PromptLab/learner
+06:19:45.761 [info] Restarted 8b093ffa-166d-4a00-8537-68faa9131230
+06:19:53.616 [warn] Cell completed with errors [Iu [Error]: name 'Path' is not defined
+	at n.execute (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-toolsai.jupyter-2025.9.1/dist/extension.node.js:302:4958)] {
+  ename: 'NameError',
+  evalue: "name 'Path' is not defined",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mNameError\x1B[0m                                 Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[1], line 1\x1B[0m\n' +
+      "\x1B[0;32m----> 1\x1B[0m DATA_DIR \x1B[38;5;241m=\x1B[39m \x1B[43mPath\x1B[49m(\x1B[38;5;124m'\x1B[39m\x1B[38;5;124m../data\x1B[39m\x1B[38;5;124m'\x1B[39m)   \x1B[38;5;66;03m# adjust if your folder layout differs\x1B[39;00m\n" +
+      "\x1B[1;32m      3\x1B[0m snippets \x1B[38;5;241m=\x1B[39m [json\x1B[38;5;241m.\x1B[39mloads(line) \x1B[38;5;28;01mfor\x1B[39;00m line \x1B[38;5;129;01min\x1B[39;00m (DATA_DIR \x1B[38;5;241m/\x1B[39m \x1B[38;5;124m'\x1B[39m\x1B[38;5;124mjob_snippets.jsonl\x1B[39m\x1B[38;5;124m'\x1B[39m)\x1B[38;5;241m.\x1B[39mread_text()\x1B[38;5;241m.\x1B[39msplitlines() \x1B[38;5;28;01mif\x1B[39;00m line\x1B[38;5;241m.\x1B[39mstrip()]\n" +
+      "\x1B[1;32m      4\x1B[0m golden \x1B[38;5;241m=\x1B[39m {row[\x1B[38;5;124m'\x1B[39m\x1B[38;5;124mid\x1B[39m\x1B[38;5;124m'\x1B[39m]: row \x1B[38;5;28;01mfor\x1B[39;00m row \x1B[38;5;129;01min\x1B[39;00m (json\x1B[38;5;241m.\x1B[39mloads(line) \x1B[38;5;28;01mfor\x1B[39;00m line \x1B[38;5;129;01min\x1B[39;00m (DATA_DIR \x1B[38;5;241m/\x1B[39m \x1B[38;5;124m'\x1B[39m\x1B[38;5;124mgolden_set.jsonl\x1B[39m\x1B[38;5;124m'\x1B[39m)\x1B[38;5;241m.\x1B[39mread_text()\x1B[38;5;241m.\x1B[39msplitlines() \x1B[38;5;28;01mif\x1B[39;00m line\x1B[38;5;241m.\x1B[39mstrip())}\n",
+    "\x1B[0;31mNameError\x1B[0m: name 'Path' is not defined"
+  ]
+}
+06:20:24.415 [warn] Cell completed with errors [Iu [Error]: NotImplementedError
+	at n.execute (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-toolsai.jupyter-2025.9.1/dist/extension.node.js:302:4958)] {
+  ename: 'NotImplementedError',
+  evalue: '',
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mNotImplementedError\x1B[0m                       Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[4], line 10\x1B[0m\n' +
+      "\x1B[1;32m      3\x1B[0m     \x1B[38;5;66;03m# TODO: return a messages list like [{'role': 'user', 'content': '...'}]\x1B[39;00m\n" +
+      '\x1B[1;32m      4\x1B[0m     \x1B[38;5;28;01mreturn\x1B[39;00m [{\x1B[38;5;124m"\x1B[39m\x1B[38;5;124mrole\x1B[39m\x1B[38;5;124m"\x1B[39m: \x1B[38;5;124m"\x1B[39m\x1B[38;5;124muser\x1B[39m\x1B[38;5;124m"\x1B[39m, \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mcontent\x1B[39m\x1B[38;5;124m"\x1B[39m: (\n' +
+      '\x1B[1;32m      5\x1B[0m         \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mExtract the hiring company, advertised role, and minimum years of experience \x1B[39m\x1B[38;5;124m"\x1B[39m\n' +
+      '\x1B[1;32m      6\x1B[0m         \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mas a JSON object with keys company, role, and years_experience_required \x1B[39m\x1B[38;5;124m"\x1B[39m\n' +
+      '\x1B[1;32m      7\x1B[0m         \x1B[38;5;124m"\x1B[39m\x1B[38;5;124m(integer or null for years).\x1B[39m\x1B[38;5;130;01m\\n\x1B[39;00m\x1B[38;5;124m"\x1B[39m\n' +
+      '\x1B[1;32m      8\x1B[0m         \x1B[38;5;124mf\x1B[39m\x1B[38;5;124m"\x1B[39m\x1B[38;5;124mJob snippet: \x1B[39m\x1B[38;5;132;01m{\x1B[39;00mjson\x1B[38;5;241m.\x1B[39mdumps(snippet_text)\x1B[38;5;132;01m}\x1B[39;00m\x1B[38;5;124m"\x1B[39m\n' +
+      '\x1B[1;32m      9\x1B[0m           )}]\n' +
+      '\x1B[0;32m---> 10\x1B[0m \x1B[38;5;28;01mraise\x1B[39;00m \x1B[38;5;167;01mNotImplementedError\x1B[39;00m\n' +
+      '\x1B[1;32m     13\x1B[0m \x1B[38;5;28;01mdef\x1B[39;00m \x1B[38;5;21mprompt_few_shot\x1B[39m(snippet_text: \x1B[38;5;28mstr\x1B[39m) \x1B[38;5;241m-\x1B[39m\x1B[38;5;241m>\x1B[39m \x1B[38;5;28mlist\x1B[39m[\x1B[38;5;28mdict\x1B[39m]:\n' +
+      '\x1B[1;32m     14\x1B[0m \x1B[38;5;250m    \x1B[39m\x1B[38;5;124;03m"""Strategy 2 — few-shot. Include 2-3 worked examples in the prompt."""\x1B[39;00m\n',
+    '\x1B[0;31mNotImplementedError\x1B[0m: '
+  ]
+}
+06:21:01.333 [warn] Cell completed with errors [Iu [Error]: prompt_zero_shot() missing 1 required positional argument: 'snippet_text'
+	at n.execute (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-toolsai.jupyter-2025.9.1/dist/extension.node.js:302:4958)] {
+  ename: 'TypeError',
+  evalue: "prompt_zero_shot() missing 1 required positional argument: 'snippet_text'",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mTypeError\x1B[0m                                 Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[6], line 1\x1B[0m\n' +
+      '\x1B[0;32m----> 1\x1B[0m \x1B[38;5;28mlist\x1B[39m \x1B[38;5;241m=\x1B[39m \x1B[43mprompt_zero_shot\x1B[49m\x1B[43m(\x1B[49m\x1B[43m)\x1B[49m\n',
+    "\x1B[0;31mTypeError\x1B[0m: prompt_zero_shot() missing 1 required positional argument: 'snippet_text'"
+  ]
+}
+06:42:22.584 [warn] Cell completed with errors [Iu [Error]: list indices must be integers or slices, not type
+	at n.execute (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-toolsai.jupyter-2025.9.1/dist/extension.node.js:302:4958)] {
+  ename: 'TypeError',
+  evalue: 'list indices must be integers or slices, not type',
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mTypeError\x1B[0m                                 Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[10], line 1\x1B[0m\n' +
+      '\x1B[0;32m----> 1\x1B[0m \x1B[38;5;28;01mdef\x1B[39;00m \x1B[38;5;21mprompt_zero_shot\x1B[39m(snippet_text: \x1B[38;5;28mstr\x1B[39m) \x1B[38;5;241m-\x1B[39m\x1B[38;5;241m>\x1B[39m \x1B[38;5;28;43mlist\x1B[39;49m\x1B[43m[\x1B[49m\x1B[38;5;28;43mdict\x1B[39;49m\x1B[43m]\x1B[49m:\n' +
+      '\x1B[1;32m      2\x1B[0m \x1B[38;5;250m    \x1B[39m\x1B[38;5;124;03m"""Strategy 1 — zero-shot. Just ask, no examples, no persona."""\x1B[39;00m\n' +
+      "\x1B[1;32m      3\x1B[0m     \x1B[38;5;66;03m# TODO: return a messages list like [{'role': 'user', 'content': '...'}]\x1B[39;00m\n",
+    '\x1B[0;31mTypeError\x1B[0m: list indices must be integers or slices, not type'
+  ]
+}
+06:44:01.815 [warn] Cell completed with errors [Iu [Error]: NotImplementedError
+	at n.execute (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-toolsai.jupyter-2025.9.1/dist/extension.node.js:302:4958)] {
+  ename: 'NotImplementedError',
+  evalue: '',
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mNotImplementedError\x1B[0m                       Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[11], line 4\x1B[0m\n' +
+      '\x1B[1;32m      1\x1B[0m \x1B[38;5;28mlist\x1B[39m \x1B[38;5;241m=\x1B[39m prompt_zero_shot(\x1B[38;5;124m"\x1B[39m\x1B[38;5;124mAcme Corp is hiring a Senior Software Engineer to join our platform team. The ideal candidate has 5+ years of backend development experience and strong skills in Python and distributed systems.\x1B[39m\x1B[38;5;124m"\x1B[39m);\n' +
+      '\x1B[1;32m      2\x1B[0m \x1B[38;5;28mlist\x1B[39m\n' +
+      '\x1B[0;32m----> 4\x1B[0m list_few \x1B[38;5;241m=\x1B[39m \x1B[43mprompt_few_shot\x1B[49m\x1B[43m(\x1B[49m\x1B[38;5;124;43m"\x1B[39;49m\x1B[38;5;124;43mAcme Corp is hiring a Senior Software Engineer to join our platform team. The ideal candidate has 5+ years of backend development experience and strong skills in Python and distributed systems.\x1B[39;49m\x1B[38;5;124;43m"\x1B[39;49m\x1B[43m)\x1B[49m;\n' +
+      '\x1B[1;32m      5\x1B[0m list_few\n',
+    'Cell \x1B[0;32mIn[5], line 16\x1B[0m, in \x1B[0;36mprompt_few_shot\x1B[0;34m(snippet_text)\x1B[0m\n' +
+      '\x1B[1;32m     14\x1B[0m \x1B[38;5;250m\x1B[39m\x1B[38;5;124;03m"""Strategy 2 — few-shot. Include 2-3 worked examples in the prompt."""\x1B[39;00m\n' +
+      '\x1B[1;32m     15\x1B[0m \x1B[38;5;66;03m# TODO: same shape, but include examples\x1B[39;00m\n' +
+      '\x1B[0;32m---> 16\x1B[0m \x1B[38;5;28;01mraise\x1B[39;00m \x1B[38;5;167;01mNotImplementedError\x1B[39;00m\n',
+    '\x1B[0;31mNotImplementedError\x1B[0m: '
+  ]
+}
+06:44:11.916 [info] Restart requested ~/AI-RAG_MP1_PromptLab/MP1_PromptLab/learner/MP1_Starter_Template.ipynb
+06:44:12.562 [warn] Failed to get activated env vars for /bin/python in 611ms
+06:44:12.583 [info] Process Execution: /bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+06:44:12.608 [info] Process Execution: /bin/python -m ipykernel_launcher --f=~/.local/share/jupyter/runtime/kernel-v333ac3380898490bf98264e5b9531bee5ea455a65.json
+    > cwd: ~/AI-RAG_MP1_PromptLab/MP1_PromptLab/learner
+06:44:13.581 [info] Restarted 8b093ffa-166d-4a00-8537-68faa9131230
+06:44:23.867 [warn] Cell completed with errors [Iu [Error]: 'return' outside function (559301908.py, line 16)
+	at n.execute (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-toolsai.jupyter-2025.9.1/dist/extension.node.js:302:4958)] {
+  ename: 'SyntaxError',
+  evalue: "'return' outside function (559301908.py, line 16)",
+  traceback: [
+    '\x1B[0;36m  Cell \x1B[0;32mIn[3], line 16\x1B[0;36m\x1B[0m\n' +
+      '\x1B[0;31m    return [{"role": "user", "content": (\x1B[0m\n' +
+      '\x1B[0m    ^\x1B[0m\n' +
+      "\x1B[0;31mSyntaxError\x1B[0m\x1B[0;31m:\x1B[0m 'return' outside function\n"
+  ]
+}
+06:44:23.868 [warn] Cancel all remaining cells due to cancellation or failure in execution
+08:00:37.025 [info] Dispose Kernel '~/AI-RAG_MP1_PromptLab/MP1_PromptLab/learner/MP1_Starter_Template.ipynb' associated with '~/AI-RAG_MP1_PromptLab/MP1_PromptLab/learner/MP1_Starter_Template.ipynb'
+08:00:37.111 [warn] Failed to delete connection file file://~/.local/share/jupyter/runtime/kernel-v333ac3380898490bf98264e5b9531bee5ea455a65.json for pid 7694 [Canceled (FileSystemError): Canceled
+	at ir._handleError (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:534:22201)
+	at Object.stat (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:534:19119)
+	at async ou.delete (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-toolsai.jupyter-2025.9.1/dist/extension.node.js:236:16320)
+	at async /usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-toolsai.jupyter-2025.9.1/dist/extension.node.js:308:469] {
+  code: 'Unknown'
+}

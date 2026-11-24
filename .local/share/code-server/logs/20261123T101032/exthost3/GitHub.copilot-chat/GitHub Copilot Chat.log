@@ -1,0 +1,299 @@
+2026-11-23 12:40:19.080 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2026-11-23 12:40:19.080 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2026-11-23 12:40:19.084 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2026-11-23 12:40:19.088 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2026-11-23 12:40:19.093 [info] ConversationFeature: Waiting for copilot token or BYOK model to activate conversation feature
+2026-11-23 12:40:19.097 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without a Copilot token source
+2026-11-23 12:40:19.101 [info] [CopilotCLIModels] Skipping model fetch since there is no Copilot token source
+2026-11-23 12:40:19.106 [info] BYOK: registered 9 provider(s): ollama, anthropic, gemini, xai, openai, openrouter, azure, customoai, customendpoint
+2026-11-23 12:40:19.110 [info] BYOK: fetching known models list
+2026-11-23 12:40:19.114 [info] Can't use the Electron fetcher in this environment.
+2026-11-23 12:40:19.118 [info] Using the Node fetch fetcher.
+2026-11-23 12:40:19.123 [info] activationBlocker from 'languageModelAccess' took for 69ms
+2026-11-23 12:40:19.127 [info] [CopilotCLI] MCP server started. Lock file: /voc/work/.copilot/ide/0c7ea6f4-9433-4afd-91ea-8993be725639.lock
+2026-11-23 12:40:19.132 [info] [CopilotCLI] Server URI: unix:/tmp/mcp-p0aWro/mcp.sock#%2Fmcp
+2026-11-23 12:40:19.136 [info] [CopilotCLI] OpenTelemetry enabled: exporter=file, source=github.copilot
+2026-11-23 12:40:19.184 [info] BYOK: Copilot Chat known models list fetched successfully.
+2026-11-23 12:40:19.452 [info] [CopilotCLIChatSessionContentProvider] listSessions took 1804.7109269999783ms
+2026-11-23 12:40:19.457 [info] [CopilotCLIChatSessionContentProvider] listSessions took 239.11615100002382ms
+2026-11-23 12:40:19.646 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without a Copilot token source
+2026-11-23 12:40:20.529 [info] Logged in as sherineshibu
+2026-11-23 12:40:21.356 [info] Got Copilot token for sherineshibu
+2026-11-23 12:40:21.361 [info] Copilot Chat: 0.54.0, VS Code: 1.126.0
+2026-11-23 12:40:21.540 [info] copilot token sku: free_limited_copilot
+2026-11-23 12:40:21.544 [info] ConversationFeature: Activating contributions
+2026-11-23 12:40:21.548 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2026-11-23 12:40:21.554 [info] Registering default platform agent...
+2026-11-23 12:40:21.571 [info] copilot token sku: free_limited_copilot
+2026-11-23 12:40:21.575 [info] [code-referencing] Public code references are enabled.
+2026-11-23 12:40:21.579 [info] copilot token sku: free_limited_copilot
+2026-11-23 12:40:21.583 [info] [code-referencing] Public code references are enabled.
+2026-11-23 12:40:21.587 [info] activationBlocker from 'conversationFeature' took for 10261ms
+2026-11-23 12:40:21.592 [info] [context keys] Setting context key: github.copilot-chat.activated
+2026-11-23 12:40:22.695 [info] Fetched model metadata in 11362ms f7ba5a34-007b-41c2-b06d-803e3e6de3d0
+2026-11-23 12:40:22.878 [info] Latest entry: ccreq:latest.copilotmd
+2026-11-23 12:40:22.883 [info] ccreq:f0f44ffe.copilotmd | markdown
+2026-11-23 12:40:23.201 [info] ConversationFeature: BYOK models available
+2026-11-23 12:40:23.221 [info] copilot token sku: free_limited_copilot
+2026-11-23 12:40:24.704 [info] Logged in as sherineshibu
+2026-11-23 12:40:25.297 [info] Got Copilot token for sherineshibu
+2026-11-23 12:40:25.301 [info] Copilot Chat: 0.54.0, VS Code: 1.126.0
+2026-11-23 12:40:25.325 [info] copilot token sku: free_limited_copilot
+2026-11-23 12:40:25.329 [info] [code-referencing] Public code references are enabled.
+2026-11-23 12:40:25.335 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent identity change. Has token: true
+2026-11-23 12:40:25.339 [info] copilot token sku: free_limited_copilot
+2026-11-23 12:40:25.368 [info] GithubAvailableEmbeddingTypesManager: Got embeddings. Primary: metis-1024-I16-Binary. Deprecated: 
+2026-11-23 12:40:25.374 [info] WorkspaceChunkSearchService: using embedding type metis-1024-I16-Binary
+2026-11-23 12:40:25.395 [error] Failed to create database. Falling back to in-memory db: Error: unable to open database file
+2026-11-23 12:40:25.844 [info] Fetched model metadata in 524ms 054536eb-a1d5-4987-aaec-6c8712c87814
+2026-11-23 12:40:25.885 [info] ccreq:52c9750d.copilotmd | markdown
+2026-11-23 12:40:52.429 [info] message 0 returned. finish reason: [stop]
+2026-11-23 12:40:52.439 [info] request done: requestId: [e474f24c-cc0e-4970-87a4-88d0cb21324f] model deployment ID: []
+2026-11-23 12:40:52.445 [info] ccreq:c2be5a53.copilotmd | success | gpt-4o-mini-2024-07-18 | 689ms | [title]
+2026-11-23 12:40:53.537 [info] message 0 returned. finish reason: [stop]
+2026-11-23 12:40:53.543 [info] request done: requestId: [feff50ba-2a0b-4089-997b-09ffbf4c95de] model deployment ID: []
+2026-11-23 12:40:53.548 [info] ccreq:c62decc5.copilotmd | success | gpt-4o-mini-2024-07-18 | 1048ms | [progressMessages]
+2026-11-23 12:40:53.741 [info] message 0 returned. finish reason: [stop]
+2026-11-23 12:40:53.750 [info] request done: requestId: [42e7df2a-dfc5-4113-9db2-57e0d69f2193] model deployment ID: []
+2026-11-23 12:40:53.755 [info] ccreq:c7a1e255.copilotmd | success | gpt-4o-mini-2024-07-18 | 1235ms | [progressMessages]
+2026-11-23 12:40:59.862 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-11-23 12:41:04.684 [warning] Tool dbclient-get-databases failed validation: schema must have a properties object
+2026-11-23 12:41:08.452 [info] ccreq:e8614869.copilotmd | success | mai-code-2-flash | 3767ms | [panel/editAgent]
+2026-11-23 12:41:09.059 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-11-23 12:41:11.270 [warning] Tool dbclient-get-databases failed validation: schema must have a properties object
+2026-11-23 12:41:16.388 [info] ccreq:2fa99230.copilotmd | success | mai-code-2-flash | 5118ms | [panel/editAgent]
+2026-11-23 12:41:16.992 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-11-23 12:41:20.198 [error] Error from tool read_notebook_cell_output with args {"filePath":"/voc/work/AI-RAG_MP1_PromptLab/MP1_PromptLab/learner/MP1_Starter_Template.ipynb","cellId":"VSC-ec9e78a9"}: Cell not found, use the read_file file tool to get the latest content of the notebook file.: Error: Cell not found, use the read_file file tool to get the latest content of the notebook file.
+	at XMe.invoke (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/copilot/dist/extension.js:5899:1291)
+	at Hk.$invokeTool (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:655:4184)
+2026-11-23 12:41:20.507 [warning] Tool dbclient-get-databases failed validation: schema must have a properties object
+2026-11-23 12:41:25.771 [info] ccreq:10d3e6c0.copilotmd | success | mai-code-2-flash | 5264ms | [panel/editAgent]
+2026-11-23 12:41:26.385 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-11-23 12:41:28.863 [warning] Tool dbclient-get-databases failed validation: schema must have a properties object
+2026-11-23 12:41:34.591 [info] ccreq:ec2c94e6.copilotmd | success | mai-code-2-flash | 5727ms | [panel/editAgent]
+2026-11-23 12:41:35.213 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-11-23 12:41:36.407 [error] Error from tool run_notebook_cell with args {"filePath":"/voc/work/AI-RAG_MP1_PromptLab/MP1_PromptLab/learner/MP1_Starter_Template.ipynb","cellId":"VSC-ec9e78a9","reason":"Execute the run_all cell to capture the exact error"}: Cell VSC-ec9e78a9 not found in the notebook, use the read_file file tool to get the latest content of the notebook file: Error: Cell VSC-ec9e78a9 not found in the notebook, use the read_file file tool to get the latest content of the notebook file
+	at KMe.getNotebookAndCell (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/copilot/dist/extension.js:5896:1053)
+	at KMe.prepareInvocation (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/copilot/dist/extension.js:5896:494)
+	at Hk.$prepareToolInvocation (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:655:5357)
+	at i._doInvokeHandler (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:435:111397)
+	at i._invokeHandler (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:435:111145)
+	at i._receiveRequest (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:435:109876)
+	at i._receiveOneMessage (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:435:108765)
+	at mp.value (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:435:106840)
+	at E._deliver (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:431:3244)
+	at E.fire (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:431:3562)
+	at ds.fire (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:433:8505)
+	at mp.value (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:852:9989)
+	at E._deliver (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:431:3244)
+	at E.fire (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:431:3562)
+	at ds.fire (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:433:8505)
+	at Ic._receiveMessage (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:433:13405)
+	at mp.value (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:433:10710)
+	at E._deliver (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:431:3244)
+	at E.fire (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:431:3562)
+	at YI.acceptChunk (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:433:6305)
+	at mp.value (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:433:5438)
+	at E._deliver (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:431:3244)
+	at E.fire (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:431:3562)
+	at hD._processReadQueue (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:433:25533)
+2026-11-23 12:41:36.718 [warning] Tool dbclient-get-databases failed validation: schema must have a properties object
+2026-11-23 12:41:47.440 [info] ccreq:4f148a6c.copilotmd | success | mai-code-2-flash | 10722ms | [panel/editAgent]
+2026-11-23 12:41:48.188 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-11-23 12:41:50.959 [warning] Tool dbclient-get-databases failed validation: schema must have a properties object
+2026-11-23 12:42:04.726 [info] ccreq:a81a1a0d.copilotmd | success | mai-code-2-flash | 13765ms | [panel/editAgent]
+2026-11-23 12:42:05.360 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-11-23 12:42:08.402 [warning] Tool dbclient-get-databases failed validation: schema must have a properties object
+2026-11-23 12:42:16.456 [info] ccreq:eb8d6ce9.copilotmd | success | mai-code-2-flash | 8053ms | [panel/editAgent]
+2026-11-23 12:42:17.052 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-11-23 12:42:18.295 [error] Error from tool run_notebook_cell with args {"filePath":"/voc/work/AI-RAG_MP1_PromptLab/MP1_PromptLab/learner/MP1_Starter_Template.ipynb","cellId":"VSC-ec9e78a9","reason":"Run the run_all cell after fixing the code","continueOnError":false}: Cell VSC-ec9e78a9 not found in the notebook, use the read_file file tool to get the latest content of the notebook file: Error: Cell VSC-ec9e78a9 not found in the notebook, use the read_file file tool to get the latest content of the notebook file
+	at KMe.getNotebookAndCell (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/copilot/dist/extension.js:5896:1053)
+	at KMe.prepareInvocation (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/copilot/dist/extension.js:5896:494)
+	at Hk.$prepareToolInvocation (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:655:5357)
+	at i._doInvokeHandler (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:435:111397)
+	at i._invokeHandler (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:435:111145)
+	at i._receiveRequest (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:435:109876)
+	at i._receiveOneMessage (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:435:108765)
+	at mp.value (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:435:106840)
+	at E._deliver (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:431:3244)
+	at E.fire (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:431:3562)
+	at ds.fire (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:433:8505)
+	at mp.value (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:852:9989)
+	at E._deliver (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:431:3244)
+	at E.fire (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:431:3562)
+	at ds.fire (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:433:8505)
+	at Ic._receiveMessage (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:433:13405)
+	at mp.value (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:433:10710)
+	at E._deliver (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:431:3244)
+	at E.fire (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:431:3562)
+	at YI.acceptChunk (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:433:6305)
+	at mp.value (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:433:5438)
+	at E._deliver (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:431:3244)
+	at E.fire (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:431:3562)
+	at hD._processReadQueue (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:433:25533)
+2026-11-23 12:42:18.620 [warning] Tool dbclient-get-databases failed validation: schema must have a properties object
+2026-11-23 12:42:24.400 [info] ccreq:18c7f13f.copilotmd | success | mai-code-2-flash | 5778ms | [panel/editAgent]
+2026-11-23 12:42:25.684 [info] message 0 returned. finish reason: [stop]
+2026-11-23 12:42:25.690 [info] request done: requestId: [a7c9813b-a8c2-4d65-bbc4-5c9ff45614c8] model deployment ID: []
+2026-11-23 12:42:25.695 [info] ccreq:a86ee1e1.copilotmd | success | gpt-4o-mini-2024-07-18 | 704ms | [copilotLanguageModelWrapper]
+2026-11-23 12:42:25.929 [info] [ToolCallingLoop] Stop hook result: shouldContinue=false, reasons=undefined
+2026-11-23 12:45:07.249 [info] ccreq:6fe81b45.copilotmd | markdown
+2026-11-23 12:45:36.413 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-11-23 12:45:37.930 [warning] Tool dbclient-get-databases failed validation: schema must have a properties object
+2026-11-23 12:45:46.629 [info] ccreq:4fd2d4a5.copilotmd | success | mai-code-2-flash | 8699ms | [panel/editAgent]
+2026-11-23 12:45:47.252 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-11-23 12:45:50.265 [warning] Tool dbclient-get-databases failed validation: schema must have a properties object
+2026-11-23 12:45:58.341 [info] ccreq:c7b80e75.copilotmd | success | mai-code-2-flash | 8075ms | [panel/editAgent]
+2026-11-23 12:45:59.077 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-11-23 12:46:02.793 [warning] Tool dbclient-get-databases failed validation: schema must have a properties object
+2026-11-23 12:46:09.017 [info] ccreq:eecf83da.copilotmd | success | mai-code-2-flash | 6222ms | [panel/editAgent]
+2026-11-23 12:46:09.671 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-11-23 12:46:13.380 [warning] Tool dbclient-get-databases failed validation: schema must have a properties object
+2026-11-23 12:46:28.820 [info] ccreq:33bd89fb.copilotmd | success | mai-code-2-flash | 15439ms | [panel/editAgent]
+2026-11-23 12:46:29.486 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-11-23 12:46:35.224 [warning] Tool dbclient-get-databases failed validation: schema must have a properties object
+2026-11-23 12:46:50.141 [info] ccreq:0f0ecb4c.copilotmd | success | mai-code-2-flash | 14917ms | [panel/editAgent]
+2026-11-23 12:46:50.743 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-11-23 12:46:55.287 [warning] Tool dbclient-get-databases failed validation: schema must have a properties object
+2026-11-23 12:47:04.709 [info] ccreq:51c556d9.copilotmd | success | mai-code-2-flash | 9421ms | [panel/editAgent]
+2026-11-23 12:47:05.880 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-11-23 12:47:07.786 [error] Error from tool run_notebook_cell with args {"filePath":"/voc/work/AI-RAG_MP1_PromptLab/MP1_PromptLab/learner/MP1_Starter_Template.ipynb","cellId":"VSC-776434fc","reason":"Rerun setup to restore the built-in list type and kernel imports","continueOnError":false}: Cell VSC-776434fc not found in the notebook, use the read_file file tool to get the latest content of the notebook file: Error: Cell VSC-776434fc not found in the notebook, use the read_file file tool to get the latest content of the notebook file
+	at KMe.getNotebookAndCell (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/copilot/dist/extension.js:5896:1053)
+	at KMe.prepareInvocation (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/copilot/dist/extension.js:5896:494)
+	at Hk.$prepareToolInvocation (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:655:5357)
+	at i._doInvokeHandler (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:435:111397)
+	at i._invokeHandler (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:435:111145)
+	at i._receiveRequest (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:435:109876)
+	at i._receiveOneMessage (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:435:108765)
+	at mp.value (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:435:106840)
+	at E._deliver (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:431:3244)
+	at E.fire (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:431:3562)
+	at ds.fire (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:433:8505)
+	at mp.value (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:852:9989)
+	at E._deliver (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:431:3244)
+	at E.fire (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:431:3562)
+	at ds.fire (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:433:8505)
+	at Ic._receiveMessage (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:433:13405)
+	at mp.value (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:433:10710)
+	at E._deliver (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:431:3244)
+	at E.fire (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:431:3562)
+	at YI.acceptChunk (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:433:6305)
+	at mp.value (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:433:5438)
+	at E._deliver (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:431:3244)
+	at E.fire (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:431:3562)
+	at hD._processReadQueue (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:433:25533)
+2026-11-23 12:47:08.098 [warning] Tool dbclient-get-databases failed validation: schema must have a properties object
+2026-11-23 12:47:19.903 [info] ccreq:5df1579c.copilotmd | success | mai-code-2-flash | 11804ms | [panel/editAgent]
+2026-11-23 12:47:20.508 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-11-23 12:47:23.308 [warning] Tool dbclient-get-databases failed validation: schema must have a properties object
+2026-11-23 12:47:34.629 [info] ccreq:e2761d27.copilotmd | success | mai-code-2-flash | 11320ms | [panel/editAgent]
+2026-11-23 12:47:35.261 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-11-23 12:47:37.104 [warning] Tool dbclient-get-databases failed validation: schema must have a properties object
+2026-11-23 12:47:43.735 [info] ccreq:5dda957a.copilotmd | success | mai-code-2-flash | 6630ms | [panel/editAgent]
+2026-11-23 12:47:44.356 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-11-23 12:47:45.500 [error] Error from tool run_notebook_cell with args {"filePath":"/voc/work/AI-RAG_MP1_PromptLab/MP1_PromptLab/learner/MP1_Starter_Template.ipynb","cellId":"VSC-776434fc","reason":"Run setup so the cleanup code removes variables that shadow list","continueOnError":false}: Cell VSC-776434fc not found in the notebook, use the read_file file tool to get the latest content of the notebook file: Error: Cell VSC-776434fc not found in the notebook, use the read_file file tool to get the latest content of the notebook file
+	at KMe.getNotebookAndCell (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/copilot/dist/extension.js:5896:1053)
+	at KMe.prepareInvocation (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/copilot/dist/extension.js:5896:494)
+	at Hk.$prepareToolInvocation (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:655:5357)
+	at i._doInvokeHandler (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:435:111397)
+	at i._invokeHandler (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:435:111145)
+	at i._receiveRequest (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:435:109876)
+	at i._receiveOneMessage (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:435:108765)
+	at mp.value (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:435:106840)
+	at E._deliver (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:431:3244)
+	at E.fire (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:431:3562)
+	at ds.fire (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:433:8505)
+	at mp.value (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:852:9989)
+	at E._deliver (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:431:3244)
+	at E.fire (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:431:3562)
+	at ds.fire (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:433:8505)
+	at Ic._receiveMessage (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:433:13405)
+	at mp.value (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:433:10710)
+	at E._deliver (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:431:3244)
+	at E.fire (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:431:3562)
+	at YI.acceptChunk (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:433:6305)
+	at mp.value (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:433:5438)
+	at E._deliver (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:431:3244)
+	at E.fire (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:431:3562)
+	at hD._processReadQueue (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:433:25533)
+2026-11-23 12:47:45.819 [warning] Tool dbclient-get-databases failed validation: schema must have a properties object
+2026-11-23 12:48:02.550 [info] ccreq:b136c672.copilotmd | success | mai-code-2-flash | 16730ms | [panel/editAgent]
+2026-11-23 12:48:03.171 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-11-23 12:48:07.210 [warning] Tool dbclient-get-databases failed validation: schema must have a properties object
+2026-11-23 12:48:18.382 [info] ccreq:d1cfe6dd.copilotmd | success | mai-code-2-flash | 11170ms | [panel/editAgent]
+2026-11-23 12:50:09.523 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-11-23 12:51:40.907 [info] [CopilotCLIChatSessionContentProvider] listSessions took 35.97899099998176ms
+2026-11-23 12:51:42.936 [warning] Tool dbclient-get-databases failed validation: schema must have a properties object
+2026-11-23 12:51:58.658 [info] ccreq:dfc86670.copilotmd | success | mai-code-2-flash | 15722ms | [panel/editAgent]
+2026-11-23 12:51:59.527 [info] [ToolCallingLoop] Stop hook result: shouldContinue=false, reasons=undefined
+2026-11-23 12:51:59.765 [info] message 0 returned. finish reason: [stop]
+2026-11-23 12:51:59.773 [info] request done: requestId: [eae7bb86-4e7d-457a-b4c8-7be18c12dcca] model deployment ID: []
+2026-11-23 12:51:59.778 [info] ccreq:30a56d3a.copilotmd | success | gpt-4o-mini-2024-07-18 | 805ms | [copilotLanguageModelWrapper]
+2026-11-23 12:53:49.934 [info] ccreq:fd3af559.copilotmd | markdown
+2026-11-23 12:53:50.443 [info] ccreq:eae387ef.copilotmd | markdown
+2026-11-23 12:53:50.836 [info] ccreq:05193de7.copilotmd | markdown
+2026-11-23 12:53:50.843 [info] [fetchCompletions] Request cf001c2a-d0aa-450e-8730-423a18cb623a at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 402 status after 421.2587020001374ms
+2026-11-23 12:53:50.989 [info] ccreq:74f2a97a.copilotmd | markdown
+2026-11-23 12:53:50.996 [info] [fetchCompletions] Request 80512e72-eab6-4f6f-9628-80c889436b3e at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 402 status after 335.7188540000934ms
+2026-11-23 13:00:05.591 [info] Fetched model metadata in 588ms 27b1c521-8e65-40c7-8148-255e42fb28bb
+2026-11-23 13:00:05.688 [info] ccreq:39b1e306.copilotmd | markdown
+2026-11-23 13:00:06.326 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-11-23 13:00:07.896 [warning] Tool dbclient-get-databases failed validation: schema must have a properties object
+2026-11-23 13:00:23.169 [info] ccreq:443f8688.copilotmd | success | mai-code-2-flash | 15272ms | [panel/editAgent]
+2026-11-23 13:00:24.115 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-11-23 13:00:27.139 [warning] Tool dbclient-get-databases failed validation: schema must have a properties object
+2026-11-23 13:00:40.716 [info] ccreq:f7f02d5a.copilotmd | success | mai-code-2-flash | 13576ms | [panel/editAgent]
+2026-11-23 13:00:42.233 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-11-23 13:00:45.438 [warning] Tool dbclient-get-databases failed validation: schema must have a properties object
+2026-11-23 13:01:03.419 [info] ccreq:53059425.copilotmd | success | mai-code-2-flash | 17979ms | [panel/editAgent]
+2026-11-23 13:01:05.683 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-11-23 13:01:10.601 [warning] Tool dbclient-get-databases failed validation: schema must have a properties object
+2026-11-23 13:01:27.629 [info] ccreq:679aa457.copilotmd | success | mai-code-2-flash | 17027ms | [panel/editAgent]
+2026-11-23 13:01:28.230 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-11-23 13:01:29.554 [error] Error from tool run_notebook_cell with args {"filePath":"/voc/work/AI-RAG_MP1_PromptLab/MP1_PromptLab/learner/MP1_Starter_Template.ipynb","cellId":"VSC-8a9614a4","reason":"Build the improved comparison table and export it to Markdown","continueOnError":false}: Cell VSC-8a9614a4 not found in the notebook, use the read_file file tool to get the latest content of the notebook file: Error: Cell VSC-8a9614a4 not found in the notebook, use the read_file file tool to get the latest content of the notebook file
+	at KMe.getNotebookAndCell (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/copilot/dist/extension.js:5896:1053)
+	at KMe.prepareInvocation (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/copilot/dist/extension.js:5896:494)
+	at Hk.$prepareToolInvocation (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:655:5357)
+	at i._doInvokeHandler (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:435:111397)
+	at i._invokeHandler (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:435:111145)
+	at i._receiveRequest (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:435:109876)
+	at i._receiveOneMessage (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:435:108765)
+	at mp.value (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:435:106840)
+	at E._deliver (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:431:3244)
+	at E.fire (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:431:3562)
+	at ds.fire (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:433:8505)
+	at mp.value (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:852:9989)
+	at E._deliver (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:431:3244)
+	at E.fire (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:431:3562)
+	at ds.fire (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:433:8505)
+	at Ic._receiveMessage (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:433:13405)
+	at mp.value (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:433:10710)
+	at E._deliver (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:431:3244)
+	at E.fire (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:431:3562)
+	at YI.acceptChunk (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:433:6305)
+	at mp.value (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:433:5438)
+	at E._deliver (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:431:3244)
+	at E.fire (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:431:3562)
+	at hD._processReadQueue (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:433:25533)
+2026-11-23 13:01:29.913 [warning] Tool dbclient-get-databases failed validation: schema must have a properties object
+2026-11-23 13:01:40.961 [info] ccreq:56a62edb.copilotmd | success | mai-code-2-flash | 11047ms | [panel/editAgent]
+2026-11-23 13:01:41.219 [info] [ToolCallingLoop] Stop hook result: shouldContinue=false, reasons=undefined
+2026-11-23 13:01:58.284 [info] message 0 returned. finish reason: [stop]
+2026-11-23 13:01:58.293 [info] request done: requestId: [c7949456-a540-4f68-b13f-afef88b64d55] model deployment ID: []
+2026-11-23 13:01:58.298 [info] ccreq:64d9563c.copilotmd | success | gpt-4o-mini-2024-07-18 | 802ms | [copilotLanguageModelWrapper]
+2026-11-23 13:23:24.641 [info] Fetched model metadata in 630ms 05be4a84-67a0-4497-a6cf-f3174c1e76aa
+2026-11-23 13:23:24.809 [info] ccreq:04961aed.copilotmd | markdown
+2026-11-23 13:23:25.538 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-11-23 13:23:26.823 [warning] Tool dbclient-get-databases failed validation: schema must have a properties object
+2026-11-23 13:23:32.855 [info] ccreq:6876117d.copilotmd | success | mai-code-2-flash | 6031ms | [panel/editAgent]
+2026-11-23 13:23:33.526 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-11-23 13:23:36.141 [warning] Tool dbclient-get-databases failed validation: schema must have a properties object
+2026-11-23 13:23:44.839 [info] ccreq:311ef24a.copilotmd | success | mai-code-2-flash | 8698ms | [panel/editAgent]
+2026-11-23 13:23:45.526 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-11-23 13:23:49.690 [warning] Tool dbclient-get-databases failed validation: schema must have a properties object
+2026-11-23 13:23:53.087 [info] ccreq:5b1993b4.copilotmd | success | mai-code-2-flash | 3397ms | [panel/editAgent]
+2026-11-23 13:23:53.102 [info] [ToolCallingLoop] Stop hook result: shouldContinue=false, reasons=undefined
+2026-11-23 13:23:54.393 [info] message 0 returned. finish reason: [stop]
+2026-11-23 13:23:54.401 [info] request done: requestId: [070c2e90-6c82-4b3a-9c6d-93bbe50b72d2] model deployment ID: []
+2026-11-23 13:23:54.407 [info] ccreq:56456598.copilotmd | success | gpt-4o-mini-2024-07-18 | 837ms | [copilotLanguageModelWrapper]
+2026-11-23 13:29:22.419 [info] [CopilotCLIChatSessionContentProvider] listSessions took 39.789901999756694ms

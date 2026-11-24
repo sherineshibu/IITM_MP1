@@ -1,0 +1,47 @@
+code-server (1.126.0, vocproxy-1-95.us-west-2.vocareum.com, server-distro)
+Jupyter Extension Version: 2025.9.1.
+Python Extension Version: 2026.4.0.
+Python Environment Extension not installed.
+Pylance Extension not installed.
+Platform: linux (x64).
+Home = /voc/work
+Temp Storage folder ~/.local/share/code-server/User/globalStorage/ms-toolsai.jupyter/version-2025.9.1
+Workspace folder /voc/work
+13:56:43.567 [info] Telemetry level is off
+13:56:43.567 [info] Experiments are disabled, only manually opted experiments are active.
+13:56:47.939 [info] Starting Kernel (Python Path: /bin/python, Unknown, 3.10.14) for '~/AI-RAG_MP1_PromptLab/MP1_PromptLab/learner/MP1_Starter_Template.ipynb' (disableUI=true)
+13:56:48.525 [warn] Failed to get activated env vars for /bin/python in 579ms
+13:56:48.555 [info] Process Execution: /bin/python -c "import site;print("USER_BASE_VALUE");print(site.USER_BASE);print("USER_BASE_VALUE");"
+13:56:48.608 [info] Process Execution: /bin/python -m pip list
+13:56:48.613 [warn] Failed to get activated env vars for /bin/python in 641ms
+13:56:48.638 [info] Process Execution: /bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+13:56:48.670 [info] Process Execution: /bin/python -m ipykernel_launcher --f=~/.local/share/jupyter/runtime/kernel-v3dff22b20f8570f6925905eaf67e1ce62c24bc6d7.json
+    > cwd: ~/AI-RAG_MP1_PromptLab/MP1_PromptLab/learner
+13:56:51.015 [info] Kernel successfully started
+13:56:51.065 [info] Process Execution: /bin/python /usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-toolsai.jupyter-2025.9.1/pythonFiles/printJupyterDataDir.py
+13:56:51.930 [error] Widget Error: Failed to access CDN https://unpkg.com/ after 0 attempt(s), TypeError: Failed to fetch
+13:57:11.519 [warn] Cell completed with errors [Iu [Error]: name 'pd' is not defined
+	at n.execute (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-toolsai.jupyter-2025.9.1/dist/extension.node.js:302:4958)] {
+  ename: 'NameError',
+  evalue: "name 'pd' is not defined",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mNameError\x1B[0m                                 Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[1], line 3\x1B[0m\n' +
+      '\x1B[1;32m      1\x1B[0m \x1B[38;5;28;01mfrom\x1B[39;00m \x1B[38;5;21;01mIPython\x1B[39;00m\x1B[38;5;21;01m.\x1B[39;00m\x1B[38;5;21;01mdisplay\x1B[39;00m \x1B[38;5;28;01mimport\x1B[39;00m display\n' +
+      '\x1B[0;32m----> 3\x1B[0m df \x1B[38;5;241m=\x1B[39m \x1B[43mpd\x1B[49m\x1B[38;5;241m.\x1B[39mDataFrame(scored)\n' +
+      '\x1B[1;32m      4\x1B[0m strategy_labels \x1B[38;5;241m=\x1B[39m {\n' +
+      '\x1B[1;32m      5\x1B[0m     \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mzero_shot\x1B[39m\x1B[38;5;124m"\x1B[39m: \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mZero-shot\x1B[39m\x1B[38;5;124m"\x1B[39m,\n' +
+      '\x1B[1;32m      6\x1B[0m     \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mfew_shot\x1B[39m\x1B[38;5;124m"\x1B[39m: \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mFew-shot\x1B[39m\x1B[38;5;124m"\x1B[39m,\n' +
+      '\x1B[1;32m      7\x1B[0m     \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mstructured\x1B[39m\x1B[38;5;124m"\x1B[39m: \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mStructured\x1B[39m\x1B[38;5;124m"\x1B[39m,\n' +
+      '\x1B[1;32m      8\x1B[0m     \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mcot\x1B[39m\x1B[38;5;124m"\x1B[39m: \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mChain-of-thought\x1B[39m\x1B[38;5;124m"\x1B[39m,\n' +
+      '\x1B[1;32m      9\x1B[0m }\n' +
+      '\x1B[1;32m     11\x1B[0m \x1B[38;5;28;01mif\x1B[39;00m df\x1B[38;5;241m.\x1B[39mempty:\n',
+    "\x1B[0;31mNameError\x1B[0m: name 'pd' is not defined"
+  ]
+}
+13:57:42.221 [info] Restart requested ~/AI-RAG_MP1_PromptLab/MP1_PromptLab/learner/MP1_Starter_Template.ipynb
+13:57:42.288 [info] Process Execution: /bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+13:57:42.394 [info] Process Execution: /bin/python -m ipykernel_launcher --f=~/.local/share/jupyter/runtime/kernel-v3422dbaef3b7699aef26696a4ae19e34b06b15ba8.json
+    > cwd: ~/AI-RAG_MP1_PromptLab/MP1_PromptLab/learner
+13:57:43.385 [info] Restarted bcd2307b-fd86-4a52-ba5b-190d4817aa22

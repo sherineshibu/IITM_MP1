@@ -1,0 +1,276 @@
+2026-11-23 10:13:47.093 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "7"
+
+2026-11-23 10:13:54.088 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "14"
+
+2026-11-23 10:14:09.799 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "31"
+
+2026-11-23 10:14:12.830 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "37"
+
+2026-11-23 10:16:27.535 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "114"
+
+2026-11-23 10:16:27.703 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "115"
+
+2026-11-23 10:16:40.400 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "130"
+
+2026-11-23 10:16:45.695 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "133"
+
+2026-11-23 10:16:55.807 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "142"
+
+2026-11-23 10:18:05.882 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "199"
+
+2026-11-23 10:18:07.711 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "202"
+
+2026-11-23 10:18:17.912 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "207"
+
+2026-11-23 10:20:30.967 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "227"
+
+2026-11-23 10:20:33.694 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "228"
+
+2026-11-23 10:21:09.638 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "250"
+
+2026-11-23 10:21:25.418 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "259"
+
+2026-11-23 10:21:37.888 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "261"
+
+2026-11-23 10:22:10.908 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "288"
+
+2026-11-23 10:22:28.072 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "296"
+
+2026-11-23 10:22:28.079 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "297"
+
+2026-11-23 10:22:43.269 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "299"
+
+2026-11-23 10:22:46.725 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "305"
+
+2026-11-23 10:23:02.792 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "321"
+
+2026-11-23 10:25:57.299 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "443"
+
+2026-11-23 10:32:17.097 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "557"
+
+2026-11-23 10:35:23.131 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "659"
+
+2026-11-23 10:35:30.710 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "670"
+
+2026-11-23 10:35:48.773 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "693"
+
+2026-11-23 11:04:47.484 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "917"
+
+2026-11-23 11:14:32.745 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1079"
+
+2026-11-23 11:15:57.548 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1115"
+
+2026-11-23 11:18:18.331 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1146"
+
+2026-11-23 11:21:40.006 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1175"
+
+2026-11-23 11:21:40.274 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1176"
+
+2026-11-23 11:21:40.275 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1177"
+
+2026-11-23 11:25:46.506 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1228"
+
+2026-11-23 11:31:10.383 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1232"
+
+2026-11-23 11:32:34.054 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1236"
+
+2026-11-23 11:37:42.347 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1256"
+
+2026-11-23 11:45:31.052 [info] ERROR:pygls.protocol.json_rpc:Failed to handle request 1357 textDocument/hover HoverParams(text_document=TextDocumentIdentifier(uri='vscode-notebook-cell://vocproxy-1-95.us-west-2.vocareum.com/voc/work/AI-RAG_MP1_PromptLab/MP1_PromptLab/learner/MP1_Starter_Template.ipynb#X13sdnNjb2RlLXJlbW90ZQ%3D%3D'), position=1:12, work_done_token=None)
+Traceback (most recent call last):
+  File "/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 266, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 188, in _execute_request
+    self._send_response(msg_id, handler(params))
+  File "/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/python_files/lib/jedilsp/jedi_language_server/notebook_utils.py", line 373, in wrapped
+    result = f(notebook_server, notebook_params)
+  File "/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/python_files/lib/jedilsp/jedi_language_server/server.py", line 487, in hover
+    jedi_script.help(*jedi_lines),
+  File "/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/python_files/lib/jedilsp/jedi/api/helpers.py", line 484, in wrapper
+    raise ValueError('`column` parameter (%d) is not in a valid range '
+ValueError: `column` parameter (12) is not in a valid range (0-8) for line 225 ('# Run it\n').
+
+2026-11-23 11:45:31.055 [info] [Error - 11:45:31 AM] Request textDocument/hover failed.
+2026-11-23 11:45:31.059 [info]   Message: ValueError: `column` parameter (12) is not in a valid range (0-8) for line 225 ('# Run it\n').
+  Code: -32603 
+[object Object]
+2026-11-23 11:45:34.641 [info] ERROR:pygls.protocol.json_rpc:Failed to handle request 1358 textDocument/hover HoverParams(text_document=TextDocumentIdentifier(uri='vscode-notebook-cell://vocproxy-1-95.us-west-2.vocareum.com/voc/work/AI-RAG_MP1_PromptLab/MP1_PromptLab/learner/MP1_Starter_Template.ipynb#X13sdnNjb2RlLXJlbW90ZQ%3D%3D'), position=1:13, work_done_token=None)
+Traceback (most recent call last):
+  File "/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 266, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 188, in _execute_request
+    self._send_response(msg_id, handler(params))
+  File "/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/python_files/lib/jedilsp/jedi_language_server/notebook_utils.py", line 373, in wrapped
+    result = f(notebook_server, notebook_params)
+  File "/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/python_files/lib/jedilsp/jedi_language_server/server.py", line 487, in hover
+    jedi_script.help(*jedi_lines),
+  File "/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/python_files/lib/jedilsp/jedi/api/helpers.py", line 484, in wrapper
+    raise ValueError('`column` parameter (%d) is not in a valid range '
+ValueError: `column` parameter (13) is not in a valid range (0-8) for line 225 ('# Run it\n').
+
+2026-11-23 11:45:34.642 [info] [Error - 11:45:34 AM] Request textDocument/hover failed.
+2026-11-23 11:45:34.647 [info]   Message: ValueError: `column` parameter (13) is not in a valid range (0-8) for line 225 ('# Run it\n').
+  Code: -32603 
+[object Object]
+2026-11-23 11:45:45.109 [info] ERROR:pygls.protocol.json_rpc:Failed to handle request 1362 textDocument/hover HoverParams(text_document=TextDocumentIdentifier(uri='vscode-notebook-cell://vocproxy-1-95.us-west-2.vocareum.com/voc/work/AI-RAG_MP1_PromptLab/MP1_PromptLab/learner/MP1_Starter_Template.ipynb#X13sdnNjb2RlLXJlbW90ZQ%3D%3D'), position=1:21, work_done_token=None)
+Traceback (most recent call last):
+  File "/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 266, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 188, in _execute_request
+    self._send_response(msg_id, handler(params))
+  File "/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/python_files/lib/jedilsp/jedi_language_server/notebook_utils.py", line 373, in wrapped
+    result = f(notebook_server, notebook_params)
+  File "/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/python_files/lib/jedilsp/jedi_language_server/server.py", line 487, in hover
+    jedi_script.help(*jedi_lines),
+  File "/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/python_files/lib/jedilsp/jedi/api/helpers.py", line 484, in wrapper
+    raise ValueError('`column` parameter (%d) is not in a valid range '
+ValueError: `column` parameter (21) is not in a valid range (0-8) for line 225 ('# Run it\n').
+
+2026-11-23 11:45:45.109 [info] [Error - 11:45:45 AM] Request textDocument/hover failed.
+2026-11-23 11:45:45.132 [info]   Message: ValueError: `column` parameter (21) is not in a valid range (0-8) for line 225 ('# Run it\n').
+  Code: -32603 
+[object Object]
+2026-11-23 11:45:45.743 [info] ERROR:pygls.protocol.json_rpc:Failed to handle request 1363 textDocument/hover HoverParams(text_document=TextDocumentIdentifier(uri='vscode-notebook-cell://vocproxy-1-95.us-west-2.vocareum.com/voc/work/AI-RAG_MP1_PromptLab/MP1_PromptLab/learner/MP1_Starter_Template.ipynb#X13sdnNjb2RlLXJlbW90ZQ%3D%3D'), position=1:13, work_done_token=None)
+Traceback (most recent call last):
+  File "/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 266, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 188, in _execute_request
+    self._send_response(msg_id, handler(params))
+  File "/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/python_files/lib/jedilsp/jedi_language_server/notebook_utils.py", line 373, in wrapped
+    result = f(notebook_server, notebook_params)
+  File "/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/python_files/lib/jedilsp/jedi_language_server/server.py", line 487, in hover
+    jedi_script.help(*jedi_lines),
+  File "/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/python_files/lib/jedilsp/jedi/api/helpers.py", line 484, in wrapper
+    raise ValueError('`column` parameter (%d) is not in a valid range '
+ValueError: `column` parameter (13) is not in a valid range (0-8) for line 225 ('# Run it\n').
+
+2026-11-23 11:45:45.744 [info] [Error - 11:45:45 AM] Request textDocument/hover failed.
+2026-11-23 11:45:45.751 [info]   Message: ValueError: `column` parameter (13) is not in a valid range (0-8) for line 225 ('# Run it\n').
+  Code: -32603 
+[object Object]
+2026-11-23 11:46:32.278 [info] ERROR:pygls.protocol.json_rpc:Failed to handle request 1400 textDocument/hover HoverParams(text_document=TextDocumentIdentifier(uri='vscode-notebook-cell://vocproxy-1-95.us-west-2.vocareum.com/voc/work/AI-RAG_MP1_PromptLab/MP1_PromptLab/learner/MP1_Starter_Template.ipynb#X15sdnNjb2RlLXJlbW90ZQ%3D%3D'), position=8:33, work_done_token=None)
+Traceback (most recent call last):
+  File "/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 266, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 188, in _execute_request
+    self._send_response(msg_id, handler(params))
+  File "/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/python_files/lib/jedilsp/jedi_language_server/notebook_utils.py", line 373, in wrapped
+    result = f(notebook_server, notebook_params)
+  File "/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/python_files/lib/jedilsp/jedi_language_server/server.py", line 487, in hover
+    jedi_script.help(*jedi_lines),
+  File "/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/python_files/lib/jedilsp/jedi/api/helpers.py", line 484, in wrapper
+    raise ValueError('`column` parameter (%d) is not in a valid range '
+ValueError: `column` parameter (33) is not in a valid range (0-25) for line 236 ('    def normalize(value):\n').
+
+2026-11-23 11:46:32.279 [info] [Error - 11:46:32 AM] Request textDocument/hover failed.
+2026-11-23 11:46:32.284 [info]   Message: ValueError: `column` parameter (33) is not in a valid range (0-25) for line 236 ('    def normalize(value):\n').
+  Code: -32603 
+[object Object]
+2026-11-23 11:50:34.485 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1429"
+
+2026-11-23 11:50:47.060 [info] ERROR:pygls.protocol.json_rpc:Failed to handle request 1435 textDocument/hover HoverParams(text_document=TextDocumentIdentifier(uri='vscode-notebook-cell://vocproxy-1-95.us-west-2.vocareum.com/voc/work/AI-RAG_MP1_PromptLab/MP1_PromptLab/learner/MP1_Starter_Template.ipynb#X15sdnNjb2RlLXJlbW90ZQ%3D%3D'), position=4:16, work_done_token=None)
+Traceback (most recent call last):
+  File "/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 266, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 188, in _execute_request
+    self._send_response(msg_id, handler(params))
+  File "/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/python_files/lib/jedilsp/jedi_language_server/notebook_utils.py", line 373, in wrapped
+    result = f(notebook_server, notebook_params)
+  File "/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/python_files/lib/jedilsp/jedi_language_server/server.py", line 487, in hover
+    jedi_script.help(*jedi_lines),
+  File "/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/python_files/lib/jedilsp/jedi/api/helpers.py", line 484, in wrapper
+    raise ValueError('`column` parameter (%d) is not in a valid range '
+ValueError: `column` parameter (16) is not in a valid range (0-0) for line 232 ('\n').
+
+2026-11-23 11:50:47.060 [info] [Error - 11:50:47 AM] Request textDocument/hover failed.
+2026-11-23 11:50:47.065 [info]   Message: ValueError: `column` parameter (16) is not in a valid range (0-0) for line 232 ('\n').
+  Code: -32603 
+[object Object]
+2026-11-23 11:51:03.844 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1446"
+
+2026-11-23 11:51:07.045 [info] ERROR:pygls.protocol.json_rpc:Failed to handle request 1450 textDocument/hover HoverParams(text_document=TextDocumentIdentifier(uri='vscode-notebook-cell://vocproxy-1-95.us-west-2.vocareum.com/voc/work/AI-RAG_MP1_PromptLab/MP1_PromptLab/learner/MP1_Starter_Template.ipynb#X16sdnNjb2RlLXJlbW90ZQ%3D%3D'), position=20:17, work_done_token=None)
+Traceback (most recent call last):
+  File "/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 266, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 188, in _execute_request
+    self._send_response(msg_id, handler(params))
+  File "/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/python_files/lib/jedilsp/jedi_language_server/notebook_utils.py", line 373, in wrapped
+    result = f(notebook_server, notebook_params)
+  File "/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/python_files/lib/jedilsp/jedi_language_server/server.py", line 487, in hover
+    jedi_script.help(*jedi_lines),
+  File "/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/python_files/lib/jedilsp/jedi/api/helpers.py", line 484, in wrapper
+    raise ValueError('`column` parameter (%d) is not in a valid range '
+ValueError: `column` parameter (17) is not in a valid range (0-0) for line 326 ('\n').
+
+2026-11-23 11:51:07.046 [info] [Error - 11:51:07 AM] Request textDocument/hover failed.
+2026-11-23 11:51:07.051 [info]   Message: ValueError: `column` parameter (17) is not in a valid range (0-0) for line 326 ('\n').
+  Code: -32603 
+[object Object]
+2026-11-23 11:53:26.957 [info] ERROR:pygls.protocol.json_rpc:Failed to handle request 1517 textDocument/hover HoverParams(text_document=TextDocumentIdentifier(uri='vscode-notebook-cell://vocproxy-1-95.us-west-2.vocareum.com/voc/work/AI-RAG_MP1_PromptLab/MP1_PromptLab/learner/MP1_Starter_Template.ipynb#X13sdnNjb2RlLXJlbW90ZQ%3D%3D'), position=1:14, work_done_token=None)
+Traceback (most recent call last):
+  File "/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 266, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 188, in _execute_request
+    self._send_response(msg_id, handler(params))
+  File "/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/python_files/lib/jedilsp/jedi_language_server/notebook_utils.py", line 373, in wrapped
+    result = f(notebook_server, notebook_params)
+  File "/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/python_files/lib/jedilsp/jedi_language_server/server.py", line 487, in hover
+    jedi_script.help(*jedi_lines),
+  File "/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/python_files/lib/jedilsp/jedi/api/helpers.py", line 484, in wrapper
+    raise ValueError('`column` parameter (%d) is not in a valid range '
+ValueError: `column` parameter (14) is not in a valid range (0-8) for line 225 ('# Run it\n').
+
+2026-11-23 11:53:26.959 [info] [Error - 11:53:26 AM] Request textDocument/hover failed.
+2026-11-23 11:53:26.964 [info]   Message: ValueError: `column` parameter (14) is not in a valid range (0-8) for line 225 ('# Run it\n').
+  Code: -32603 
+[object Object]
+2026-11-23 11:54:53.942 [info] ERROR:pygls.protocol.json_rpc:Failed to handle request 1573 textDocument/hover HoverParams(text_document=TextDocumentIdentifier(uri='vscode-notebook-cell://vocproxy-1-95.us-west-2.vocareum.com/voc/work/AI-RAG_MP1_PromptLab/MP1_PromptLab/learner/MP1_Starter_Template.ipynb#X13sdnNjb2RlLXJlbW90ZQ%3D%3D'), position=1:14, work_done_token=None)
+Traceback (most recent call last):
+  File "/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 266, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 188, in _execute_request
+    self._send_response(msg_id, handler(params))
+  File "/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/python_files/lib/jedilsp/jedi_language_server/notebook_utils.py", line 373, in wrapped
+    result = f(notebook_server, notebook_params)
+  File "/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/python_files/lib/jedilsp/jedi_language_server/server.py", line 487, in hover
+    jedi_script.help(*jedi_lines),
+  File "/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/python_files/lib/jedilsp/jedi/api/helpers.py", line 484, in wrapper
+    raise ValueError('`column` parameter (%d) is not in a valid range '
+ValueError: `column` parameter (14) is not in a valid range (0-8) for line 225 ('# Run it\n').
+
+2026-11-23 11:54:53.945 [info] [Error - 11:54:53 AM] Request textDocument/hover failed.
+2026-11-23 11:54:53.949 [info]   Message: ValueError: `column` parameter (14) is not in a valid range (0-8) for line 225 ('# Run it\n').
+  Code: -32603 
+[object Object]
+2026-11-23 11:55:04.048 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1579"
+
+2026-11-23 11:55:38.894 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1592"
+
+2026-11-23 11:57:15.893 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1653"
+
+2026-11-23 11:57:16.212 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1654"
+
+2026-11-23 11:57:16.602 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1655"
+
+2026-11-23 11:58:18.941 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1681"
+
+2026-11-23 11:58:39.482 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1695"
+
+2026-11-23 11:58:39.787 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1696"
+
+2026-11-23 11:59:32.865 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1719"
+
+2026-11-23 12:09:47.793 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1771"
+
+2026-11-23 12:14:20.229 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1799"
+
+2026-11-23 12:14:31.466 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1807"
+
+2026-11-23 12:17:31.426 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1861"
+
+2026-11-23 12:21:24.864 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1960"
+
+2026-11-23 12:21:34.425 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1962"
+
+2026-11-23 12:30:19.615 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2302"
+

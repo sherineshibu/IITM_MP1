@@ -1,0 +1,41 @@
+2026-11-24 11:49:34.175 [info] Telemetry level is off
+2026-11-24 11:49:34.175 [info] Experiments are disabled, only manually opted experiments are active.
+2026-11-24 11:49:34.178 [warning] Dir "/voc/work/.pixi/envs" is not watchable (directory does not exist)
+2026-11-24 11:49:36.650 [info] Starting Environment refresh
+2026-11-24 11:49:36.650 [info] Searching for interpreters in posix paths locator
+2026-11-24 11:49:36.659 [info] Searching for pyenv environments
+2026-11-24 11:49:36.659 [info] Searching for conda environments
+2026-11-24 11:49:36.664 [info] Searching for global virtual environments
+2026-11-24 11:49:36.667 [info] Searching for custom virtual environments
+2026-11-24 11:49:36.684 [info] Skipping ActivatedEnv Detection:  process.env.VSCODE_CLI !== '1'
+2026-11-24 11:49:36.684 [info] Skipping ActivatedEnv Detection:  process.env.VSCODE_CLI !== '1'
+2026-11-24 11:49:36.692 [info] Finished searching for custom virtual envs: 37 milliseconds
+2026-11-24 11:49:36.693 [info] pyenv is not installed
+2026-11-24 11:49:36.697 [info] Finished searching for pyenv environments: 38 milliseconds
+2026-11-24 11:49:36.720 [info] > conda info --json
+2026-11-24 11:49:36.740 [info] > hatch env show --json
+2026-11-24 11:49:36.740 [info] cwd: .
+2026-11-24 11:49:36.765 [info] > pyenv which python
+2026-11-24 11:49:36.765 [info] cwd: .
+2026-11-24 11:49:36.769 [info] Finished searching for global virtual envs: 114 milliseconds
+2026-11-24 11:49:36.782 [info] Found: /bin/python --> /bin/python3.10
+2026-11-24 11:49:36.786 [info] Found: /bin/python3 --> /bin/python3.10
+2026-11-24 11:49:36.787 [info] Found: /bin/python3.10 --> /bin/python3.10
+2026-11-24 11:49:36.791 [info] Found: /bin/python3.8 --> /bin/python3.8
+2026-11-24 11:49:36.826 [info] Found: /usr/bin/python --> /usr/bin/python3.10
+2026-11-24 11:49:36.826 [info] Found: /usr/bin/python3 --> /usr/bin/python3.10
+2026-11-24 11:49:36.829 [info] Found: /usr/bin/python3.10 --> /usr/bin/python3.10
+2026-11-24 11:49:36.833 [info] Found: /usr/bin/python3.8 --> /usr/bin/python3.8
+2026-11-24 11:49:36.893 [info] > /bin/python -I /usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/python_files/get_output_via_markers.py /usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/python_files/interpreterInfo.py
+2026-11-24 11:49:36.927 [info] > /bin/python3.8 -I /usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/python_files/get_output_via_markers.py /usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/python_files/interpreterInfo.py
+2026-11-24 11:49:36.945 [info] Finished searching for interpreters in posix paths locator: 297 milliseconds
+2026-11-24 11:49:36.957 [info] Environments refresh paths discovered (event): 308 milliseconds
+2026-11-24 11:49:36.957 [info] Environments refresh paths discovered: 309 milliseconds
+2026-11-24 11:49:37.016 [info] > /usr/bin/python -I /usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/python_files/get_output_via_markers.py /usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/python_files/interpreterInfo.py
+2026-11-24 11:49:37.084 [info] > /usr/bin/python3.8 -I /usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/python_files/get_output_via_markers.py /usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/python_files/interpreterInfo.py
+2026-11-24 11:49:37.126 [info] Environments refresh finished (event): 477 milliseconds
+2026-11-24 11:49:37.134 [info] Environment refresh took 486 milliseconds
+2026-11-24 11:49:37.137 [info] Python interpreter path: /bin/python
+2026-11-24 11:49:39.212 [info] Starting Jedi language server for work.
+2026-11-24 11:51:37.197 [info] Active interpreter [/voc/work/AI-RAG_MP1_PromptLab/MP1_PromptLab/learner/mp1_prompt_lab.ipynb]:  /bin/python
+2026-11-24 12:17:49.314 [info] Active interpreter [/voc/work/AI-RAG_MP1_PromptLab/MP1_PromptLab/learner/mp1_prompt_lab.ipynb]:  /bin/python

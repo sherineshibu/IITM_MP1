@@ -1,0 +1,42 @@
+code-server (1.126.0, vocproxy-1-99.us-west-2.vocareum.com, server-distro)
+Jupyter Extension Version: 2025.9.1.
+Python Extension Version: 2026.4.0.
+Python Environment Extension not installed.
+Pylance Extension not installed.
+Platform: linux (x64).
+Home = /voc/work
+Temp Storage folder ~/.local/share/code-server/User/globalStorage/ms-toolsai.jupyter/version-2025.9.1
+Workspace folder /voc/work
+11:49:33.404 [info] Telemetry level is off
+11:49:33.404 [info] Experiments are disabled, only manually opted experiments are active.
+11:51:37.199 [info] Starting Kernel (Python Path: /bin/python, Unknown, 3.10.14) for '~/AI-RAG_MP1_PromptLab/MP1_PromptLab/learner/mp1_prompt_lab.ipynb' (disableUI=true)
+11:51:37.500 [warn] Failed to get activated env vars for /bin/python in 667ms
+11:51:37.536 [info] Process Execution: /bin/python -c "import site;print("USER_BASE_VALUE");print(site.USER_BASE);print("USER_BASE_VALUE");"
+11:51:37.597 [info] Process Execution: /bin/python -m pip list
+11:51:37.770 [warn] Failed to get activated env vars for /bin/python in 560ms
+11:51:37.792 [info] Process Execution: /bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+11:51:37.834 [info] Process Execution: /bin/python -m ipykernel_launcher --f=~/.local/share/jupyter/runtime/kernel-v3ada80affa1a6b29f17b7f14e065a653199341447.json
+    > cwd: ~/AI-RAG_MP1_PromptLab/MP1_PromptLab/learner
+11:51:39.792 [info] Kernel successfully started
+11:51:39.811 [info] Process Execution: /bin/python /usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-toolsai.jupyter-2025.9.1/pythonFiles/printJupyterDataDir.py
+11:51:40.828 [error] Widget Error: Failed to access CDN https://unpkg.com/ after 0 attempt(s), TypeError: Failed to fetch
+11:55:54.128 [info] Restart requested ~/AI-RAG_MP1_PromptLab/MP1_PromptLab/learner/mp1_prompt_lab.ipynb
+11:55:54.747 [warn] Failed to get activated env vars for /bin/python in 584ms
+11:55:54.773 [info] Process Execution: /bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+11:55:54.799 [info] Process Execution: /bin/python -m ipykernel_launcher --f=~/.local/share/jupyter/runtime/kernel-v3330d36799f6db250f8c970d4ffd12c798ffb9f03.json
+    > cwd: ~/AI-RAG_MP1_PromptLab/MP1_PromptLab/learner
+11:55:56.298 [info] Restarted 1772ae20-849a-462e-b110-332fc97e4236
+12:10:41.420 [info] Disposing request as the cell (17) was deleted ~/AI-RAG_MP1_PromptLab/MP1_PromptLab/learner/mp1_prompt_lab.ipynb
+12:10:41.420 [info] Disposing request as the cell (17) was deleted ~/AI-RAG_MP1_PromptLab/MP1_PromptLab/learner/mp1_prompt_lab.ipynb
+12:10:41.420 [info] Disposing request as the cell (17) was deleted ~/AI-RAG_MP1_PromptLab/MP1_PromptLab/learner/mp1_prompt_lab.ipynb
+12:10:41.420 [info] Dispose Kernel '~/AI-RAG_MP1_PromptLab/MP1_PromptLab/learner/mp1_prompt_lab.ipynb' associated with '~/AI-RAG_MP1_PromptLab/MP1_PromptLab/learner/mp1_prompt_lab.ipynb'
+12:17:49.316 [info] Starting Kernel (Python Path: /bin/python, Unknown, 3.10.14) for '~/AI-RAG_MP1_PromptLab/MP1_PromptLab/learner/mp1_prompt_lab.ipynb' (disableUI=true)
+12:17:49.885 [warn] Failed to get activated env vars for /bin/python in 565ms
+12:17:49.915 [info] Process Execution: /bin/python -m pip list
+12:17:49.919 [warn] Failed to get activated env vars for /bin/python in 594ms
+12:17:49.946 [info] Process Execution: /bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+12:17:49.979 [info] Process Execution: /bin/python -m ipykernel_launcher --f=~/.local/share/jupyter/runtime/kernel-v3237848aeaa2ffdbf50c0581a5b59012912970a31.json
+    > cwd: ~/AI-RAG_MP1_PromptLab/MP1_PromptLab/learner
+12:17:51.829 [info] Kernel successfully started
+12:17:52.978 [error] Widget Error: Failed to access CDN https://unpkg.com/ after 0 attempt(s), TypeError: Failed to fetch
+12:19:14.784 [error] Widget Error: Failed to access CDN https://unpkg.com/ after 0 attempt(s), TypeError: Failed to fetch

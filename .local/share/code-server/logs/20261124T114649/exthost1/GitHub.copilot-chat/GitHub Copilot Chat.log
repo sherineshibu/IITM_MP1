@@ -1,0 +1,105 @@
+2026-11-24 12:15:44.565 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2026-11-24 12:15:44.565 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2026-11-24 12:15:44.569 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2026-11-24 12:15:44.572 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2026-11-24 12:15:44.576 [info] ConversationFeature: Waiting for copilot token or BYOK model to activate conversation feature
+2026-11-24 12:15:44.580 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without a Copilot token source
+2026-11-24 12:15:44.584 [info] [CopilotCLIModels] Skipping model fetch since there is no Copilot token source
+2026-11-24 12:15:44.587 [info] BYOK: registered 9 provider(s): ollama, anthropic, gemini, xai, openai, openrouter, azure, customoai, customendpoint
+2026-11-24 12:15:44.590 [info] BYOK: fetching known models list
+2026-11-24 12:15:44.594 [info] Can't use the Electron fetcher in this environment.
+2026-11-24 12:15:44.598 [info] Using the Node fetch fetcher.
+2026-11-24 12:15:44.601 [info] activationBlocker from 'languageModelAccess' took for 68ms
+2026-11-24 12:15:44.606 [info] [CopilotCLI] MCP server started. Lock file: /voc/work/.copilot/ide/fb43ca31-9495-497e-8769-edb8b6afd8a2.lock
+2026-11-24 12:15:44.610 [info] [CopilotCLI] Server URI: unix:/tmp/mcp-TwMAQ8/mcp.sock#%2Fmcp
+2026-11-24 12:15:44.614 [info] [CopilotCLI] OpenTelemetry enabled: exporter=file, source=github.copilot
+2026-11-24 12:15:44.668 [info] BYOK: Copilot Chat known models list fetched successfully.
+2026-11-24 12:15:44.904 [info] [CopilotCLIChatSessionContentProvider] listSessions took 572.2660189999733ms
+2026-11-24 12:15:44.904 [info] [CopilotCLIChatSessionContentProvider] listSessions took 61.41954999999143ms
+2026-11-24 12:15:45.115 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without a Copilot token source
+2026-11-24 12:15:45.939 [info] Logged in as sherineshibu
+2026-11-24 12:15:46.749 [info] Got Copilot token for sherineshibu
+2026-11-24 12:15:46.750 [info] Copilot Chat: 0.54.0, VS Code: 1.126.0
+2026-11-24 12:15:46.942 [info] copilot token sku: free_limited_copilot
+2026-11-24 12:15:46.942 [info] ConversationFeature: Activating contributions
+2026-11-24 12:15:46.946 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2026-11-24 12:15:46.951 [info] Registering default platform agent...
+2026-11-24 12:15:46.971 [info] copilot token sku: free_limited_copilot
+2026-11-24 12:15:46.971 [info] [code-referencing] Public code references are enabled.
+2026-11-24 12:15:46.974 [info] copilot token sku: free_limited_copilot
+2026-11-24 12:15:46.978 [info] [code-referencing] Public code references are enabled.
+2026-11-24 12:15:46.982 [info] activationBlocker from 'conversationFeature' took for 3594ms
+2026-11-24 12:15:46.985 [info] [context keys] Setting context key: github.copilot-chat.activated
+2026-11-24 12:15:48.031 [info] Fetched model metadata in 4636ms 5509d367-93f0-4936-bec1-da2c726f6e66
+2026-11-24 12:15:48.206 [info] Latest entry: ccreq:latest.copilotmd
+2026-11-24 12:15:48.206 [info] ccreq:e6d2d1f1.copilotmd | markdown
+2026-11-24 12:15:48.524 [info] ConversationFeature: BYOK models available
+2026-11-24 12:15:48.524 [info] copilot token sku: free_limited_copilot
+2026-11-24 12:15:49.800 [info] Logged in as sherineshibu
+2026-11-24 12:15:50.535 [info] Got Copilot token for sherineshibu
+2026-11-24 12:15:50.536 [info] Copilot Chat: 0.54.0, VS Code: 1.126.0
+2026-11-24 12:15:50.562 [info] copilot token sku: free_limited_copilot
+2026-11-24 12:15:50.562 [info] [code-referencing] Public code references are enabled.
+2026-11-24 12:15:50.568 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent identity change. Has token: true
+2026-11-24 12:15:50.570 [info] copilot token sku: free_limited_copilot
+2026-11-24 12:15:50.612 [info] GithubAvailableEmbeddingTypesManager: Got embeddings. Primary: metis-1024-I16-Binary. Deprecated: 
+2026-11-24 12:15:50.614 [info] WorkspaceChunkSearchService: using embedding type metis-1024-I16-Binary
+2026-11-24 12:15:50.653 [error] Failed to create database. Falling back to in-memory db: Error: unable to open database file
+2026-11-24 12:15:51.079 [info] Fetched model metadata in 523ms 3d7e0050-61ee-416d-b766-41752ddc8516
+2026-11-24 12:15:51.128 [info] ccreq:18f04818.copilotmd | markdown
+2026-11-24 12:16:04.023 [info] message 0 returned. finish reason: [stop]
+2026-11-24 12:16:04.030 [info] request done: requestId: [629c031a-c8a6-4d4c-a030-2987a0d8e5a6] model deployment ID: []
+2026-11-24 12:16:04.032 [info] ccreq:a9628c04.copilotmd | success | gpt-4o-mini-2024-07-18 | 737ms | [title]
+2026-11-24 12:16:05.397 [info] message 0 returned. finish reason: [stop]
+2026-11-24 12:16:05.400 [info] request done: requestId: [3c36c686-a3bf-4803-8931-1e9c1f3add35] model deployment ID: []
+2026-11-24 12:16:05.403 [info] ccreq:1e77705d.copilotmd | success | gpt-4o-mini-2024-07-18 | 1065ms | [progressMessages]
+2026-11-24 12:16:05.921 [info] message 0 returned. finish reason: [stop]
+2026-11-24 12:16:05.924 [info] request done: requestId: [aff39c06-53ea-4964-8c2b-2e27bb0ba4ec] model deployment ID: []
+2026-11-24 12:16:05.927 [info] ccreq:94690594.copilotmd | success | gpt-4o-mini-2024-07-18 | 1565ms | [progressMessages]
+2026-11-24 12:16:08.883 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-11-24 12:16:14.392 [warning] Tool dbclient-get-databases failed validation: schema must have a properties object
+2026-11-24 12:16:18.153 [info] ccreq:02fc69bc.copilotmd | success | mai-code-2-flash | 3762ms | [panel/editAgent]
+2026-11-24 12:16:18.778 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-11-24 12:16:21.181 [warning] Error compiling input schema for tool run_in_terminal: Error: strict mode: unknown keyword: "enumDescriptions"
+2026-11-24 12:16:24.978 [info] message 0 returned. finish reason: [stop]
+2026-11-24 12:16:24.980 [info] request done: requestId: [705787f9-3b62-444c-b591-58df4c63deeb] model deployment ID: []
+2026-11-24 12:16:24.985 [info] ccreq:3c444b21.copilotmd | success | gpt-4o-mini-2024-07-18 | 862ms | [copilotLanguageModelWrapper]
+2026-11-24 12:16:25.129 [info] message 0 returned. finish reason: [stop]
+2026-11-24 12:16:25.131 [info] request done: requestId: [48f59329-553b-4d55-8cc1-2ddc30a9edf0] model deployment ID: []
+2026-11-24 12:16:25.135 [info] ccreq:40c7de95.copilotmd | success | gpt-4o-mini-2024-07-18 | 729ms | [copilotLanguageModelWrapper]
+2026-11-24 12:16:32.436 [warning] Tool dbclient-get-databases failed validation: schema must have a properties object
+2026-11-24 12:16:36.421 [info] ccreq:a11c9cb0.copilotmd | success | mai-code-2-flash | 3981ms | [panel/editAgent]
+2026-11-24 12:16:37.035 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-11-24 12:16:41.083 [info] message 0 returned. finish reason: [stop]
+2026-11-24 12:16:41.085 [info] request done: requestId: [867f205d-66ce-45b2-9014-f1ef035961c8] model deployment ID: []
+2026-11-24 12:16:41.089 [info] ccreq:c3be60b1.copilotmd | success | gpt-4o-mini-2024-07-18 | 930ms | [copilotLanguageModelWrapper]
+2026-11-24 12:16:45.157 [warning] Tool dbclient-get-databases failed validation: schema must have a properties object
+2026-11-24 12:16:49.787 [info] ccreq:fe209695.copilotmd | success | mai-code-2-flash | 4629ms | [panel/editAgent]
+2026-11-24 12:16:50.399 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-11-24 12:16:55.281 [info] message 0 returned. finish reason: [stop]
+2026-11-24 12:16:55.285 [info] request done: requestId: [78852c92-6688-4dae-ade7-c6de44046b3a] model deployment ID: []
+2026-11-24 12:16:55.292 [info] ccreq:182ba9f1.copilotmd | success | gpt-4o-mini-2024-07-18 | 800ms | [copilotLanguageModelWrapper]
+2026-11-24 12:16:55.764 [info] message 0 returned. finish reason: [stop]
+2026-11-24 12:16:55.766 [info] request done: requestId: [a9a660c5-ce08-4bf9-b334-ee2eb85385e1] model deployment ID: []
+2026-11-24 12:16:55.769 [info] ccreq:bbb980aa.copilotmd | success | gpt-4o-mini-2024-07-18 | 984ms | [copilotLanguageModelWrapper]
+2026-11-24 12:16:57.555 [warning] Tool dbclient-get-databases failed validation: schema must have a properties object
+2026-11-24 12:17:01.938 [info] ccreq:e1b44ce9.copilotmd | success | mai-code-2-flash | 4382ms | [panel/editAgent]
+2026-11-24 12:17:02.649 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-11-24 12:17:05.436 [info] message 0 returned. finish reason: [stop]
+2026-11-24 12:17:05.439 [info] request done: requestId: [c7636e85-0e1e-4125-9420-f7274cc540ee] model deployment ID: []
+2026-11-24 12:17:05.442 [info] ccreq:75578c93.copilotmd | success | gpt-4o-mini-2024-07-18 | 895ms | [copilotLanguageModelWrapper]
+2026-11-24 12:17:05.565 [info] message 0 returned. finish reason: [stop]
+2026-11-24 12:17:05.567 [info] request done: requestId: [1a0ed084-c7b2-4f1b-9918-17667be28f89] model deployment ID: []
+2026-11-24 12:17:05.569 [info] ccreq:e984c921.copilotmd | success | gpt-4o-mini-2024-07-18 | 741ms | [copilotLanguageModelWrapper]
+2026-11-24 12:17:16.839 [warning] Tool dbclient-get-databases failed validation: schema must have a properties object
+2026-11-24 12:17:22.797 [info] ccreq:b9e514cb.copilotmd | success | mai-code-2-flash | 5956ms | [panel/editAgent]
+2026-11-24 12:17:23.389 [info] [AutomaticInstructionsCollector] Core vs extension instructions match (1 entries)
+2026-11-24 12:17:26.201 [info] message 0 returned. finish reason: [stop]
+2026-11-24 12:17:26.203 [info] request done: requestId: [381d0dd2-88e4-4e49-a1b5-f042a4e4466d] model deployment ID: []
+2026-11-24 12:17:26.206 [info] ccreq:51a7c5d3.copilotmd | success | gpt-4o-mini-2024-07-18 | 982ms | [copilotLanguageModelWrapper]
+2026-11-24 12:17:26.375 [info] message 0 returned. finish reason: [stop]
+2026-11-24 12:17:26.377 [info] request done: requestId: [5643eb57-ad79-45ca-ac8e-428669920af0] model deployment ID: []
+2026-11-24 12:17:26.380 [info] ccreq:5d95c8d3.copilotmd | success | gpt-4o-mini-2024-07-18 | 857ms | [copilotLanguageModelWrapper]
+2026-11-24 12:17:29.891 [warning] Tool dbclient-get-databases failed validation: schema must have a properties object
+2026-11-24 12:17:33.806 [info] ccreq:290ec45a.copilotmd | success | mai-code-2-flash | 3915ms | [panel/editAgent]
+2026-11-24 12:17:33.961 [info] [ToolCallingLoop] Stop hook result: shouldContinue=false, reasons=undefined

@@ -1,0 +1,14 @@
+2026-11-24 11:46:49.976 [info] 
+
+
+
+
+2026-11-24 11:46:49.992 [info] [AgentHostChannel] Registered unavailable IPC channel 'agentHostProxy': no --agent-host-bridge-port / --agent-host-bridge-path set.
+2026-11-24 11:46:49.998 [info] Extension host agent started.
+2026-11-24 11:46:58.230 [info] [172.16.12.65][a6de3087][ManagementConnection] New connection established.
+2026-11-24 11:47:01.893 [info] [172.16.12.65][f0dffc81][ExtensionHostConnection] New connection established.
+2026-11-24 11:47:01.898 [info] [172.16.12.65][f0dffc81][ExtensionHostConnection] Starting extension host process...
+2026-11-24 11:47:01.927 [info] [172.16.12.65][f0dffc81][ExtensionHostConnection] <79> Launched Extension Host Process.
+2026-11-24 11:47:02.569 [info] [172.16.12.65][f0dffc81][ExtensionHostConnection] <79> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
+
+2026-11-24 11:47:36.276 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted

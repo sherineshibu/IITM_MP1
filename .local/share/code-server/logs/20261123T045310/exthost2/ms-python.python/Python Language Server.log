@@ -1,0 +1,98 @@
+2026-11-23 05:45:21.025 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "52"
+
+2026-11-23 05:45:21.027 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "53"
+
+2026-11-23 05:50:47.450 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "63"
+
+2026-11-23 05:59:28.307 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "97"
+
+2026-11-23 05:59:56.365 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "108"
+
+2026-11-23 05:59:56.469 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "109"
+
+2026-11-23 05:59:56.473 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "110"
+
+2026-11-23 06:08:26.198 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1235"
+
+2026-11-23 06:10:31.079 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1274"
+
+2026-11-23 06:11:16.719 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1298"
+
+2026-11-23 06:12:25.160 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1319"
+
+2026-11-23 06:15:35.840 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1407"
+
+2026-11-23 06:19:55.050 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1532"
+
+2026-11-23 06:35:34.096 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1760"
+
+2026-11-23 06:36:41.143 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1827"
+
+2026-11-23 06:43:48.768 [info] ERROR:pygls.protocol.json_rpc:Failed to handle request 2202 completionItem/resolve CompletionItem(label='list_few', label_details=None, kind=<CompletionItemKind.Variable: 6>, tags=None, detail=None, documentation=None, deprecated=None, preselect=None, sort_text='v0', filter_text='list_few', insert_text='list_few', insert_text_format=<InsertTextFormat.PlainText: 1>, insert_text_mode=None, text_edit=None, text_edit_text=None, additional_text_edits=None, commit_characters=None, command=None, data=None)
+Traceback (most recent call last):
+  File "/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 266, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 188, in _execute_request
+    self._send_response(msg_id, handler(params))
+  File "/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/python_files/lib/jedilsp/jedi_language_server/server.py", line 262, in completion_item_resolve
+    return jedi_utils.lsp_completion_item_resolve(
+  File "/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 710, in lsp_completion_item_resolve
+    completion = _MOST_RECENT_COMPLETIONS[item.label]
+KeyError: 'list_few'
+
+2026-11-23 06:43:48.771 [info] [Error - 6:43:48 AM] Request completionItem/resolve failed.
+2026-11-23 06:43:48.776 [info]   Message: KeyError: 'list_few'
+  Code: -32603 
+[object Object]
+2026-11-23 06:43:48.800 [info] ERROR:pygls.protocol.json_rpc:Failed to handle request 2203 completionItem/resolve CompletionItem(label='list_few', label_details=None, kind=<CompletionItemKind.Variable: 6>, tags=None, detail=None, documentation=None, deprecated=None, preselect=None, sort_text='v0', filter_text='list_few', insert_text='list_few', insert_text_format=<InsertTextFormat.PlainText: 1>, insert_text_mode=None, text_edit=None, text_edit_text=None, additional_text_edits=None, commit_characters=None, command=None, data=None)
+Traceback (most recent call last):
+  File "/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 266, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 188, in _execute_request
+    self._send_response(msg_id, handler(params))
+  File "/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/python_files/lib/jedilsp/jedi_language_server/server.py", line 262, in completion_item_resolve
+    return jedi_utils.lsp_completion_item_resolve(
+  File "/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 710, in lsp_completion_item_resolve
+    completion = _MOST_RECENT_COMPLETIONS[item.label]
+KeyError: 'list_few'
+
+2026-11-23 06:43:48.801 [info] [Error - 6:43:48 AM] Request completionItem/resolve failed.
+2026-11-23 06:43:48.804 [info]   Message: KeyError: 'list_few'
+  Code: -32603 
+[object Object]
+2026-11-23 06:43:49.048 [info] ERROR:pygls.protocol.json_rpc:Failed to handle request 2206 completionItem/resolve CompletionItem(label='list_few', label_details=None, kind=<CompletionItemKind.Variable: 6>, tags=None, detail=None, documentation=None, deprecated=None, preselect=None, sort_text='v0', filter_text='list_few', insert_text='list_few', insert_text_format=<InsertTextFormat.PlainText: 1>, insert_text_mode=None, text_edit=None, text_edit_text=None, additional_text_edits=None, commit_characters=None, command=None, data=None)
+Traceback (most recent call last):
+  File "/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 266, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 188, in _execute_request
+    self._send_response(msg_id, handler(params))
+  File "/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/python_files/lib/jedilsp/jedi_language_server/server.py", line 262, in completion_item_resolve
+    return jedi_utils.lsp_completion_item_resolve(
+  File "/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 710, in lsp_completion_item_resolve
+    completion = _MOST_RECENT_COMPLETIONS[item.label]
+KeyError: 'list_few'
+
+2026-11-23 06:43:49.049 [info] [Error - 6:43:49 AM] Request completionItem/resolve failed.
+2026-11-23 06:43:49.054 [info]   Message: KeyError: 'list_few'
+  Code: -32603 
+[object Object]
+2026-11-23 06:43:49.229 [info] ERROR:pygls.protocol.json_rpc:Failed to handle request 2208 completionItem/resolve CompletionItem(label='list_few', label_details=None, kind=<CompletionItemKind.Variable: 6>, tags=None, detail=None, documentation=None, deprecated=None, preselect=None, sort_text='v0', filter_text='list_few', insert_text='list_few', insert_text_format=<InsertTextFormat.PlainText: 1>, insert_text_mode=None, text_edit=None, text_edit_text=None, additional_text_edits=None, commit_characters=None, command=None, data=None)
+Traceback (most recent call last):
+  File "/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 266, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 188, in _execute_request
+    self._send_response(msg_id, handler(params))
+  File "/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/python_files/lib/jedilsp/jedi_language_server/server.py", line 262, in completion_item_resolve
+    return jedi_utils.lsp_completion_item_resolve(
+  File "/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-python.python-2026.4.0/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 710, in lsp_completion_item_resolve
+    completion = _MOST_RECENT_COMPLETIONS[item.label]
+KeyError: 'list_few'
+
+2026-11-23 06:43:49.229 [info] [Error - 6:43:49 AM] Request completionItem/resolve failed.
+2026-11-23 06:43:49.235 [info]   Message: KeyError: 'list_few'
+  Code: -32603 
+[object Object]
+2026-11-23 06:44:36.547 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2283"
+
+2026-11-23 06:55:34.667 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2398"
+

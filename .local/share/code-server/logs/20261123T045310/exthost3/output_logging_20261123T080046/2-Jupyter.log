@@ -1,0 +1,265 @@
+code-server (1.126.0, vocproxy-1-37.us-west-2.vocareum.com, server-distro)
+Jupyter Extension Version: 2025.9.1.
+Python Extension Version: 2026.4.0.
+Python Environment Extension not installed.
+Pylance Extension not installed.
+Platform: linux (x64).
+Home = /voc/work
+Temp Storage folder ~/.local/share/code-server/User/globalStorage/ms-toolsai.jupyter/version-2025.9.1
+Workspace folder /voc/work
+08:00:50.345 [info] Telemetry level is off
+08:00:50.345 [info] Experiments are disabled, only manually opted experiments are active.
+08:00:54.566 [info] Starting Kernel (Python Path: /bin/python, Unknown, 3.10.14) for '~/AI-RAG_MP1_PromptLab/MP1_PromptLab/learner/MP1_Starter_Template.ipynb' (disableUI=true)
+08:00:55.264 [warn] Failed to get activated env vars for /bin/python in 700ms
+08:00:55.283 [info] Process Execution: /bin/python -c "import site;print("USER_BASE_VALUE");print(site.USER_BASE);print("USER_BASE_VALUE");"
+08:00:55.285 [warn] Failed to get activated env vars for /bin/python in 705ms
+08:00:55.332 [info] Process Execution: /bin/python -m pip list
+08:00:55.349 [info] Process Execution: /bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+08:00:55.377 [info] Process Execution: /bin/python -m ipykernel_launcher --f=~/.local/share/jupyter/runtime/kernel-v396fbaee4dc6998435efa5a30437ca7c45112e417.json
+    > cwd: ~/AI-RAG_MP1_PromptLab/MP1_PromptLab/learner
+08:00:57.051 [info] Kernel successfully started
+08:00:57.069 [info] Process Execution: /bin/python /usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-toolsai.jupyter-2025.9.1/pythonFiles/printJupyterDataDir.py
+08:00:58.209 [error] Widget Error: Failed to access CDN https://unpkg.com/ after 0 attempt(s), TypeError: Failed to fetch
+08:34:13.642 [warn] Cell completed with errors [Iu [Error]: name 'STRATEGIES' is not defined
+	at n.execute (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-toolsai.jupyter-2025.9.1/dist/extension.node.js:302:4958)] {
+  ename: 'NameError',
+  evalue: "name 'STRATEGIES' is not defined",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mNameError\x1B[0m                                 Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[5], line 2\x1B[0m\n' +
+      '\x1B[1;32m      1\x1B[0m \x1B[38;5;66;03m# Run it\x1B[39;00m\n' +
+      '\x1B[0;32m----> 2\x1B[0m results \x1B[38;5;241m=\x1B[39m \x1B[38;5;28;01mawait\x1B[39;00m run_all()\n' +
+      "\x1B[1;32m      3\x1B[0m \x1B[38;5;28mprint\x1B[39m(\x1B[38;5;124mf\x1B[39m\x1B[38;5;124m'\x1B[39m\x1B[38;5;124mGot \x1B[39m\x1B[38;5;132;01m{\x1B[39;00m\x1B[38;5;28mlen\x1B[39m(results)\x1B[38;5;132;01m}\x1B[39;00m\x1B[38;5;124m results.\x1B[39m\x1B[38;5;124m'\x1B[39m)\n" +
+      '\x1B[1;32m      4\x1B[0m results[\x1B[38;5;241m0\x1B[39m]\n',
+    'Cell \x1B[0;32mIn[4], line 65\x1B[0m, in \x1B[0;36mrun_all\x1B[0;34m()\x1B[0m\n' +
+      '\x1B[1;32m     61\x1B[0m \x1B[38;5;250m    \x1B[39m\x1B[38;5;124;03m"""Run all 10 × 4 = 40 calls in parallel. Use asyncio.gather."""\x1B[39;00m\n' +
+      '\x1B[1;32m     62\x1B[0m \x1B[38;5;66;03m# TODO: build the task list, gather, return results\x1B[39;00m\n' +
+      '\x1B[1;32m     63\x1B[0m tasks \x1B[38;5;241m=\x1B[39m [\n' +
+      '\x1B[1;32m     64\x1B[0m     (name, snippet)\n' +
+      '\x1B[0;32m---> 65\x1B[0m     \x1B[38;5;28;01mfor\x1B[39;00m name \x1B[38;5;129;01min\x1B[39;00m \x1B[43mSTRATEGIES\x1B[49m\n' +
+      '\x1B[1;32m     66\x1B[0m     \x1B[38;5;28;01mfor\x1B[39;00m snippet \x1B[38;5;129;01min\x1B[39;00m snippets\n' +
+      '\x1B[1;32m     67\x1B[0m ]\n' +
+      '\x1B[1;32m     69\x1B[0m config \x1B[38;5;241m=\x1B[39m {\n' +
+      '\x1B[1;32m     70\x1B[0m     \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mmodel\x1B[39m\x1B[38;5;124m"\x1B[39m: MODEL,\n' +
+      '\x1B[1;32m     71\x1B[0m     \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mtemperature\x1B[39m\x1B[38;5;124m"\x1B[39m: TEMPERATURE,\n' +
+      '\x1B[0;32m   (...)\x1B[0m\n' +
+      '\x1B[1;32m     79\x1B[0m     ],\n' +
+      '\x1B[1;32m     80\x1B[0m }\n' +
+      '\x1B[1;32m     82\x1B[0m cache \x1B[38;5;241m=\x1B[39m Path(\x1B[38;5;124m"\x1B[39m\x1B[38;5;124m.mp1_extractions.json\x1B[39m\x1B[38;5;124m"\x1B[39m)\n',
+    "\x1B[0;31mNameError\x1B[0m: name 'STRATEGIES' is not defined"
+  ]
+}
+08:34:56.096 [info] Restart requested ~/AI-RAG_MP1_PromptLab/MP1_PromptLab/learner/MP1_Starter_Template.ipynb
+08:34:56.748 [warn] Failed to get activated env vars for /bin/python in 624ms
+08:34:56.767 [info] Process Execution: /bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+08:34:56.787 [info] Process Execution: /bin/python -m ipykernel_launcher --f=~/.local/share/jupyter/runtime/kernel-v389bd13fd8a8a7da39b4409a50b27025d7a1c25cc.json
+    > cwd: ~/AI-RAG_MP1_PromptLab/MP1_PromptLab/learner
+08:34:57.754 [info] Restarted 29624de9-60e2-4b01-955b-d64603fbe8a1
+08:35:05.030 [warn] Cell completed with errors [Iu [Error]: name 'snippet_text' is not defined
+	at n.execute (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-toolsai.jupyter-2025.9.1/dist/extension.node.js:302:4958)] {
+  ename: 'NameError',
+  evalue: "name 'snippet_text' is not defined",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mNameError\x1B[0m                                 Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[3], line 57\x1B[0m\n' +
+      '\x1B[1;32m     55\x1B[0m \x1B[38;5;250m    \x1B[39m\x1B[38;5;124;03m"""Strategy 4 — chain-of-thought. Ask the model to reason before answering."""\x1B[39;00m\n' +
+      "\x1B[1;32m     56\x1B[0m     \x1B[38;5;66;03m# TODO: 'Think step by step, then answer with JSON.'\x1B[39;00m\n" +
+      '\x1B[0;32m---> 57\x1B[0m messages \x1B[38;5;241m=\x1B[39m prompt_few_shot(\x1B[43msnippet_text\x1B[49m)\n' +
+      '\x1B[1;32m     58\x1B[0m messages[\x1B[38;5;241m0\x1B[39m][\x1B[38;5;124m"\x1B[39m\x1B[38;5;124mcontent\x1B[39m\x1B[38;5;124m"\x1B[39m] \x1B[38;5;241m+\x1B[39m\x1B[38;5;241m=\x1B[39m (\n' +
+      '\x1B[1;32m     59\x1B[0m         \x1B[38;5;124m"\x1B[39m\x1B[38;5;130;01m\\n\x1B[39;00m\x1B[38;5;124mThink step by step before answering. Verify the company, actual title, and \x1B[39m\x1B[38;5;124m"\x1B[39m\n' +
+      '\x1B[1;32m     60\x1B[0m         \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mexperience separately. Give a brief note citing the experience wording, then put \x1B[39m\x1B[38;5;124m"\x1B[39m\n' +
+      '\x1B[1;32m     61\x1B[0m         \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mthe final JSON object last. Use the lower bound for ranges, 0 for no experience \x1B[39m\x1B[38;5;124m"\x1B[39m\n' +
+      '\x1B[1;32m     62\x1B[0m         \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mrequired, and null if no years are stated.\x1B[39m\x1B[38;5;124m"\x1B[39m\n' +
+      '\x1B[1;32m     63\x1B[0m     )\n' +
+      '\x1B[1;32m     64\x1B[0m \x1B[38;5;28;01mreturn\x1B[39;00m messages\n',
+    "\x1B[0;31mNameError\x1B[0m: name 'snippet_text' is not defined"
+  ]
+}
+08:35:05.031 [warn] Cancel all remaining cells due to cancellation or failure in execution
+08:35:21.506 [info] Restart requested ~/AI-RAG_MP1_PromptLab/MP1_PromptLab/learner/MP1_Starter_Template.ipynb
+08:35:21.549 [info] Process Execution: /bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+08:35:21.647 [info] Process Execution: /bin/python -m ipykernel_launcher --f=~/.local/share/jupyter/runtime/kernel-v39abbbb88b6f59664d9a64529c8a0cb22af235e1c.json
+    > cwd: ~/AI-RAG_MP1_PromptLab/MP1_PromptLab/learner
+08:35:22.632 [info] Restarted 29624de9-60e2-4b01-955b-d64603fbe8a1
+08:35:29.067 [warn] Cell completed with errors [Iu [Error]: name 'snippet_text' is not defined
+	at n.execute (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-toolsai.jupyter-2025.9.1/dist/extension.node.js:302:4958)] {
+  ename: 'NameError',
+  evalue: "name 'snippet_text' is not defined",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mNameError\x1B[0m                                 Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[3], line 57\x1B[0m\n' +
+      '\x1B[1;32m     55\x1B[0m \x1B[38;5;250m    \x1B[39m\x1B[38;5;124;03m"""Strategy 4 — chain-of-thought. Ask the model to reason before answering."""\x1B[39;00m\n' +
+      "\x1B[1;32m     56\x1B[0m     \x1B[38;5;66;03m# TODO: 'Think step by step, then answer with JSON.'\x1B[39;00m\n" +
+      '\x1B[0;32m---> 57\x1B[0m messages \x1B[38;5;241m=\x1B[39m prompt_few_shot(\x1B[43msnippet_text\x1B[49m)\n' +
+      '\x1B[1;32m     58\x1B[0m messages[\x1B[38;5;241m0\x1B[39m][\x1B[38;5;124m"\x1B[39m\x1B[38;5;124mcontent\x1B[39m\x1B[38;5;124m"\x1B[39m] \x1B[38;5;241m+\x1B[39m\x1B[38;5;241m=\x1B[39m (\n' +
+      '\x1B[1;32m     59\x1B[0m         \x1B[38;5;124m"\x1B[39m\x1B[38;5;130;01m\\n\x1B[39;00m\x1B[38;5;124mThink step by step before answering. Verify the company, actual title, and \x1B[39m\x1B[38;5;124m"\x1B[39m\n' +
+      '\x1B[1;32m     60\x1B[0m         \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mexperience separately. Give a brief note citing the experience wording, then put \x1B[39m\x1B[38;5;124m"\x1B[39m\n' +
+      '\x1B[1;32m     61\x1B[0m         \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mthe final JSON object last. Use the lower bound for ranges, 0 for no experience \x1B[39m\x1B[38;5;124m"\x1B[39m\n' +
+      '\x1B[1;32m     62\x1B[0m         \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mrequired, and null if no years are stated.\x1B[39m\x1B[38;5;124m"\x1B[39m\n' +
+      '\x1B[1;32m     63\x1B[0m     )\n' +
+      '\x1B[1;32m     64\x1B[0m \x1B[38;5;28;01mreturn\x1B[39;00m messages\n',
+    "\x1B[0;31mNameError\x1B[0m: name 'snippet_text' is not defined"
+  ]
+}
+08:35:29.068 [warn] Cancel all remaining cells due to cancellation or failure in execution
+08:36:55.336 [warn] Cell completed with errors [Iu [Error]: name 'snippet_text' is not defined
+	at n.execute (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-toolsai.jupyter-2025.9.1/dist/extension.node.js:302:4958)] {
+  ename: 'NameError',
+  evalue: "name 'snippet_text' is not defined",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mNameError\x1B[0m                                 Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[4], line 57\x1B[0m\n' +
+      '\x1B[1;32m     55\x1B[0m \x1B[38;5;250m    \x1B[39m\x1B[38;5;124;03m"""Strategy 4 — chain-of-thought. Ask the model to reason before answering."""\x1B[39;00m\n' +
+      "\x1B[1;32m     56\x1B[0m     \x1B[38;5;66;03m# TODO: 'Think step by step, then answer with JSON.'\x1B[39;00m\n" +
+      '\x1B[0;32m---> 57\x1B[0m messages \x1B[38;5;241m=\x1B[39m prompt_few_shot(\x1B[43msnippet_text\x1B[49m)\n' +
+      '\x1B[1;32m     58\x1B[0m messages[\x1B[38;5;241m0\x1B[39m][\x1B[38;5;124m"\x1B[39m\x1B[38;5;124mcontent\x1B[39m\x1B[38;5;124m"\x1B[39m] \x1B[38;5;241m+\x1B[39m\x1B[38;5;241m=\x1B[39m (\n' +
+      '\x1B[1;32m     59\x1B[0m         \x1B[38;5;124m"\x1B[39m\x1B[38;5;130;01m\\n\x1B[39;00m\x1B[38;5;124mThink step by step before answering. Verify the company, actual title, and \x1B[39m\x1B[38;5;124m"\x1B[39m\n' +
+      '\x1B[1;32m     60\x1B[0m         \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mexperience separately. Give a brief note citing the experience wording, then put \x1B[39m\x1B[38;5;124m"\x1B[39m\n' +
+      '\x1B[1;32m     61\x1B[0m         \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mthe final JSON object last. Use the lower bound for ranges, 0 for no experience \x1B[39m\x1B[38;5;124m"\x1B[39m\n' +
+      '\x1B[1;32m     62\x1B[0m         \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mrequired, and null if no years are stated.\x1B[39m\x1B[38;5;124m"\x1B[39m\n' +
+      '\x1B[1;32m     63\x1B[0m     )\n' +
+      '\x1B[1;32m     64\x1B[0m \x1B[38;5;28;01mreturn\x1B[39;00m messages\n',
+    "\x1B[0;31mNameError\x1B[0m: name 'snippet_text' is not defined"
+  ]
+}
+08:37:28.042 [warn] Cell completed with errors [Iu [Error]: name 'snippet_text' is not defined
+	at n.execute (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-toolsai.jupyter-2025.9.1/dist/extension.node.js:302:4958)] {
+  ename: 'NameError',
+  evalue: "name 'snippet_text' is not defined",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mNameError\x1B[0m                                 Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[5], line 57\x1B[0m\n' +
+      '\x1B[1;32m     55\x1B[0m \x1B[38;5;250m    \x1B[39m\x1B[38;5;124;03m"""Strategy 4 — chain-of-thought. Ask the model to reason before answering."""\x1B[39;00m\n' +
+      "\x1B[1;32m     56\x1B[0m     \x1B[38;5;66;03m# TODO: 'Think step by step, then answer with JSON.'\x1B[39;00m\n" +
+      '\x1B[0;32m---> 57\x1B[0m messages \x1B[38;5;241m=\x1B[39m prompt_zero_shot(\x1B[43msnippet_text\x1B[49m)\n' +
+      '\x1B[1;32m     58\x1B[0m messages[\x1B[38;5;241m0\x1B[39m][\x1B[38;5;124m"\x1B[39m\x1B[38;5;124mcontent\x1B[39m\x1B[38;5;124m"\x1B[39m] \x1B[38;5;241m+\x1B[39m\x1B[38;5;241m=\x1B[39m (\n' +
+      '\x1B[1;32m     59\x1B[0m         \x1B[38;5;124m"\x1B[39m\x1B[38;5;130;01m\\n\x1B[39;00m\x1B[38;5;124mThink step by step before answering. Verify the company, actual title, and \x1B[39m\x1B[38;5;124m"\x1B[39m\n' +
+      '\x1B[1;32m     60\x1B[0m         \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mexperience separately. Give a brief note citing the experience wording, then put \x1B[39m\x1B[38;5;124m"\x1B[39m\n' +
+      '\x1B[1;32m     61\x1B[0m         \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mthe final JSON object last. Use the lower bound for ranges, 0 for no experience \x1B[39m\x1B[38;5;124m"\x1B[39m\n' +
+      '\x1B[1;32m     62\x1B[0m         \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mrequired, and null if no years are stated.\x1B[39m\x1B[38;5;124m"\x1B[39m\n' +
+      '\x1B[1;32m     63\x1B[0m     )\n' +
+      '\x1B[1;32m     64\x1B[0m \x1B[38;5;28;01mreturn\x1B[39;00m messages\n',
+    "\x1B[0;31mNameError\x1B[0m: name 'snippet_text' is not defined"
+  ]
+}
+08:38:29.654 [warn] Cell completed with errors [Iu [Error]: name 'snippet_text' is not defined
+	at n.execute (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-toolsai.jupyter-2025.9.1/dist/extension.node.js:302:4958)] {
+  ename: 'NameError',
+  evalue: "name 'snippet_text' is not defined",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mNameError\x1B[0m                                 Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[6], line 57\x1B[0m\n' +
+      '\x1B[1;32m     55\x1B[0m \x1B[38;5;250m    \x1B[39m\x1B[38;5;124;03m"""Strategy 4 — chain-of-thought. Ask the model to reason before answering."""\x1B[39;00m\n' +
+      "\x1B[1;32m     56\x1B[0m     \x1B[38;5;66;03m# TODO: 'Think step by step, then answer with JSON.'\x1B[39;00m\n" +
+      '\x1B[0;32m---> 57\x1B[0m messages \x1B[38;5;241m=\x1B[39m prompt_zero_shot( \x1B[43msnippet_text\x1B[49m )\n' +
+      '\x1B[1;32m     58\x1B[0m messages[\x1B[38;5;241m0\x1B[39m][\x1B[38;5;124m"\x1B[39m\x1B[38;5;124mcontent\x1B[39m\x1B[38;5;124m"\x1B[39m] \x1B[38;5;241m+\x1B[39m\x1B[38;5;241m=\x1B[39m (\n' +
+      '\x1B[1;32m     59\x1B[0m         \x1B[38;5;124m"\x1B[39m\x1B[38;5;130;01m\\n\x1B[39;00m\x1B[38;5;124mThink step by step before answering. Verify the company, actual title, and \x1B[39m\x1B[38;5;124m"\x1B[39m\n' +
+      '\x1B[1;32m     60\x1B[0m         \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mexperience separately. Give a brief note citing the experience wording, then put \x1B[39m\x1B[38;5;124m"\x1B[39m\n' +
+      '\x1B[1;32m     61\x1B[0m         \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mthe final JSON object last. Use the lower bound for ranges, 0 for no experience \x1B[39m\x1B[38;5;124m"\x1B[39m\n' +
+      '\x1B[1;32m     62\x1B[0m         \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mrequired, and null if no years are stated.\x1B[39m\x1B[38;5;124m"\x1B[39m\n' +
+      '\x1B[1;32m     63\x1B[0m     )\n' +
+      '\x1B[1;32m     64\x1B[0m \x1B[38;5;28;01mreturn\x1B[39;00m messages\n',
+    "\x1B[0;31mNameError\x1B[0m: name 'snippet_text' is not defined"
+  ]
+}
+08:39:41.123 [warn] Cell completed with errors [Iu [Error]: name 'snippet_text' is not defined
+	at n.execute (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-toolsai.jupyter-2025.9.1/dist/extension.node.js:302:4958)] {
+  ename: 'NameError',
+  evalue: "name 'snippet_text' is not defined",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mNameError\x1B[0m                                 Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[7], line 57\x1B[0m\n' +
+      '\x1B[1;32m     55\x1B[0m \x1B[38;5;250m    \x1B[39m\x1B[38;5;124;03m"""Strategy 4 — chain-of-thought. Ask the model to reason before answering."""\x1B[39;00m\n' +
+      "\x1B[1;32m     56\x1B[0m     \x1B[38;5;66;03m# TODO: 'Think step by step, then answer with JSON.'\x1B[39;00m\n" +
+      '\x1B[0;32m---> 57\x1B[0m messages \x1B[38;5;241m=\x1B[39m prompt_zero_shot(json\x1B[38;5;241m.\x1B[39mdumps(\x1B[43msnippet_text\x1B[49m))\n' +
+      '\x1B[1;32m     58\x1B[0m messages[\x1B[38;5;241m0\x1B[39m][\x1B[38;5;124m"\x1B[39m\x1B[38;5;124mcontent\x1B[39m\x1B[38;5;124m"\x1B[39m] \x1B[38;5;241m+\x1B[39m\x1B[38;5;241m=\x1B[39m (\n' +
+      '\x1B[1;32m     59\x1B[0m         \x1B[38;5;124m"\x1B[39m\x1B[38;5;130;01m\\n\x1B[39;00m\x1B[38;5;124mThink step by step before answering. Verify the company, actual title, and \x1B[39m\x1B[38;5;124m"\x1B[39m\n' +
+      '\x1B[1;32m     60\x1B[0m         \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mexperience separately. Give a brief note citing the experience wording, then put \x1B[39m\x1B[38;5;124m"\x1B[39m\n' +
+      '\x1B[1;32m     61\x1B[0m         \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mthe final JSON object last. Use the lower bound for ranges, 0 for no experience \x1B[39m\x1B[38;5;124m"\x1B[39m\n' +
+      '\x1B[1;32m     62\x1B[0m         \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mrequired, and null if no years are stated.\x1B[39m\x1B[38;5;124m"\x1B[39m\n' +
+      '\x1B[1;32m     63\x1B[0m     )\n' +
+      '\x1B[1;32m     64\x1B[0m \x1B[38;5;28;01mreturn\x1B[39;00m messages\n',
+    "\x1B[0;31mNameError\x1B[0m: name 'snippet_text' is not defined"
+  ]
+}
+08:44:48.796 [warn] Cell completed with errors [Iu [Error]: 'return' outside function (408716703.py, line 64)
+	at n.execute (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-toolsai.jupyter-2025.9.1/dist/extension.node.js:302:4958)] {
+  ename: 'SyntaxError',
+  evalue: "'return' outside function (408716703.py, line 64)",
+  traceback: [
+    '\x1B[0;36m  Cell \x1B[0;32mIn[8], line 64\x1B[0;36m\x1B[0m\n' +
+      '\x1B[0;31m    return [{"role": "system", "content": instructions}] + prompt_few_shot(snippet_text)\x1B[0m\n' +
+      '\x1B[0m    ^\x1B[0m\n' +
+      "\x1B[0;31mSyntaxError\x1B[0m\x1B[0;31m:\x1B[0m 'return' outside function\n"
+  ]
+}
+08:45:40.849 [warn] Cell completed with errors [Iu [Error]: 'return' outside function (3421403939.py, line 64)
+	at n.execute (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-toolsai.jupyter-2025.9.1/dist/extension.node.js:302:4958)] {
+  ename: 'SyntaxError',
+  evalue: "'return' outside function (3421403939.py, line 64)",
+  traceback: [
+    '\x1B[0;36m  Cell \x1B[0;32mIn[9], line 64\x1B[0;36m\x1B[0m\n' +
+      '\x1B[0;31m    return [{"role": "system", "content": instructions}] + prompt_few_shot(snippet_text)\x1B[0m\n' +
+      '\x1B[0m    ^\x1B[0m\n' +
+      "\x1B[0;31mSyntaxError\x1B[0m\x1B[0;31m:\x1B[0m 'return' outside function\n"
+  ]
+}
+08:45:56.476 [warn] Cell completed with errors [Iu [Error]: unexpected indent (1827212372.py, line 64)
+	at n.execute (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-toolsai.jupyter-2025.9.1/dist/extension.node.js:302:4958)] {
+  ename: 'IndentationError',
+  evalue: 'unexpected indent (1827212372.py, line 64)',
+  traceback: [
+    '\x1B[0;36m  Cell \x1B[0;32mIn[10], line 64\x1B[0;36m\x1B[0m\n' +
+      '\x1B[0;31m    return [{"role": "system", "content": instructions}] + prompt_few_shot(snippet_text)\x1B[0m\n' +
+      '\x1B[0m    ^\x1B[0m\n' +
+      '\x1B[0;31mIndentationError\x1B[0m\x1B[0;31m:\x1B[0m unexpected indent\n'
+  ]
+}
+08:46:21.328 [warn] Cell completed with errors [Iu [Error]: 'return' outside function (4247744194.py, line 63)
+	at n.execute (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-toolsai.jupyter-2025.9.1/dist/extension.node.js:302:4958)] {
+  ename: 'SyntaxError',
+  evalue: "'return' outside function (4247744194.py, line 63)",
+  traceback: [
+    '\x1B[0;36m  Cell \x1B[0;32mIn[11], line 63\x1B[0;36m\x1B[0m\n' +
+      '\x1B[0;31m    return [{"role": "system", "content": instructions}] + prompt_few_shot(snippet_text)\x1B[0m\n' +
+      '\x1B[0m    ^\x1B[0m\n' +
+      "\x1B[0;31mSyntaxError\x1B[0m\x1B[0;31m:\x1B[0m 'return' outside function\n"
+  ]
+}
+08:48:01.462 [warn] Cell completed with errors [Iu [Error]: 'return' outside function (771780777.py, line 62)
+	at n.execute (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-toolsai.jupyter-2025.9.1/dist/extension.node.js:302:4958)] {
+  ename: 'SyntaxError',
+  evalue: "'return' outside function (771780777.py, line 62)",
+  traceback: [
+    '\x1B[0;36m  Cell \x1B[0;32mIn[12], line 62\x1B[0;36m\x1B[0m\n' +
+      '\x1B[0;31m    return [{"role": "system", "content": instructions}] + prompt_few_shot(snippet_text)\x1B[0m\n' +
+      '\x1B[0m    ^\x1B[0m\n' +
+      "\x1B[0;31mSyntaxError\x1B[0m\x1B[0;31m:\x1B[0m 'return' outside function\n"
+  ]
+}
+09:05:57.766 [warn] Cell completed with errors [Iu [Error]: unexpected indent (1143223834.py, line 4)
+	at n.execute (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-toolsai.jupyter-2025.9.1/dist/extension.node.js:302:4958)] {
+  ename: 'IndentationError',
+  evalue: 'unexpected indent (1143223834.py, line 4)',
+  traceback: [
+    '\x1B[0;36m  Cell \x1B[0;32mIn[20], line 4\x1B[0;36m\x1B[0m\n' +
+      '\x1B[0;31m    import re\x1B[0m\n' +
+      '\x1B[0m    ^\x1B[0m\n' +
+      '\x1B[0;31mIndentationError\x1B[0m\x1B[0;31m:\x1B[0m unexpected indent\n'
+  ]
+}
+09:25:34.345 [info] Dispose Kernel '~/AI-RAG_MP1_PromptLab/MP1_PromptLab/learner/MP1_Starter_Template.ipynb' associated with '~/AI-RAG_MP1_PromptLab/MP1_PromptLab/learner/MP1_Starter_Template.ipynb'
+09:25:34.424 [warn] Failed to delete connection file file://~/.local/share/jupyter/runtime/kernel-v39abbbb88b6f59664d9a64529c8a0cb22af235e1c.json for pid 11129 [Canceled (FileSystemError): Canceled
+	at ir._handleError (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:534:22201)
+	at Object.stat (file:///usr/local/lib/code-server-4.126.0/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:534:19119)
+	at async ou.delete (/usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-toolsai.jupyter-2025.9.1/dist/extension.node.js:236:16320)
+	at async /usr/local/lib/code-server-4.126.0/lib/vscode/extensions/ms-toolsai.jupyter-2025.9.1/dist/extension.node.js:308:469] {
+  code: 'Unknown'
+}
