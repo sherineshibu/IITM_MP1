@@ -103,3 +103,12 @@
 2026-11-24 12:17:29.891 [warning] Tool dbclient-get-databases failed validation: schema must have a properties object
 2026-11-24 12:17:33.806 [info] ccreq:290ec45a.copilotmd | success | mai-code-2-flash | 3915ms | [panel/editAgent]
 2026-11-24 12:17:33.961 [info] [ToolCallingLoop] Stop hook result: shouldContinue=false, reasons=undefined
+2026-11-24 12:24:14.677 [info] [CopilotCLIChatSessionContentProvider] listSessions took 51.6792040001601ms
+2026-11-24 12:24:51.755 [info] [CopilotCLIChatSessionContentProvider] listSessions took 31.46254500001669ms
+2026-11-24 12:27:39.779 [info] [CopilotCLIChatSessionContentProvider] listSessions took 33.607782000210136ms
+2026-11-24 12:28:12.755 [info] [CopilotCLIChatSessionContentProvider] listSessions took 32.14903900027275ms
+2026-11-24 12:28:24.937 [info] [CopilotCLIChatSessionContentProvider] listSessions took 25.628421999979764ms
+2026-11-24 12:28:32.803 [info] [CopilotCLIChatSessionContentProvider] listSessions took 27.439980000257492ms
+2026-11-24 12:28:37.643 [info] [CopilotCLIChatSessionContentProvider] listSessions took 28.558986000251025ms
+2026-11-24 12:28:48.752 [info] [CopilotCLIChatSessionContentProvider] listSessions took 29.167752999812365ms
+2026-11-24 12:28:54.212 [info] [CopilotCLIChatSessionContentProvider] listSessions took 29.872935999650508ms
